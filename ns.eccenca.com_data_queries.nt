@@ -1,0 +1,6 @@
+<https://ns.eccenca.com/data/queries/aef1516b-2367-4058-981c-0be0b381df48> <http://purl.org/dc/terms/created> "2019-07-01T10:21:00.221Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://ns.eccenca.com/data/queries/aef1516b-2367-4058-981c-0be0b381df48> <http://purl.org/dc/terms/modified> "2019-07-01T10:21:00.221Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://ns.eccenca.com/data/queries/aef1516b-2367-4058-981c-0be0b381df48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/shui/SparqlQuery> .
+<https://ns.eccenca.com/data/queries/aef1516b-2367-4058-981c-0be0b381df48> <http://www.w3.org/2000/01/rdf-schema#label> "New query from Mon Jul 01 2019 12:21:00 GMT+0200 (CEST)" .
+<https://ns.eccenca.com/data/queries/aef1516b-2367-4058-981c-0be0b381df48> <https://vocab.eccenca.com/shui/queryText> "SELECT * WHERE {\n GRAPH ?graph {\n  ?sub ?pred ?obj .\n }\n}\nLIMIT 10" .
+<https://ns.eccenca.com/data/queries/aef1516b-2367-4058-981c-0be0b381df48> <https://vocab.eccenca.com/shui/queryType> "SELECT" .
