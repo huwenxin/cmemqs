@@ -8,4 +8,6 @@
 <http://example.org/Dictionary> <http://www.w3.org/2000/01/rdf-schema#label> "Dictionary" .
 <http://example.org/Fairytale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Book> .
 <http://example.org/Fairytale> <http://www.w3.org/2000/01/rdf-schema#label> "Fairytale" .
+<http://example.org/Tony> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Person> .
+<http://example.org/Tony> <http://www.w3.org/2000/01/rdf-schema#label> "Tony" .
 <http://example.org/has> <http://www.w3.org/2000/01/rdf-schema#label> "has" .
