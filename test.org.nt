@@ -3,6 +3,5 @@
 <http://example.org/Bob> <http://www.w3.org/2000/01/rdf-schema#label> "Bob" .
 <http://example.org/Fairytale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Book> .
 <http://example.org/Fairytale> <http://www.w3.org/2000/01/rdf-schema#label> "Fairytale" .
-<http://test.org/79b76df2-cc67-45b7-a493-8607326920d7> <http://test.orguse> <http://test.orgDictionary> .
 <http://test.org/79b76df2-cc67-45b7-a493-8607326920d7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Person> .
 <http://test.org/79b76df2-cc67-45b7-a493-8607326920d7> <http://www.w3.org/2000/01/rdf-schema#label> "Alice" .
