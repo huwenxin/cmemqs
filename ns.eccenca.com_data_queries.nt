@@ -1,9 +1,3 @@
-<https://ns.eccenca.com/data/queries/35d8915a-8c69-4ef4-9027-5c40924e215f> <http://purl.org/dc/terms/created> "2019-07-18T20:09:02.760Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<https://ns.eccenca.com/data/queries/35d8915a-8c69-4ef4-9027-5c40924e215f> <http://purl.org/dc/terms/modified> "2019-07-18T20:09:02.760Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<https://ns.eccenca.com/data/queries/35d8915a-8c69-4ef4-9027-5c40924e215f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/shui/SparqlQuery> .
-<https://ns.eccenca.com/data/queries/35d8915a-8c69-4ef4-9027-5c40924e215f> <http://www.w3.org/2000/01/rdf-schema#label> "New query from Thu Jul 18 2019 22:09:02 GMT+0200 (CEST)" .
-<https://ns.eccenca.com/data/queries/35d8915a-8c69-4ef4-9027-5c40924e215f> <https://vocab.eccenca.com/shui/queryText> "SELECT DISTINCT ?s ?p ?o WHERE { graph ?g {?s ?p ?o . } } LIMIT 5" .
-<https://ns.eccenca.com/data/queries/35d8915a-8c69-4ef4-9027-5c40924e215f> <https://vocab.eccenca.com/shui/queryType> "SELECT" .
 <https://ns.eccenca.com/data/queries/6ac532a4-ab6c-443f-9f9e-44629b5c9f85> <http://purl.org/dc/terms/created> "2019-07-18T20:08:44.937Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://ns.eccenca.com/data/queries/6ac532a4-ab6c-443f-9f9e-44629b5c9f85> <http://purl.org/dc/terms/modified> "2019-07-18T20:08:44.937Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://ns.eccenca.com/data/queries/6ac532a4-ab6c-443f-9f9e-44629b5c9f85> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/shui/SparqlQuery> .
