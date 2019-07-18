@@ -7,4 +7,3 @@
 <http://test.org/Alice> <http://www.w3.org/2000/01/rdf-schema#label> "Alice" .
 <http://test.org/ea5c66d0-0b6f-4d56-a49b-97514e591c5a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Book> .
 <http://test.org/ea5c66d0-0b6f-4d56-a49b-97514e591c5a> <http://www.w3.org/2000/01/rdf-schema#label> "Dictionary" .
-<http://test.org/ea5c66d0-0b6f-4d56-a49b-97514e591c5a> <http://www.w3.org/2000/01/rdf-schema#label> "Dictionary"@en .
