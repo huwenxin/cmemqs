@@ -1,3 +1,5 @@
+<http://eccenca.com/Thesaurus/cafae9b5-1cd8-44ba-a37a-cd12a4e6efca/> <http://purl.org/dc/terms/created> "2019-07-22T09:22:56.896Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://eccenca.com/Thesaurus/cafae9b5-1cd8-44ba-a37a-cd12a4e6efca/> <http://purl.org/dc/terms/creator> <http://eccenca.com/userB> .
 <http://eccenca.com/Thesaurus/cafae9b5-1cd8-44ba-a37a-cd12a4e6efca/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core> .
 <http://eccenca.com/Thesaurus/cafae9b5-1cd8-44ba-a37a-cd12a4e6efca/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/Schema> .
 <http://eccenca.com/Thesaurus/cafae9b5-1cd8-44ba-a37a-cd12a4e6efca/> <http://www.w3.org/2000/01/rdf-schema#label> "SKOS"@de .
