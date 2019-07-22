@@ -1,0 +1,2 @@
+<http://eccenca.com/Thesaurus/749f5f20-e644-4ddf-8dd6-cef5cf3c9979/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/Schema> .
+<http://eccenca.com/Thesaurus/749f5f20-e644-4ddf-8dd6-cef5cf3c9979/> <http://www.w3.org/2000/01/rdf-schema#label> "Modulkatalog"@de .
