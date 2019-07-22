@@ -3,14 +3,14 @@
 <https://ns.eccenca.com/data/queries/1e719240-19c0-4aa7-9b7d-4dd8156d9f41> <http://purl.org/dc/terms/modified> "2018-02-20T20:03:42.387000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://ns.eccenca.com/data/queries/1e719240-19c0-4aa7-9b7d-4dd8156d9f41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/shui/SparqlQuery> .
 <https://ns.eccenca.com/data/queries/1e719240-19c0-4aa7-9b7d-4dd8156d9f41> <http://www.w3.org/2000/01/rdf-schema#label> "ordered list of used classes for a graph" .
-<https://ns.eccenca.com/data/queries/1e719240-19c0-4aa7-9b7d-4dd8156d9f41> <https://vocab.eccenca.com/shui/queryText> "SELECT ?class (COUNT(?s) AS ?instances )\nWHERE {\n  GRAPH <{{graph}}> {\n         ?s a ?class.\n  }\n}\nGROUP BY ?class\nORDER BY DESC(?instances)" .
+<https://ns.eccenca.com/data/queries/1e719240-19c0-4aa7-9b7d-4dd8156d9f41> <https://vocab.eccenca.com/shui/queryText> "SELECT ?class (COUNT(?s) AS ?instances )\nWHERE {\n GRAPH <{{graph}}> {\n ?s a ?class.\n }\n}\nGROUP BY ?class\nORDER BY DESC(?instances)" .
 <https://ns.eccenca.com/data/queries/1e719240-19c0-4aa7-9b7d-4dd8156d9f41> <https://vocab.eccenca.com/shui/queryType> "SELECT" .
 <https://ns.eccenca.com/data/queries/49174274-2cac-4b69-af0a-a83c8bb80a76> <http://purl.org/dc/terms/created> "2018-02-20T19:47:03.190000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://ns.eccenca.com/data/queries/49174274-2cac-4b69-af0a-a83c8bb80a76> <http://purl.org/dc/terms/description> "returns graph, resource and matched literal for a given search string" .
 <https://ns.eccenca.com/data/queries/49174274-2cac-4b69-af0a-a83c8bb80a76> <http://purl.org/dc/terms/modified> "2018-02-21T18:43:36.152000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://ns.eccenca.com/data/queries/49174274-2cac-4b69-af0a-a83c8bb80a76> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/shui/SparqlQuery> .
 <https://ns.eccenca.com/data/queries/49174274-2cac-4b69-af0a-a83c8bb80a76> <http://www.w3.org/2000/01/rdf-schema#label> "search via regex match" .
-<https://ns.eccenca.com/data/queries/49174274-2cac-4b69-af0a-a83c8bb80a76> <https://vocab.eccenca.com/shui/queryText> "SELECT DISTINCT ?graph ?subject ?literal\nWHERE {\n  GRAPH ?graph {\n      ?subject ?property ?literal .\n         FILTER regex(?literal, \"{{search}}\", \"i\")\n  }\n}" .
+<https://ns.eccenca.com/data/queries/49174274-2cac-4b69-af0a-a83c8bb80a76> <https://vocab.eccenca.com/shui/queryText> "SELECT DISTINCT ?graph ?subject ?literal\nWHERE {\n GRAPH ?graph {\n ?subject ?property ?literal .\n FILTER regex(?literal, \"{{search}}\", \"i\")\n }\n}" .
 <https://ns.eccenca.com/data/queries/49174274-2cac-4b69-af0a-a83c8bb80a76> <https://vocab.eccenca.com/shui/queryType> "SELECT" .
 <https://ns.eccenca.com/data/queries/6ac532a4-ab6c-443f-9f9e-44629b5c9f85> <http://purl.org/dc/terms/created> "2019-07-18T20:08:44.937Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://ns.eccenca.com/data/queries/6ac532a4-ab6c-443f-9f9e-44629b5c9f85> <http://purl.org/dc/terms/modified> "2019-07-18T20:08:44.937Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
@@ -25,12 +25,12 @@
 <https://ns.eccenca.com/data/queries/b45110fa-ccbf-4140-8228-117bec0cab54> <http://purl.org/dc/terms/modified> "2018-02-20T19:57:35.743000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://ns.eccenca.com/data/queries/b45110fa-ccbf-4140-8228-117bec0cab54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/shui/SparqlQuery> .
 <https://ns.eccenca.com/data/queries/b45110fa-ccbf-4140-8228-117bec0cab54> <http://www.w3.org/2000/01/rdf-schema#label> "total number of triples" .
-<https://ns.eccenca.com/data/queries/b45110fa-ccbf-4140-8228-117bec0cab54> <https://vocab.eccenca.com/shui/queryText> "SELECT ?graph (COUNT(*) AS ?count)\nWHERE {\n  GRAPH ?graph {\n  ?s ?p ?o .\n    }\n}\nGROUP BY ?graph\nORDER BY DESC(?count)" .
+<https://ns.eccenca.com/data/queries/b45110fa-ccbf-4140-8228-117bec0cab54> <https://vocab.eccenca.com/shui/queryText> "SELECT ?graph (COUNT(*) AS ?count)\nWHERE {\n GRAPH ?graph {\n ?s ?p ?o .\n }\n}\nGROUP BY ?graph\nORDER BY DESC(?count)" .
 <https://ns.eccenca.com/data/queries/b45110fa-ccbf-4140-8228-117bec0cab54> <https://vocab.eccenca.com/shui/queryType> "SELECT" .
 <https://ns.eccenca.com/data/queries/e1e38f26-21e0-4d73-a2da-4d6031c73a7b> <http://purl.org/dc/terms/created> "2018-02-20T20:07:18.420000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://ns.eccenca.com/data/queries/e1e38f26-21e0-4d73-a2da-4d6031c73a7b> <http://purl.org/dc/terms/description> "given a graph URI, returns a list of properties with triples count" .
 <https://ns.eccenca.com/data/queries/e1e38f26-21e0-4d73-a2da-4d6031c73a7b> <http://purl.org/dc/terms/modified> "2018-02-20T20:08:38.785000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://ns.eccenca.com/data/queries/e1e38f26-21e0-4d73-a2da-4d6031c73a7b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/shui/SparqlQuery> .
 <https://ns.eccenca.com/data/queries/e1e38f26-21e0-4d73-a2da-4d6031c73a7b> <http://www.w3.org/2000/01/rdf-schema#label> "ordered list of used properties for a graph" .
-<https://ns.eccenca.com/data/queries/e1e38f26-21e0-4d73-a2da-4d6031c73a7b> <https://vocab.eccenca.com/shui/queryText> "SELECT ?property (COUNT(?s) AS ?triples )\nWHERE {\n  GRAPH <{{graph}}> {\n        ?s ?property ?o.\n  }\n}\nGROUP BY ?property\nORDER BY DESC(?triples)" .
+<https://ns.eccenca.com/data/queries/e1e38f26-21e0-4d73-a2da-4d6031c73a7b> <https://vocab.eccenca.com/shui/queryText> "SELECT ?property (COUNT(?s) AS ?triples )\nWHERE {\n GRAPH <{{graph}}> {\n ?s ?property ?o.\n }\n}\nGROUP BY ?property\nORDER BY DESC(?triples)" .
 <https://ns.eccenca.com/data/queries/e1e38f26-21e0-4d73-a2da-4d6031c73a7b> <https://vocab.eccenca.com/shui/queryType> "SELECT" .
