@@ -3,4 +3,6 @@
 <http://example.org/Bob> <http://www.w3.org/2000/01/rdf-schema#label> "Bob" .
 <http://example.org/Fairytale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Book> .
 <http://example.org/Fairytale> <http://www.w3.org/2000/01/rdf-schema#label> "Fairytale" .
+<http://test.org/c1ac7e80-6b5b-4354-866e-d7283024a19c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Book> .
+<http://test.org/c1ac7e80-6b5b-4354-866e-d7283024a19c> <http://www.w3.org/2000/01/rdf-schema#label> "Dictionary" .
 <http://urn.com/a> <http://urn.com/b> <http://urn.com/c> .
