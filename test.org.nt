@@ -3,5 +3,3 @@
 <http://example.org/Bob> <http://www.w3.org/2000/01/rdf-schema#label> "Bob" .
 <http://example.org/Fairytale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Book> .
 <http://example.org/Fairytale> <http://www.w3.org/2000/01/rdf-schema#label> "Fairytale" .
-<http://test.org/e76bc932-503a-4419-afbe-1e5de2571753> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Person> .
-<http://test.org/e76bc932-503a-4419-afbe-1e5de2571753> <http://www.w3.org/2000/01/rdf-schema#label> "Alice" .
