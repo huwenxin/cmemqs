@@ -6,15 +6,270 @@
 <http://dbpedia.org/resource/German_language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Language> .
 <http://dbpedia.org/resource/German_language> <http://www.w3.org/2000/01/rdf-schema#label> "Deutsche Sprache"@de .
 <http://dbpedia.org/resource/German_language> <http://www.w3.org/2000/01/rdf-schema#label> "German language"@en .
+<https://vocab.eccenca.com/dsm/CertaintyIndication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/CertaintyIndication> <http://www.w3.org/2000/01/rdf-schema#comment> "This is basically a reified relation which adds a certainty indication."@en .
+<https://vocab.eccenca.com/dsm/CertaintyIndication> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/CertaintyIndication> <http://www.w3.org/2000/01/rdf-schema#label> "Certainty indication"@en .
+<https://vocab.eccenca.com/dsm/CertaintyIndication> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://alignapi.gforge.inria.fr/format.html> .
+<https://vocab.eccenca.com/dsm/Configuration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/Configuration> <http://www.w3.org/2000/01/rdf-schema#comment> "A key/value(s) configuration."@en .
+<https://vocab.eccenca.com/dsm/Configuration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/Configuration> <http://www.w3.org/2000/01/rdf-schema#label> "Workflow configuration"@en .
+<https://vocab.eccenca.com/dsm/ConfigurationKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/ConfigurationKey> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents re-usable keys of a key/value configuration object."@en .
+<https://vocab.eccenca.com/dsm/ConfigurationKey> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/ConfigurationKey> <http://www.w3.org/2000/01/rdf-schema#label> "Configuration key"@en .
+<https://vocab.eccenca.com/dsm/DataIntegrationPath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<https://vocab.eccenca.com/dsm/DataIntegrationPath> <http://www.w3.org/2000/01/rdf-schema#comment> "Path to DataIntegration workflow."@en .
+<https://vocab.eccenca.com/dsm/DataIntegrationPath> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/DataIntegrationPath> <http://www.w3.org/2000/01/rdf-schema#label> "DataIntegration path"@en .
+<https://vocab.eccenca.com/dsm/DataIntegrationPath> <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/dsm/DataManagerEntryCreation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/DataManagerEntryCreation> <http://www.w3.org/2000/01/rdf-schema#comment> "The dataset entry has been created in DataManager dataset management view."@en .
+<https://vocab.eccenca.com/dsm/DataManagerEntryCreation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/DataManagerEntryCreation> <http://www.w3.org/2000/01/rdf-schema#label> "DataManager entry creation"@en .
+<https://vocab.eccenca.com/dsm/DataManagerEntryCreation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Activity> .
+<https://vocab.eccenca.com/dsm/Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "A dataset containing metadata and links to data resources."@en .
+<https://vocab.eccenca.com/dsm/Dataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/Dataset> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset"@en .
+<https://vocab.eccenca.com/dsm/DatasetCertaintyIndication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/DatasetCertaintyIndication> <http://www.w3.org/2000/01/rdf-schema#comment> "This is basically a reified dataset relation which adds a certainty indication."@en .
+<https://vocab.eccenca.com/dsm/DatasetCertaintyIndication> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/DatasetCertaintyIndication> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset certainty indication"@en .
+<https://vocab.eccenca.com/dsm/DatasetCertaintyIndication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/dsm/CertaintyIndication> .
+<https://vocab.eccenca.com/dsm/KPI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/KPI> <http://www.w3.org/2000/01/rdf-schema#comment> "Key performance indicator."@en .
+<https://vocab.eccenca.com/dsm/KPI> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/KPI> <http://www.w3.org/2000/01/rdf-schema#label> "KPI"@en .
+<https://vocab.eccenca.com/dsm/ManualCorrection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/ManualCorrection> <http://www.w3.org/2000/01/rdf-schema#comment> "The dataset entry has been manually corrected in DataManager."@en .
+<https://vocab.eccenca.com/dsm/ManualCorrection> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/ManualCorrection> <http://www.w3.org/2000/01/rdf-schema#label> "Manual correction"@en .
+<https://vocab.eccenca.com/dsm/ManualCorrection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Activity> .
+<https://vocab.eccenca.com/dsm/Query> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/Query> <http://www.w3.org/2000/01/rdf-schema#comment> "The activity of querying a datasource to create a dataset."@en .
+<https://vocab.eccenca.com/dsm/Query> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/Query> <http://www.w3.org/2000/01/rdf-schema#label> "Query"@en .
+<https://vocab.eccenca.com/dsm/Query> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Activity> .
+<https://vocab.eccenca.com/dsm/Relation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/Relation> <http://www.w3.org/2000/01/rdf-schema#comment> "A generic relation type between two resources (e.g. schema paths). Used for user generated relations."@en .
+<https://vocab.eccenca.com/dsm/Relation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/Relation> <http://www.w3.org/2000/01/rdf-schema#label> "Relation"@en .
+<https://vocab.eccenca.com/dsm/RelationAssignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/RelationAssignment> <http://www.w3.org/2000/01/rdf-schema#comment> "Concrete assignment of a relation between two resources."@en .
+<https://vocab.eccenca.com/dsm/RelationAssignment> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/RelationAssignment> <http://www.w3.org/2000/01/rdf-schema#label> "Relation assignment"@en .
+<https://vocab.eccenca.com/dsm/Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/Resource> <http://www.w3.org/2000/01/rdf-schema#comment> "A data resource containing metadata and links to data in HADOOP or RDF."@en .
+<https://vocab.eccenca.com/dsm/Resource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/Resource> <http://www.w3.org/2000/01/rdf-schema#label> "Resource"@en .
+<https://vocab.eccenca.com/dsm/Role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/Role> <http://www.w3.org/2000/01/rdf-schema#comment> "Owned by a person or organisational unit, a role specifies an expectation regarding a business process."@en .
+<https://vocab.eccenca.com/dsm/Role> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/Role> <http://www.w3.org/2000/01/rdf-schema#label> "Role"@en .
+<https://vocab.eccenca.com/dsm/RoleAssignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/RoleAssignment> <http://www.w3.org/2000/01/rdf-schema#comment> "Concrete assignment of a role to an agent regarding a specific resource."@en .
+<https://vocab.eccenca.com/dsm/RoleAssignment> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/RoleAssignment> <http://www.w3.org/2000/01/rdf-schema#label> "Role assignment"@en .
+<https://vocab.eccenca.com/dsm/SchemaPathCertaintyIndication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/SchemaPathCertaintyIndication> <http://www.w3.org/2000/01/rdf-schema#comment> "This is basically a reified schema path relation which adds a certainty indication."@en .
+<https://vocab.eccenca.com/dsm/SchemaPathCertaintyIndication> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/SchemaPathCertaintyIndication> <http://www.w3.org/2000/01/rdf-schema#label> "Schema path certainty indication"@en .
+<https://vocab.eccenca.com/dsm/SchemaPathCertaintyIndication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/dsm/CertaintyIndication> .
+<https://vocab.eccenca.com/dsm/Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/Status> <http://www.w3.org/2000/01/rdf-schema#comment> "The status of a resource regarding a business process."@en .
+<https://vocab.eccenca.com/dsm/Status> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/Status> <http://www.w3.org/2000/01/rdf-schema#label> "Status"@en .
 <https://vocab.eccenca.com/dsm/ThesaurusProject> <http://purl.org/dc/terms/created> "2018-07-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://vocab.eccenca.com/dsm/ThesaurusProject> <http://purl.org/dc/terms/modified> "2018-07-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://vocab.eccenca.com/dsm/ThesaurusProject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://vocab.eccenca.com/dsm/ThesaurusProject> <http://www.w3.org/2000/01/rdf-schema#comment> "A container resource which consists of one or more SKOS concept schemes."@en .
 <https://vocab.eccenca.com/dsm/ThesaurusProject> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/ThesaurusProject> <http://www.w3.org/2000/01/rdf-schema#label> "Thesaurus project"@en .
+<https://vocab.eccenca.com/dsm/Warehouse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/Warehouse> <http://www.w3.org/2000/01/rdf-schema#comment> "A data warehouse that serves as datasource."@en .
+<https://vocab.eccenca.com/dsm/Warehouse> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/Warehouse> <http://www.w3.org/2000/01/rdf-schema#label> "Warehouse"@en .
+<https://vocab.eccenca.com/dsm/Warehouse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Entity> .
+<https://vocab.eccenca.com/dsm/assignedAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/assignedAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "The role assignment to a resource - connects the agent." .
+<https://vocab.eccenca.com/dsm/assignedAgent> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/RoleAssignment> .
+<https://vocab.eccenca.com/dsm/assignedAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/assignedAgent> <http://www.w3.org/2000/01/rdf-schema#label> "Assigned agent" .
+<https://vocab.eccenca.com/dsm/assignedAgent> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<https://vocab.eccenca.com/dsm/assignedRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/assignedRole> <http://www.w3.org/2000/01/rdf-schema#comment> "The role assignment to a resource - connects the role." .
+<https://vocab.eccenca.com/dsm/assignedRole> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/RoleAssignment> .
+<https://vocab.eccenca.com/dsm/assignedRole> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/assignedRole> <http://www.w3.org/2000/01/rdf-schema#label> "Assigned role" .
+<https://vocab.eccenca.com/dsm/assignedRole> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/Role> .
+<https://vocab.eccenca.com/dsm/attribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/attribution> <http://www.w3.org/2000/01/rdf-schema#comment> "The attribution text or HTML code to use for this dataset."@en .
+<https://vocab.eccenca.com/dsm/attribution> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/Dataset> .
+<https://vocab.eccenca.com/dsm/attribution> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/attribution> <http://www.w3.org/2000/01/rdf-schema#label> "Attribution"@en .
+<https://vocab.eccenca.com/dsm/certainty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/certainty> <http://www.w3.org/2000/01/rdf-schema#comment> "A value to express a concrete certainty."@en .
+<https://vocab.eccenca.com/dsm/certainty> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/CertaintyIndication> .
+<https://vocab.eccenca.com/dsm/certainty> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/certainty> <http://www.w3.org/2000/01/rdf-schema#label> "Certainty"@en .
+<https://vocab.eccenca.com/dsm/editorLink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/editorLink> <http://www.w3.org/2000/01/rdf-schema#comment> "Links the KPI to the KPI editor path."@en .
+<https://vocab.eccenca.com/dsm/editorLink> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/KPI> .
+<https://vocab.eccenca.com/dsm/editorLink> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/editorLink> <http://www.w3.org/2000/01/rdf-schema#label> "Editor link"@en .
+<https://vocab.eccenca.com/dsm/editorLink> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/dsm/hasConfiguration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/hasConfiguration> <http://www.w3.org/2000/01/rdf-schema#comment> "Expresses a specific key/value(s) configuration attached to this dataset."@en .
+<https://vocab.eccenca.com/dsm/hasConfiguration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/hasConfiguration> <http://www.w3.org/2000/01/rdf-schema#label> "Has configuration"@en .
+<https://vocab.eccenca.com/dsm/hasConfiguration> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/Configuration> .
+<https://vocab.eccenca.com/dsm/hasLinkingSpecTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/hasLinkingSpecTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Two datasets are related by link specification from one to another."@en .
+<https://vocab.eccenca.com/dsm/hasLinkingSpecTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/Resource> .
+<https://vocab.eccenca.com/dsm/hasLinkingSpecTo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/hasLinkingSpecTo> <http://www.w3.org/2000/01/rdf-schema#label> "Links to"@en .
+<https://vocab.eccenca.com/dsm/hasLinkingSpecTo> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/Resource> .
+<https://vocab.eccenca.com/dsm/hasResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/hasResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Datasets have a number of data resources."@en .
+<https://vocab.eccenca.com/dsm/hasResource> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/Dataset> .
+<https://vocab.eccenca.com/dsm/hasResource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/hasResource> <http://www.w3.org/2000/01/rdf-schema#label> "Has resource"@en .
+<https://vocab.eccenca.com/dsm/hasResource> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/Resource> .
+<https://vocab.eccenca.com/dsm/hasRoleAssignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/hasRoleAssignment> <http://www.w3.org/2000/01/rdf-schema#comment> "The role assignment to a resource - connects the dataset." .
+<https://vocab.eccenca.com/dsm/hasRoleAssignment> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/hasRoleAssignment> <http://www.w3.org/2000/01/rdf-schema#label> "Has role assignment" .
+<https://vocab.eccenca.com/dsm/hasRoleAssignment> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/RoleAssignment> .
+<https://vocab.eccenca.com/dsm/hasStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/hasStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Expresses the status of a resource."@en .
+<https://vocab.eccenca.com/dsm/hasStatus> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/hasStatus> <http://www.w3.org/2000/01/rdf-schema#label> "Assigned status"@en .
+<https://vocab.eccenca.com/dsm/hasStatus> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/Status> .
+<https://vocab.eccenca.com/dsm/hasSubOrganization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/hasSubOrganization> <http://www.w3.org/2000/01/rdf-schema#comment> "Points to an organisations child organization."@en .
+<https://vocab.eccenca.com/dsm/hasSubOrganization> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/org#Organization> .
+<https://vocab.eccenca.com/dsm/hasSubOrganization> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/hasSubOrganization> <http://www.w3.org/2000/01/rdf-schema#label> "Has sub organization"@en .
+<https://vocab.eccenca.com/dsm/hasSubOrganization> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#Organization> .
+<https://vocab.eccenca.com/dsm/hasTagging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/hasTagging> <http://www.w3.org/2000/01/rdf-schema#comment> "Links the tagging of a specific dataset."@en .
+<https://vocab.eccenca.com/dsm/hasTagging> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/Dataset> .
+<https://vocab.eccenca.com/dsm/hasTagging> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/hasTagging> <http://www.w3.org/2000/01/rdf-schema#label> "Has tagging"@en .
+<https://vocab.eccenca.com/dsm/hasTagging> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/muto/core#Tagging> .
+<https://vocab.eccenca.com/dsm/hdfsPath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/hdfsPath> <http://www.w3.org/2000/01/rdf-schema#comment> "The absolute path to the dataset in the HDFS file system."@en .
+<https://vocab.eccenca.com/dsm/hdfsPath> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/Resource> .
+<https://vocab.eccenca.com/dsm/hdfsPath> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/hdfsPath> <http://www.w3.org/2000/01/rdf-schema#label> "HDFS path"@en .
+<https://vocab.eccenca.com/dsm/key> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/key> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates the configuration instance with a re-usable key."@en .
+<https://vocab.eccenca.com/dsm/key> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/Configuration> .
+<https://vocab.eccenca.com/dsm/key> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/key> <http://www.w3.org/2000/01/rdf-schema#label> "Key"@en .
+<https://vocab.eccenca.com/dsm/key> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/ConfigurationKey> .
+<https://vocab.eccenca.com/dsm/managedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/managedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Data sources like databases, services and warehouses or other entities are managed by organisations."@en .
+<https://vocab.eccenca.com/dsm/managedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Entity> .
+<https://vocab.eccenca.com/dsm/managedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/managedBy> <http://www.w3.org/2000/01/rdf-schema#label> "Managed by"@en .
+<https://vocab.eccenca.com/dsm/managedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#Organisation> .
 <https://vocab.eccenca.com/dsm/primaryLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://vocab.eccenca.com/dsm/primaryLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "A single primary language associated with the resource."@en .
 <https://vocab.eccenca.com/dsm/primaryLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/ThesaurusProject> .
 <https://vocab.eccenca.com/dsm/primaryLanguage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/primaryLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "primary language"@en .
 <https://vocab.eccenca.com/dsm/primaryLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Language> .
+<https://vocab.eccenca.com/dsm/qualityMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/qualityMeasure> <http://www.w3.org/2000/01/rdf-schema#comment> "The absolute quality of a dataset on a scale from 0 to 1."@en .
+<https://vocab.eccenca.com/dsm/qualityMeasure> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Entity> .
+<https://vocab.eccenca.com/dsm/qualityMeasure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/qualityMeasure> <http://www.w3.org/2000/01/rdf-schema#label> "Quality measure"@en .
+<https://vocab.eccenca.com/dsm/qualityMeasure> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://vocab.eccenca.com/dsm/relatedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/relatedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Two datasets are somehow related to each other (top property of eccdsm dataset relations)."@en .
+<https://vocab.eccenca.com/dsm/relatedTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/Dataset> .
+<https://vocab.eccenca.com/dsm/relatedTo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/relatedTo> <http://www.w3.org/2000/01/rdf-schema#label> "Related to"@en .
+<https://vocab.eccenca.com/dsm/relatedTo> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/Dataset> .
+<https://vocab.eccenca.com/dsm/relatedToSchemaPath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/relatedToSchemaPath> <http://www.w3.org/2000/01/rdf-schema#comment> "Two schema paths are somehow related to each other (top property of eccdsm schema path relations)."@en .
+<https://vocab.eccenca.com/dsm/relatedToSchemaPath> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/SchemaPath> .
+<https://vocab.eccenca.com/dsm/relatedToSchemaPath> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/relatedToSchemaPath> <http://www.w3.org/2000/01/rdf-schema#label> "Related to schema path"@en .
+<https://vocab.eccenca.com/dsm/relatedToSchemaPath> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/SchemaPath> .
+<https://vocab.eccenca.com/dsm/relation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/relation> <http://www.w3.org/2000/01/rdf-schema#comment> "The relation assignment - connects the type." .
+<https://vocab.eccenca.com/dsm/relation> <http://www.w3.org/2000/01/rdf-schema#comment> "The relation in the context of a given certaintyIndication."@en .
+<https://vocab.eccenca.com/dsm/relation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/CertaintyIndication> .
+<https://vocab.eccenca.com/dsm/relation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/RelationAssignment> .
+<https://vocab.eccenca.com/dsm/relation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/relation> <http://www.w3.org/2000/01/rdf-schema#label> "Has relation" .
+<https://vocab.eccenca.com/dsm/relation> <http://www.w3.org/2000/01/rdf-schema#label> "Has relation"@en .
+<https://vocab.eccenca.com/dsm/relation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/relation> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/Relation> .
+<https://vocab.eccenca.com/dsm/roleResponsibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/roleResponsibility> <http://www.w3.org/2000/01/rdf-schema#comment> "The organisation post responsible to manage the entity."@en .
+<https://vocab.eccenca.com/dsm/roleResponsibility> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Entity> .
+<https://vocab.eccenca.com/dsm/roleResponsibility> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/roleResponsibility> <http://www.w3.org/2000/01/rdf-schema#label> "Role responsibility"@en .
+<https://vocab.eccenca.com/dsm/roleResponsibility> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#Post> .
+<https://vocab.eccenca.com/dsm/sourceDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/sourceDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject dataset of a dataset relation in the context of a given certaintyIndication."@en .
+<https://vocab.eccenca.com/dsm/sourceDataset> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/DatasetCertaintyIndication> .
+<https://vocab.eccenca.com/dsm/sourceDataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/sourceDataset> <http://www.w3.org/2000/01/rdf-schema#label> "Source dataset"@en .
+<https://vocab.eccenca.com/dsm/sourceDataset> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/Resource> .
+<https://vocab.eccenca.com/dsm/sourceResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/sourceResource> <http://www.w3.org/2000/01/rdf-schema#comment> "The relation assignment - connects the source resource." .
+<https://vocab.eccenca.com/dsm/sourceResource> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/RelationAssignment> .
+<https://vocab.eccenca.com/dsm/sourceResource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/sourceResource> <http://www.w3.org/2000/01/rdf-schema#label> "Source resource" .
+<https://vocab.eccenca.com/dsm/sourceResource> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<https://vocab.eccenca.com/dsm/sourceSchemaPath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/sourceSchemaPath> <http://www.w3.org/2000/01/rdf-schema#comment> "The source schema path of a schema path relation in the context of a given certaintyIndication."@en .
+<https://vocab.eccenca.com/dsm/sourceSchemaPath> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/SchemaPathCertaintyIndication> .
+<https://vocab.eccenca.com/dsm/sourceSchemaPath> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/sourceSchemaPath> <http://www.w3.org/2000/01/rdf-schema#label> "Source schema path"@en .
+<https://vocab.eccenca.com/dsm/sourceSchemaPath> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/SchemaPath> .
+<https://vocab.eccenca.com/dsm/targetDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/targetDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "The target dataset of a dataset relation in the context of a given certaintyIndication."@en .
+<https://vocab.eccenca.com/dsm/targetDataset> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/DatasetCertaintyIndication> .
+<https://vocab.eccenca.com/dsm/targetDataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/targetDataset> <http://www.w3.org/2000/01/rdf-schema#label> "Target dataset"@en .
+<https://vocab.eccenca.com/dsm/targetDataset> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/Resource> .
+<https://vocab.eccenca.com/dsm/targetResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/targetResource> <http://www.w3.org/2000/01/rdf-schema#comment> "The relation assignment - connects the target resource." .
+<https://vocab.eccenca.com/dsm/targetResource> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/RelationAssignment> .
+<https://vocab.eccenca.com/dsm/targetResource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/targetResource> <http://www.w3.org/2000/01/rdf-schema#label> "Target resource" .
+<https://vocab.eccenca.com/dsm/targetResource> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<https://vocab.eccenca.com/dsm/targetSchemaPath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/targetSchemaPath> <http://www.w3.org/2000/01/rdf-schema#comment> "The target schema path of a schema path relation in the context of a given certaintyIndication."@en .
+<https://vocab.eccenca.com/dsm/targetSchemaPath> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/SchemaPathCertaintyIndication> .
+<https://vocab.eccenca.com/dsm/targetSchemaPath> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/targetSchemaPath> <http://www.w3.org/2000/01/rdf-schema#label> "Target schema path"@en .
+<https://vocab.eccenca.com/dsm/targetSchemaPath> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/SchemaPath> .
+<https://vocab.eccenca.com/dsm/updateFrequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/updateFrequency> <http://www.w3.org/2000/01/rdf-schema#comment> "The update frequency as linked dct:Frequency instance."@en .
+<https://vocab.eccenca.com/dsm/updateFrequency> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/Dataset> .
+<https://vocab.eccenca.com/dsm/updateFrequency> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/updateFrequency> <http://www.w3.org/2000/01/rdf-schema#label> "Update frequency"@en .
+<https://vocab.eccenca.com/dsm/updateFrequency> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Frequency> .
+<https://vocab.eccenca.com/dsm/updateFrequencyText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/updateFrequencyText> <http://www.w3.org/2000/01/rdf-schema#comment> "The text representation of the update frequency of this dataset."@en .
+<https://vocab.eccenca.com/dsm/updateFrequencyText> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/Dataset> .
+<https://vocab.eccenca.com/dsm/updateFrequencyText> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/updateFrequencyText> <http://www.w3.org/2000/01/rdf-schema#label> "Update frequency text"@en .
+<https://vocab.eccenca.com/dsm/value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/value> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates the configuration instance with a value."@en .
+<https://vocab.eccenca.com/dsm/value> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/Configuration> .
+<https://vocab.eccenca.com/dsm/value> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/value> <http://www.w3.org/2000/01/rdf-schema#label> "Value"@en .
+<https://vocab.eccenca.com/dsm/version> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/version> <http://www.w3.org/2000/01/rdf-schema#comment> "The version number of the dataset."@en .
+<https://vocab.eccenca.com/dsm/version> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/Dataset> .
+<https://vocab.eccenca.com/dsm/version> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/version> <http://www.w3.org/2000/01/rdf-schema#label> "Version"@en .
