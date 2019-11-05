@@ -10,6 +10,10 @@
 <https://vocab.eccenca.com/dsm/BackupRetentionPolicy> <http://www.w3.org/2000/01/rdf-schema#comment> "Covers the specification of the backup and data retention needs for the dataset."@en .
 <https://vocab.eccenca.com/dsm/BackupRetentionPolicy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/BackupRetentionPolicy> <http://www.w3.org/2000/01/rdf-schema#label> "Backup and data retention policy"@en .
+<https://vocab.eccenca.com/dsm/BoundingBox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/BoundingBox> <http://www.w3.org/2000/01/rdf-schema#comment> "the bounding box covering a set of geo location values"@en .
+<https://vocab.eccenca.com/dsm/BoundingBox> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/BoundingBox> <http://www.w3.org/2000/01/rdf-schema#label> "Bounding box"@en .
 <https://vocab.eccenca.com/dsm/CertaintyIndication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://vocab.eccenca.com/dsm/CertaintyIndication> <http://www.w3.org/2000/01/rdf-schema#comment> "This is basically a reified relation which adds a certainty indication."@en .
 <https://vocab.eccenca.com/dsm/CertaintyIndication> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
@@ -42,6 +46,29 @@
 <https://vocab.eccenca.com/dsm/DatasetCertaintyIndication> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/DatasetCertaintyIndication> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset certainty indication"@en .
 <https://vocab.eccenca.com/dsm/DatasetCertaintyIndication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/dsm/CertaintyIndication> .
+<https://vocab.eccenca.com/dsm/DateTimeGranularity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/DateTimeGranularity> <http://www.w3.org/2000/01/rdf-schema#comment> "date time granularity, e.g. year, month, day, hour, minute, second"@en .
+<https://vocab.eccenca.com/dsm/DateTimeGranularity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/DateTimeGranularity> <http://www.w3.org/2000/01/rdf-schema#label> "Date time granularity"@en .
+<https://vocab.eccenca.com/dsm/DateTimeProfilingInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/DateTimeProfilingInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "captures profiling information for date time values"@en .
+<https://vocab.eccenca.com/dsm/DateTimeProfilingInfo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/DateTimeProfilingInfo> <http://www.w3.org/2000/01/rdf-schema#label> "Date profiling info"@en .
+<https://vocab.eccenca.com/dsm/DateTimeProfilingInfo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/dsm/ProfilingInfo> .
+<https://vocab.eccenca.com/dsm/EmptyProfilingInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/EmptyProfilingInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "Class that states that no data to profile was available"@en .
+<https://vocab.eccenca.com/dsm/EmptyProfilingInfo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/EmptyProfilingInfo> <http://www.w3.org/2000/01/rdf-schema#label> "Empty profiling info"@en .
+<https://vocab.eccenca.com/dsm/GeoCoordinateProfilingInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/GeoCoordinateProfilingInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "captures profiling information for geo coordinate values"@en .
+<https://vocab.eccenca.com/dsm/GeoCoordinateProfilingInfo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/GeoCoordinateProfilingInfo> <http://www.w3.org/2000/01/rdf-schema#label> "Geo coordinate profiling info"@en .
+<https://vocab.eccenca.com/dsm/GeoCoordinateProfilingInfo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/dsm/ProfilingInfo> .
+<https://vocab.eccenca.com/dsm/GeoLocationProfilingInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/GeoLocationProfilingInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "captures profiling information for geo location values"@en .
+<https://vocab.eccenca.com/dsm/GeoLocationProfilingInfo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/GeoLocationProfilingInfo> <http://www.w3.org/2000/01/rdf-schema#label> "Geo location profiling info"@en .
+<https://vocab.eccenca.com/dsm/GeoLocationProfilingInfo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/dsm/ProfilingInfo> .
 <https://vocab.eccenca.com/dsm/KPI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://vocab.eccenca.com/dsm/KPI> <http://www.w3.org/2000/01/rdf-schema#comment> "Key performance indicator."@en .
 <https://vocab.eccenca.com/dsm/KPI> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
@@ -51,6 +78,15 @@
 <https://vocab.eccenca.com/dsm/ManualCorrection> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/ManualCorrection> <http://www.w3.org/2000/01/rdf-schema#label> "Manual correction"@en .
 <https://vocab.eccenca.com/dsm/ManualCorrection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Activity> .
+<https://vocab.eccenca.com/dsm/NumericProfilingInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/NumericProfilingInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "captures profiling information for numeric values"@en .
+<https://vocab.eccenca.com/dsm/NumericProfilingInfo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/NumericProfilingInfo> <http://www.w3.org/2000/01/rdf-schema#label> "Numeric profiling info"@en .
+<https://vocab.eccenca.com/dsm/NumericProfilingInfo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/dsm/ProfilingInfo> .
+<https://vocab.eccenca.com/dsm/ProfilingInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/ProfilingInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "captures profiling information of data values of a specific schema path"@en .
+<https://vocab.eccenca.com/dsm/ProfilingInfo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/ProfilingInfo> <http://www.w3.org/2000/01/rdf-schema#label> "Profiling Info"@en .
 <https://vocab.eccenca.com/dsm/Query> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://vocab.eccenca.com/dsm/Query> <http://www.w3.org/2000/01/rdf-schema#comment> "The activity of querying a datasource to create a dataset."@en .
 <https://vocab.eccenca.com/dsm/Query> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
@@ -76,15 +112,42 @@
 <https://vocab.eccenca.com/dsm/RoleAssignment> <http://www.w3.org/2000/01/rdf-schema#comment> "Concrete assignment of a role to an agent regarding a specific resource."@en .
 <https://vocab.eccenca.com/dsm/RoleAssignment> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/RoleAssignment> <http://www.w3.org/2000/01/rdf-schema#label> "Role assignment"@en .
+<https://vocab.eccenca.com/dsm/Schema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/Schema> <http://www.w3.org/2000/01/rdf-schema#comment> "the schema of a dataset"@en .
+<https://vocab.eccenca.com/dsm/Schema> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/Schema> <http://www.w3.org/2000/01/rdf-schema#label> "Schema"@en .
+<https://vocab.eccenca.com/dsm/SchemaClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/SchemaClass> <http://www.w3.org/2000/01/rdf-schema#comment> "a schema class of a schema"@en .
+<https://vocab.eccenca.com/dsm/SchemaClass> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/SchemaClass> <http://www.w3.org/2000/01/rdf-schema#label> "Schema class"@en .
+<https://vocab.eccenca.com/dsm/SchemaDatatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/SchemaDatatype> <http://www.w3.org/2000/01/rdf-schema#comment> "the data type, e.g. floating point, integer, date etc."@en .
+<https://vocab.eccenca.com/dsm/SchemaDatatype> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/SchemaDatatype> <http://www.w3.org/2000/01/rdf-schema#label> "Schema data type"@en .
+<https://vocab.eccenca.com/dsm/SchemaPath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/SchemaPath> <http://www.w3.org/2000/01/rdf-schema#comment> "a reified path version of a Silk path that also carries additional information"@en .
+<https://vocab.eccenca.com/dsm/SchemaPath> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/SchemaPath> <http://www.w3.org/2000/01/rdf-schema#label> "Schema path"@en .
 <https://vocab.eccenca.com/dsm/SchemaPathCertaintyIndication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://vocab.eccenca.com/dsm/SchemaPathCertaintyIndication> <http://www.w3.org/2000/01/rdf-schema#comment> "This is basically a reified schema path relation which adds a certainty indication."@en .
 <https://vocab.eccenca.com/dsm/SchemaPathCertaintyIndication> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/SchemaPathCertaintyIndication> <http://www.w3.org/2000/01/rdf-schema#label> "Schema path certainty indication"@en .
 <https://vocab.eccenca.com/dsm/SchemaPathCertaintyIndication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/dsm/CertaintyIndication> .
+<https://vocab.eccenca.com/dsm/Sparkline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<https://vocab.eccenca.com/dsm/Sparkline> <http://www.w3.org/2000/01/rdf-schema#comment> "proxy data points for inline histogram profile visualization"@en .
+<https://vocab.eccenca.com/dsm/Sparkline> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/Sparkline> <http://www.w3.org/2000/01/rdf-schema#label> "Sparkline"@en .
+<https://vocab.eccenca.com/dsm/Sparkline> <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/dsm/Sparkline> <http://www.w3.org/2002/07/owl#withRestrictions> _:Nb9576d29230546fa86342cc6fa125c38 .
 <https://vocab.eccenca.com/dsm/Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://vocab.eccenca.com/dsm/Status> <http://www.w3.org/2000/01/rdf-schema#comment> "The status of a resource regarding a business process."@en .
 <https://vocab.eccenca.com/dsm/Status> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/Status> <http://www.w3.org/2000/01/rdf-schema#label> "Status"@en .
+<https://vocab.eccenca.com/dsm/StringProfilingInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/StringProfilingInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "captures profiling information for string values"@en .
+<https://vocab.eccenca.com/dsm/StringProfilingInfo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/StringProfilingInfo> <http://www.w3.org/2000/01/rdf-schema#label> "String profiling info"@en .
+<https://vocab.eccenca.com/dsm/StringProfilingInfo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/dsm/ProfilingInfo> .
 <https://vocab.eccenca.com/dsm/ThesaurusProject> <http://purl.org/dc/terms/created> "2018-07-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://vocab.eccenca.com/dsm/ThesaurusProject> <http://purl.org/dc/terms/modified> "2018-07-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://vocab.eccenca.com/dsm/ThesaurusProject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -100,6 +163,12 @@
 <https://vocab.eccenca.com/dsm/Warehouse> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/Warehouse> <http://www.w3.org/2000/01/rdf-schema#label> "Warehouse"@en .
 <https://vocab.eccenca.com/dsm/Warehouse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Entity> .
+<https://vocab.eccenca.com/dsm/allEntitiesCovered> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/allEntitiesCovered> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is set to true if all available entities were used as sample, if false only a subset was used."@en .
+<https://vocab.eccenca.com/dsm/allEntitiesCovered> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/ProfilingInfo> .
+<https://vocab.eccenca.com/dsm/allEntitiesCovered> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/allEntitiesCovered> <http://www.w3.org/2000/01/rdf-schema#label> "all entities covered"@en .
+<https://vocab.eccenca.com/dsm/allEntitiesCovered> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 <https://vocab.eccenca.com/dsm/assignedAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://vocab.eccenca.com/dsm/assignedAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "The role assignment to a resource - connects the agent." .
 <https://vocab.eccenca.com/dsm/assignedAgent> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/RoleAssignment> .
@@ -117,6 +186,12 @@
 <https://vocab.eccenca.com/dsm/attribution> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/Dataset> .
 <https://vocab.eccenca.com/dsm/attribution> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/attribution> <http://www.w3.org/2000/01/rdf-schema#label> "Attribution"@en .
+<https://vocab.eccenca.com/dsm/avgStringLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/avgStringLength> <http://www.w3.org/2000/01/rdf-schema#comment> "average length of a string of a list of strings"@en .
+<https://vocab.eccenca.com/dsm/avgStringLength> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/StringProfilingInfo> .
+<https://vocab.eccenca.com/dsm/avgStringLength> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/avgStringLength> <http://www.w3.org/2000/01/rdf-schema#label> "average string length"@en .
+<https://vocab.eccenca.com/dsm/avgStringLength> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
 <https://vocab.eccenca.com/dsm/backupFrequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://vocab.eccenca.com/dsm/backupFrequency> <http://www.w3.org/2000/01/rdf-schema#comment> "How often the backup is processed."@en .
 <https://vocab.eccenca.com/dsm/backupFrequency> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/BackupRetentionPolicy> .
@@ -146,23 +221,121 @@
 <https://vocab.eccenca.com/dsm/certainty> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/CertaintyIndication> .
 <https://vocab.eccenca.com/dsm/certainty> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/certainty> <http://www.w3.org/2000/01/rdf-schema#label> "Certainty"@en .
+<https://vocab.eccenca.com/dsm/city> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/city> <http://www.w3.org/2000/01/rdf-schema#comment> "cities that are covered by this geo location typed path"@en .
+<https://vocab.eccenca.com/dsm/city> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/GeoLocationProfilingInfo> .
+<https://vocab.eccenca.com/dsm/city> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/city> <http://www.w3.org/2000/01/rdf-schema#label> "has city"@en .
+<https://vocab.eccenca.com/dsm/city> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/dsm/continent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/continent> <http://www.w3.org/2000/01/rdf-schema#comment> "continents that are covered by this geo location typed path"@en .
+<https://vocab.eccenca.com/dsm/continent> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/GeoLocationProfilingInfo> .
+<https://vocab.eccenca.com/dsm/continent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/continent> <http://www.w3.org/2000/01/rdf-schema#label> "has continent"@en .
+<https://vocab.eccenca.com/dsm/continent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/dsm/count> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/count> <http://www.w3.org/2000/01/rdf-schema#comment> "the overall value count"@en .
+<https://vocab.eccenca.com/dsm/count> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/ProfilingInfo> .
+<https://vocab.eccenca.com/dsm/count> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/count> <http://www.w3.org/2000/01/rdf-schema#label> "count"@en .
+<https://vocab.eccenca.com/dsm/count> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#long> .
+<https://vocab.eccenca.com/dsm/country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/country> <http://www.w3.org/2000/01/rdf-schema#comment> "countries that are covered by this geo location typed path encoded by ISO 3166 2-letter codes"@en .
+<https://vocab.eccenca.com/dsm/country> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/GeoLocationProfilingInfo> .
+<https://vocab.eccenca.com/dsm/country> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/country> <http://www.w3.org/2000/01/rdf-schema#label> "has country"@en .
+<https://vocab.eccenca.com/dsm/country> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/dsm/datePercentile05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/datePercentile05> <http://www.w3.org/2000/01/rdf-schema#comment> "5% of all dates are smaller than this date"@en .
+<https://vocab.eccenca.com/dsm/datePercentile05> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/DateTimeProfilingInfo> .
+<https://vocab.eccenca.com/dsm/datePercentile05> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/datePercentile05> <http://www.w3.org/2000/01/rdf-schema#label> "5% pecentile date"@en .
+<https://vocab.eccenca.com/dsm/datePercentile05> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://vocab.eccenca.com/dsm/datePercentile95> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/datePercentile95> <http://www.w3.org/2000/01/rdf-schema#comment> "95% of all dates are smaller than this date"@en .
+<https://vocab.eccenca.com/dsm/datePercentile95> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/DateTimeProfilingInfo> .
+<https://vocab.eccenca.com/dsm/datePercentile95> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/datePercentile95> <http://www.w3.org/2000/01/rdf-schema#label> "95% pecentile date"@en .
+<https://vocab.eccenca.com/dsm/datePercentile95> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://vocab.eccenca.com/dsm/dateTimeDatatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/SchemaDatatype> .
+<https://vocab.eccenca.com/dsm/dateTimeDatatype> <http://www.w3.org/2000/01/rdf-schema#comment> "the values of this path are of type date"@en .
+<https://vocab.eccenca.com/dsm/dateTimeDatatype> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/dateTimeDatatype> <http://www.w3.org/2000/01/rdf-schema#label> "date"@en .
+<https://vocab.eccenca.com/dsm/dateTimeGranularity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/dateTimeGranularity> <http://www.w3.org/2000/01/rdf-schema#comment> "The precision of the dates, i.e. the finest granularity could be year, month, day, hour etc."@en .
+<https://vocab.eccenca.com/dsm/dateTimeGranularity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/DateTimeProfilingInfo> .
+<https://vocab.eccenca.com/dsm/dateTimeGranularity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/dateTimeGranularity> <http://www.w3.org/2000/01/rdf-schema#label> "date precision"@en .
+<https://vocab.eccenca.com/dsm/dateTimeGranularity> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/DateTimeGranularity> .
+<https://vocab.eccenca.com/dsm/dayGranularity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/DateTimeGranularity> .
+<https://vocab.eccenca.com/dsm/dayGranularity> <http://www.w3.org/2000/01/rdf-schema#comment> "the date time values for this path have at most a granularity of a day"@en .
+<https://vocab.eccenca.com/dsm/dayGranularity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/dayGranularity> <http://www.w3.org/2000/01/rdf-schema#label> "day granularity"@en .
 <https://vocab.eccenca.com/dsm/editorLink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://vocab.eccenca.com/dsm/editorLink> <http://www.w3.org/2000/01/rdf-schema#comment> "Links the KPI to the KPI editor path."@en .
 <https://vocab.eccenca.com/dsm/editorLink> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/KPI> .
 <https://vocab.eccenca.com/dsm/editorLink> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/editorLink> <http://www.w3.org/2000/01/rdf-schema#label> "Editor link"@en .
 <https://vocab.eccenca.com/dsm/editorLink> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/dsm/entitySampleCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/entitySampleCount> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of entities sampled for generated profiling information."@en .
+<https://vocab.eccenca.com/dsm/entitySampleCount> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/ProfilingInfo> .
+<https://vocab.eccenca.com/dsm/entitySampleCount> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/entitySampleCount> <http://www.w3.org/2000/01/rdf-schema#label> "entity sample count"@en .
+<https://vocab.eccenca.com/dsm/entitySampleCount> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#long> .
+<https://vocab.eccenca.com/dsm/exampleStringValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/exampleStringValue> <http://www.w3.org/2000/01/rdf-schema#comment> "a sample value, optimally a representative, e.g. majority value"@en .
+<https://vocab.eccenca.com/dsm/exampleStringValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/StringProfilingInfo> .
+<https://vocab.eccenca.com/dsm/exampleStringValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/exampleStringValue> <http://www.w3.org/2000/01/rdf-schema#label> "example string value"@en .
+<https://vocab.eccenca.com/dsm/exampleStringValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/dsm/floatDatatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/SchemaDatatype> .
+<https://vocab.eccenca.com/dsm/floatDatatype> <http://www.w3.org/2000/01/rdf-schema#comment> "the values of this path are of type float"@en .
+<https://vocab.eccenca.com/dsm/floatDatatype> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/floatDatatype> <http://www.w3.org/2000/01/rdf-schema#label> "float"@en .
+<https://vocab.eccenca.com/dsm/geoCoordinateDatatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/SchemaDatatype> .
+<https://vocab.eccenca.com/dsm/geoCoordinateDatatype> <http://www.w3.org/2000/01/rdf-schema#comment> "the values of this path are of type geo coordinate"@en .
+<https://vocab.eccenca.com/dsm/geoCoordinateDatatype> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/geoCoordinateDatatype> <http://www.w3.org/2000/01/rdf-schema#label> "geo coordinate"@en .
+<https://vocab.eccenca.com/dsm/geoLocationCityDatatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/SchemaDatatype> .
+<https://vocab.eccenca.com/dsm/geoLocationCityDatatype> <http://www.w3.org/2000/01/rdf-schema#comment> "the values of this path are of type city (geo location)"@en .
+<https://vocab.eccenca.com/dsm/geoLocationCityDatatype> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/geoLocationCityDatatype> <http://www.w3.org/2000/01/rdf-schema#label> "city"@en .
+<https://vocab.eccenca.com/dsm/geoLocationContinentDatatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/SchemaDatatype> .
+<https://vocab.eccenca.com/dsm/geoLocationContinentDatatype> <http://www.w3.org/2000/01/rdf-schema#comment> "the values of this path are of type continent (geo location)"@en .
+<https://vocab.eccenca.com/dsm/geoLocationContinentDatatype> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/geoLocationContinentDatatype> <http://www.w3.org/2000/01/rdf-schema#label> "continent"@en .
+<https://vocab.eccenca.com/dsm/geoLocationCountryDatatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/SchemaDatatype> .
+<https://vocab.eccenca.com/dsm/geoLocationCountryDatatype> <http://www.w3.org/2000/01/rdf-schema#comment> "the values of this path are of type country (geo location)"@en .
+<https://vocab.eccenca.com/dsm/geoLocationCountryDatatype> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/geoLocationCountryDatatype> <http://www.w3.org/2000/01/rdf-schema#label> "country"@en .
+<https://vocab.eccenca.com/dsm/geoLocationStateDatatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/SchemaDatatype> .
+<https://vocab.eccenca.com/dsm/geoLocationStateDatatype> <http://www.w3.org/2000/01/rdf-schema#comment> "the values of this path are of type state (geo location)"@en .
+<https://vocab.eccenca.com/dsm/geoLocationStateDatatype> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/geoLocationStateDatatype> <http://www.w3.org/2000/01/rdf-schema#label> "state"@en .
 <https://vocab.eccenca.com/dsm/hasBackupRetentionPolicy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://vocab.eccenca.com/dsm/hasBackupRetentionPolicy> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates the dataset with a BackupRetentionPolicy."@en .
 <https://vocab.eccenca.com/dsm/hasBackupRetentionPolicy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/Dataset> .
 <https://vocab.eccenca.com/dsm/hasBackupRetentionPolicy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/hasBackupRetentionPolicy> <http://www.w3.org/2000/01/rdf-schema#label> "Has backup/retention policy"@en .
 <https://vocab.eccenca.com/dsm/hasBackupRetentionPolicy> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/BackupRetentionPolicy> .
+<https://vocab.eccenca.com/dsm/hasBoundingBox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/hasBoundingBox> <http://www.w3.org/2000/01/rdf-schema#comment> "points to the bounding box resource as defined in the NeoGeo vocabulary"@en .
+<https://vocab.eccenca.com/dsm/hasBoundingBox> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/GeoCoordinateProfilingInfo> .
+<https://vocab.eccenca.com/dsm/hasBoundingBox> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/hasBoundingBox> <http://www.w3.org/2000/01/rdf-schema#label> "has bounding box"@en .
+<https://vocab.eccenca.com/dsm/hasBoundingBox> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/BoundingBox> .
 <https://vocab.eccenca.com/dsm/hasConfiguration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://vocab.eccenca.com/dsm/hasConfiguration> <http://www.w3.org/2000/01/rdf-schema#comment> "Expresses a specific key/value(s) configuration attached to this dataset."@en .
 <https://vocab.eccenca.com/dsm/hasConfiguration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/hasConfiguration> <http://www.w3.org/2000/01/rdf-schema#label> "Has configuration"@en .
 <https://vocab.eccenca.com/dsm/hasConfiguration> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/Configuration> .
+<https://vocab.eccenca.com/dsm/hasDatatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/hasDatatype> <http://www.w3.org/2000/01/rdf-schema#comment> "the datatype of the values of a path"@en .
+<https://vocab.eccenca.com/dsm/hasDatatype> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/SchemaPath> .
+<https://vocab.eccenca.com/dsm/hasDatatype> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/hasDatatype> <http://www.w3.org/2000/01/rdf-schema#label> "has datatype"@en .
+<https://vocab.eccenca.com/dsm/hasDatatype> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/SchemaDatatype> .
 <https://vocab.eccenca.com/dsm/hasLinkingSpecTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://vocab.eccenca.com/dsm/hasLinkingSpecTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Two datasets are related by link specification from one to another."@en .
 <https://vocab.eccenca.com/dsm/hasLinkingSpecTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/Resource> .
@@ -180,6 +353,24 @@
 <https://vocab.eccenca.com/dsm/hasRoleAssignment> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/hasRoleAssignment> <http://www.w3.org/2000/01/rdf-schema#label> "Has role assignment" .
 <https://vocab.eccenca.com/dsm/hasRoleAssignment> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/RoleAssignment> .
+<https://vocab.eccenca.com/dsm/hasSchema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/hasSchema> <http://www.w3.org/2000/01/rdf-schema#comment> "the schema that is defined for the dataset"@en .
+<https://vocab.eccenca.com/dsm/hasSchema> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/Resource> .
+<https://vocab.eccenca.com/dsm/hasSchema> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/hasSchema> <http://www.w3.org/2000/01/rdf-schema#label> "has schema"@en .
+<https://vocab.eccenca.com/dsm/hasSchema> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/Schema> .
+<https://vocab.eccenca.com/dsm/hasSchemaClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/hasSchemaClass> <http://www.w3.org/2000/01/rdf-schema#comment> "a class of the schema"@en .
+<https://vocab.eccenca.com/dsm/hasSchemaClass> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/Schema> .
+<https://vocab.eccenca.com/dsm/hasSchemaClass> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/hasSchemaClass> <http://www.w3.org/2000/01/rdf-schema#label> "has schema class"@en .
+<https://vocab.eccenca.com/dsm/hasSchemaClass> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/SchemaClass> .
+<https://vocab.eccenca.com/dsm/hasSchemaPath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/hasSchemaPath> <http://www.w3.org/2000/01/rdf-schema#comment> "the schema path of a schema class, for example a CSV source would have a path for every column"@en .
+<https://vocab.eccenca.com/dsm/hasSchemaPath> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/SchemaClass> .
+<https://vocab.eccenca.com/dsm/hasSchemaPath> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/hasSchemaPath> <http://www.w3.org/2000/01/rdf-schema#label> "has path"@en .
+<https://vocab.eccenca.com/dsm/hasSchemaPath> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/SchemaPath> .
 <https://vocab.eccenca.com/dsm/hasStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://vocab.eccenca.com/dsm/hasStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Expresses the status of a resource."@en .
 <https://vocab.eccenca.com/dsm/hasStatus> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
@@ -202,24 +393,138 @@
 <https://vocab.eccenca.com/dsm/hdfsPath> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/Resource> .
 <https://vocab.eccenca.com/dsm/hdfsPath> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/hdfsPath> <http://www.w3.org/2000/01/rdf-schema#label> "HDFS path"@en .
+<https://vocab.eccenca.com/dsm/hourGranularity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/DateTimeGranularity> .
+<https://vocab.eccenca.com/dsm/hourGranularity> <http://www.w3.org/2000/01/rdf-schema#comment> "the date time values for this path have at most a granularity of an hour"@en .
+<https://vocab.eccenca.com/dsm/hourGranularity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/hourGranularity> <http://www.w3.org/2000/01/rdf-schema#label> "hour granularity"@en .
+<https://vocab.eccenca.com/dsm/integerDatatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/SchemaDatatype> .
+<https://vocab.eccenca.com/dsm/integerDatatype> <http://www.w3.org/2000/01/rdf-schema#comment> "the values of this path are of type integer"@en .
+<https://vocab.eccenca.com/dsm/integerDatatype> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/integerDatatype> <http://www.w3.org/2000/01/rdf-schema#label> "integer"@en .
+<https://vocab.eccenca.com/dsm/isinDatatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/SchemaDatatype> .
+<https://vocab.eccenca.com/dsm/isinDatatype> <http://www.w3.org/2000/01/rdf-schema#comment> "the values of this path represent International Securities Identification Numbers (ISIN)"@en .
+<https://vocab.eccenca.com/dsm/isinDatatype> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/isinDatatype> <http://www.w3.org/2000/01/rdf-schema#label> "ISIN"@en .
 <https://vocab.eccenca.com/dsm/key> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://vocab.eccenca.com/dsm/key> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates the configuration instance with a re-usable key."@en .
 <https://vocab.eccenca.com/dsm/key> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/Configuration> .
 <https://vocab.eccenca.com/dsm/key> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/key> <http://www.w3.org/2000/01/rdf-schema#label> "Key"@en .
 <https://vocab.eccenca.com/dsm/key> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/ConfigurationKey> .
+<https://vocab.eccenca.com/dsm/latitudeEnd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/latitudeEnd> <http://www.w3.org/2000/01/rdf-schema#comment> "the north most latitude of a bounding box"@en .
+<https://vocab.eccenca.com/dsm/latitudeEnd> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/BoundingBox> .
+<https://vocab.eccenca.com/dsm/latitudeEnd> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/latitudeEnd> <http://www.w3.org/2000/01/rdf-schema#label> "latitude end"@en .
+<https://vocab.eccenca.com/dsm/latitudeEnd> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://vocab.eccenca.com/dsm/latitudeStart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/latitudeStart> <http://www.w3.org/2000/01/rdf-schema#comment> "the south most latitude of a bounding box"@en .
+<https://vocab.eccenca.com/dsm/latitudeStart> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/BoundingBox> .
+<https://vocab.eccenca.com/dsm/latitudeStart> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/latitudeStart> <http://www.w3.org/2000/01/rdf-schema#label> "latitude start"@en .
+<https://vocab.eccenca.com/dsm/latitudeStart> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://vocab.eccenca.com/dsm/longitudeEnd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/longitudeEnd> <http://www.w3.org/2000/01/rdf-schema#comment> "the west most longitude of a bounding box"@en .
+<https://vocab.eccenca.com/dsm/longitudeEnd> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/BoundingBox> .
+<https://vocab.eccenca.com/dsm/longitudeEnd> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/longitudeEnd> <http://www.w3.org/2000/01/rdf-schema#label> "longitude end"@en .
+<https://vocab.eccenca.com/dsm/longitudeEnd> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://vocab.eccenca.com/dsm/longitudeStart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/longitudeStart> <http://www.w3.org/2000/01/rdf-schema#comment> "the east most longitude of a bounding box"@en .
+<https://vocab.eccenca.com/dsm/longitudeStart> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/BoundingBox> .
+<https://vocab.eccenca.com/dsm/longitudeStart> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/longitudeStart> <http://www.w3.org/2000/01/rdf-schema#label> "longitude start"@en .
+<https://vocab.eccenca.com/dsm/longitudeStart> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 <https://vocab.eccenca.com/dsm/managedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://vocab.eccenca.com/dsm/managedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Data sources like databases, services and warehouses or other entities are managed by organisations."@en .
 <https://vocab.eccenca.com/dsm/managedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Entity> .
 <https://vocab.eccenca.com/dsm/managedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/managedBy> <http://www.w3.org/2000/01/rdf-schema#label> "Managed by"@en .
 <https://vocab.eccenca.com/dsm/managedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#Organisation> .
+<https://vocab.eccenca.com/dsm/maxDateTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/maxDateTime> <http://www.w3.org/2000/01/rdf-schema#comment> "the maximum date from a set of dates"@en .
+<https://vocab.eccenca.com/dsm/maxDateTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/DateTimeProfilingInfo> .
+<https://vocab.eccenca.com/dsm/maxDateTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/maxDateTime> <http://www.w3.org/2000/01/rdf-schema#label> "maximum date"@en .
+<https://vocab.eccenca.com/dsm/maxDateTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://vocab.eccenca.com/dsm/maxNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/maxNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "the largest number of the numeric values"@en .
+<https://vocab.eccenca.com/dsm/maxNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/NumericProfilingInfo> .
+<https://vocab.eccenca.com/dsm/maxNumber> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/maxNumber> <http://www.w3.org/2000/01/rdf-schema#label> "max number"@en .
+<https://vocab.eccenca.com/dsm/maxStringLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/maxStringLength> <http://www.w3.org/2000/01/rdf-schema#comment> "maximum length of a string of a list of strings"@en .
+<https://vocab.eccenca.com/dsm/maxStringLength> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/StringProfilingInfo> .
+<https://vocab.eccenca.com/dsm/maxStringLength> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/maxStringLength> <http://www.w3.org/2000/01/rdf-schema#label> "maximum string length"@en .
+<https://vocab.eccenca.com/dsm/maxStringLength> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#long> .
+<https://vocab.eccenca.com/dsm/mean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/mean> <http://www.w3.org/2000/01/rdf-schema#comment> "the mean value of the numeric values"@en .
+<https://vocab.eccenca.com/dsm/mean> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/NumericProfilingInfo> .
+<https://vocab.eccenca.com/dsm/mean> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/mean> <http://www.w3.org/2000/01/rdf-schema#label> "mean"@en .
+<https://vocab.eccenca.com/dsm/mean> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<https://vocab.eccenca.com/dsm/meanDateTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/meanDateTime> <http://www.w3.org/2000/01/rdf-schema#comment> "the mean date value from a set of dates"@en .
+<https://vocab.eccenca.com/dsm/meanDateTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/DateTimeProfilingInfo> .
+<https://vocab.eccenca.com/dsm/meanDateTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/meanDateTime> <http://www.w3.org/2000/01/rdf-schema#label> "mean date"@en .
+<https://vocab.eccenca.com/dsm/meanDateTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://vocab.eccenca.com/dsm/minDateTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/minDateTime> <http://www.w3.org/2000/01/rdf-schema#comment> "the minimum date from a set of dates"@en .
+<https://vocab.eccenca.com/dsm/minDateTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/DateTimeProfilingInfo> .
+<https://vocab.eccenca.com/dsm/minDateTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/minDateTime> <http://www.w3.org/2000/01/rdf-schema#label> "minimum date"@en .
+<https://vocab.eccenca.com/dsm/minDateTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://vocab.eccenca.com/dsm/minNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/minNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "the smallest number of the numeric values"@en .
+<https://vocab.eccenca.com/dsm/minNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/NumericProfilingInfo> .
+<https://vocab.eccenca.com/dsm/minNumber> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/minNumber> <http://www.w3.org/2000/01/rdf-schema#label> "min number"@en .
+<https://vocab.eccenca.com/dsm/minStringLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/minStringLength> <http://www.w3.org/2000/01/rdf-schema#comment> "minimum length of a string of a list of strings"@en .
+<https://vocab.eccenca.com/dsm/minStringLength> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/StringProfilingInfo> .
+<https://vocab.eccenca.com/dsm/minStringLength> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/minStringLength> <http://www.w3.org/2000/01/rdf-schema#label> "minimum string length"@en .
+<https://vocab.eccenca.com/dsm/minStringLength> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#long> .
+<https://vocab.eccenca.com/dsm/minuteGranularity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/DateTimeGranularity> .
+<https://vocab.eccenca.com/dsm/minuteGranularity> <http://www.w3.org/2000/01/rdf-schema#comment> "the date time values for this path have at most a granularity of a minute"@en .
+<https://vocab.eccenca.com/dsm/minuteGranularity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/minuteGranularity> <http://www.w3.org/2000/01/rdf-schema#label> "minute granularity"@en .
+<https://vocab.eccenca.com/dsm/monthGranularity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/DateTimeGranularity> .
+<https://vocab.eccenca.com/dsm/monthGranularity> <http://www.w3.org/2000/01/rdf-schema#comment> "the date time values for this path have at most a granularity of a month"@en .
+<https://vocab.eccenca.com/dsm/monthGranularity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/monthGranularity> <http://www.w3.org/2000/01/rdf-schema#label> "month granularity"@en .
+<https://vocab.eccenca.com/dsm/pathExpression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/pathExpression> <http://www.w3.org/2000/01/rdf-schema#comment> "the serialized format of the path, as specificied in the path expression language"@en .
+<https://vocab.eccenca.com/dsm/pathExpression> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/SchemaPath> .
+<https://vocab.eccenca.com/dsm/pathExpression> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/pathExpression> <http://www.w3.org/2000/01/rdf-schema#label> "path expression"@en .
+<https://vocab.eccenca.com/dsm/pathExpression> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/dsm/percentile25th> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/percentile25th> <http://www.w3.org/2000/01/rdf-schema#comment> "25% of all values are below that value"@en .
+<https://vocab.eccenca.com/dsm/percentile25th> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/NumericProfilingInfo> .
+<https://vocab.eccenca.com/dsm/percentile25th> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/percentile25th> <http://www.w3.org/2000/01/rdf-schema#label> "25th percentile"@en .
+<https://vocab.eccenca.com/dsm/percentile25th> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://vocab.eccenca.com/dsm/percentile75th> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/percentile75th> <http://www.w3.org/2000/01/rdf-schema#comment> "75% of all values are below that value"@en .
+<https://vocab.eccenca.com/dsm/percentile75th> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/NumericProfilingInfo> .
+<https://vocab.eccenca.com/dsm/percentile75th> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/percentile75th> <http://www.w3.org/2000/01/rdf-schema#label> "75th percentile"@en .
+<https://vocab.eccenca.com/dsm/percentile75th> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 <https://vocab.eccenca.com/dsm/primaryLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://vocab.eccenca.com/dsm/primaryLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "A single primary language associated with the resource."@en .
 <https://vocab.eccenca.com/dsm/primaryLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/ThesaurusProject> .
 <https://vocab.eccenca.com/dsm/primaryLanguage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/primaryLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "primary language"@en .
 <https://vocab.eccenca.com/dsm/primaryLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Language> .
+<https://vocab.eccenca.com/dsm/profilingInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/profilingInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "the profiling information for the schema path"@en .
+<https://vocab.eccenca.com/dsm/profilingInfo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/SchemaPath> .
+<https://vocab.eccenca.com/dsm/profilingInfo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/profilingInfo> <http://www.w3.org/2000/01/rdf-schema#label> "profiling info"@en .
+<https://vocab.eccenca.com/dsm/profilingInfo> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/ProfilingInfo> .
 <https://vocab.eccenca.com/dsm/qualityMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://vocab.eccenca.com/dsm/qualityMeasure> <http://www.w3.org/2000/01/rdf-schema#comment> "The absolute quality of a dataset on a scale from 0 to 1."@en .
 <https://vocab.eccenca.com/dsm/qualityMeasure> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Entity> .
@@ -266,6 +571,28 @@
 <https://vocab.eccenca.com/dsm/roleResponsibility> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/roleResponsibility> <http://www.w3.org/2000/01/rdf-schema#label> "Role responsibility"@en .
 <https://vocab.eccenca.com/dsm/roleResponsibility> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#Post> .
+<https://vocab.eccenca.com/dsm/schemaClassIndex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/schemaClassIndex> <http://www.w3.org/2000/01/rdf-schema#comment> "the index of the schema class if they need to be ordered."@en .
+<https://vocab.eccenca.com/dsm/schemaClassIndex> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/SchemaClass> .
+<https://vocab.eccenca.com/dsm/schemaClassIndex> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/schemaClassIndex> <http://www.w3.org/2000/01/rdf-schema#label> "schema class index"@en .
+<https://vocab.eccenca.com/dsm/schemaClassIndex> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#long> .
+<https://vocab.eccenca.com/dsm/schemaPathIndex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/schemaPathIndex> <http://www.w3.org/2000/01/rdf-schema#comment> "the index of the schema path if they need to be ordered."@en .
+<https://vocab.eccenca.com/dsm/schemaPathIndex> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/SchemaPath> .
+<https://vocab.eccenca.com/dsm/schemaPathIndex> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/schemaPathIndex> <http://www.w3.org/2000/01/rdf-schema#label> "schema path index"@en .
+<https://vocab.eccenca.com/dsm/schemaPathIndex> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#long> .
+<https://vocab.eccenca.com/dsm/secondGranularity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/DateTimeGranularity> .
+<https://vocab.eccenca.com/dsm/secondGranularity> <http://www.w3.org/2000/01/rdf-schema#comment> "the date time values for this path have at most a granularity of a second"@en .
+<https://vocab.eccenca.com/dsm/secondGranularity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/secondGranularity> <http://www.w3.org/2000/01/rdf-schema#label> "second granularity"@en .
+<https://vocab.eccenca.com/dsm/selectivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/selectivity> <http://www.w3.org/2000/01/rdf-schema#comment> "unique count divided by overall count"@en .
+<https://vocab.eccenca.com/dsm/selectivity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/ProfilingInfo> .
+<https://vocab.eccenca.com/dsm/selectivity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/selectivity> <http://www.w3.org/2000/01/rdf-schema#label> "selectivity"@en .
+<https://vocab.eccenca.com/dsm/selectivity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://vocab.eccenca.com/dsm/sourceDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://vocab.eccenca.com/dsm/sourceDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject dataset of a dataset relation in the context of a given certaintyIndication."@en .
 <https://vocab.eccenca.com/dsm/sourceDataset> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/DatasetCertaintyIndication> .
@@ -284,6 +611,34 @@
 <https://vocab.eccenca.com/dsm/sourceSchemaPath> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/sourceSchemaPath> <http://www.w3.org/2000/01/rdf-schema#label> "Source schema path"@en .
 <https://vocab.eccenca.com/dsm/sourceSchemaPath> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/SchemaPath> .
+<https://vocab.eccenca.com/dsm/sparkline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/sparkline> <http://www.w3.org/2000/01/rdf-schema#comment> "A comma-separated string that provides data for inline diagrams"@en .
+<https://vocab.eccenca.com/dsm/sparkline> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/ProfilingInfo> .
+<https://vocab.eccenca.com/dsm/sparkline> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/sparkline> <http://www.w3.org/2000/01/rdf-schema#label> "sparkline"@en .
+<https://vocab.eccenca.com/dsm/sparkline> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/Sparkline> .
+<https://vocab.eccenca.com/dsm/state> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/state> <http://www.w3.org/2000/01/rdf-schema#comment> "states that are covered by this geo location typed path"@en .
+<https://vocab.eccenca.com/dsm/state> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/GeoLocationProfilingInfo> .
+<https://vocab.eccenca.com/dsm/state> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/state> <http://www.w3.org/2000/01/rdf-schema#label> "has state"@en .
+<https://vocab.eccenca.com/dsm/state> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/dsm/stringDatatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/SchemaDatatype> .
+<https://vocab.eccenca.com/dsm/stringDatatype> <http://www.w3.org/2000/01/rdf-schema#comment> "the values of this path are of type string"@en .
+<https://vocab.eccenca.com/dsm/stringDatatype> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/stringDatatype> <http://www.w3.org/2000/01/rdf-schema#label> "string"@en .
+<https://vocab.eccenca.com/dsm/stringLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/stringLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "a language that has been automatically detected or manually specified for the string values"@en .
+<https://vocab.eccenca.com/dsm/stringLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/StringProfilingInfo> .
+<https://vocab.eccenca.com/dsm/stringLanguage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/stringLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "string language"@en .
+<https://vocab.eccenca.com/dsm/stringLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/dsm/stringRegexPattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/stringRegexPattern> <http://www.w3.org/2000/01/rdf-schema#comment> "usually an automatically learned regex pattern that almost always matches the string values"@en .
+<https://vocab.eccenca.com/dsm/stringRegexPattern> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/StringProfilingInfo> .
+<https://vocab.eccenca.com/dsm/stringRegexPattern> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/stringRegexPattern> <http://www.w3.org/2000/01/rdf-schema#label> "string regex pattern"@en .
+<https://vocab.eccenca.com/dsm/stringRegexPattern> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://vocab.eccenca.com/dsm/targetDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://vocab.eccenca.com/dsm/targetDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "The target dataset of a dataset relation in the context of a given certaintyIndication."@en .
 <https://vocab.eccenca.com/dsm/targetDataset> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/DatasetCertaintyIndication> .
@@ -302,6 +657,12 @@
 <https://vocab.eccenca.com/dsm/targetSchemaPath> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/targetSchemaPath> <http://www.w3.org/2000/01/rdf-schema#label> "Target schema path"@en .
 <https://vocab.eccenca.com/dsm/targetSchemaPath> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/SchemaPath> .
+<https://vocab.eccenca.com/dsm/uniqueCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/uniqueCount> <http://www.w3.org/2000/01/rdf-schema#comment> "the overall count of unique values"@en .
+<https://vocab.eccenca.com/dsm/uniqueCount> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/ProfilingInfo> .
+<https://vocab.eccenca.com/dsm/uniqueCount> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/uniqueCount> <http://www.w3.org/2000/01/rdf-schema#label> "unique count"@en .
+<https://vocab.eccenca.com/dsm/uniqueCount> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#long> .
 <https://vocab.eccenca.com/dsm/updateFrequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://vocab.eccenca.com/dsm/updateFrequency> <http://www.w3.org/2000/01/rdf-schema#comment> "The update frequency as linked dct:Frequency instance."@en .
 <https://vocab.eccenca.com/dsm/updateFrequency> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/Dataset> .
@@ -318,8 +679,21 @@
 <https://vocab.eccenca.com/dsm/value> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/Configuration> .
 <https://vocab.eccenca.com/dsm/value> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/value> <http://www.w3.org/2000/01/rdf-schema#label> "Value"@en .
+<https://vocab.eccenca.com/dsm/variance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/variance> <http://www.w3.org/2000/01/rdf-schema#comment> "the variance of the numeric values"@en .
+<https://vocab.eccenca.com/dsm/variance> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/NumericProfilingInfo> .
+<https://vocab.eccenca.com/dsm/variance> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/variance> <http://www.w3.org/2000/01/rdf-schema#label> "variance"@en .
+<https://vocab.eccenca.com/dsm/variance> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 <https://vocab.eccenca.com/dsm/version> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://vocab.eccenca.com/dsm/version> <http://www.w3.org/2000/01/rdf-schema#comment> "The version number of the dataset."@en .
 <https://vocab.eccenca.com/dsm/version> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/Dataset> .
 <https://vocab.eccenca.com/dsm/version> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/version> <http://www.w3.org/2000/01/rdf-schema#label> "Version"@en .
+<https://vocab.eccenca.com/dsm/yearGranularity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/DateTimeGranularity> .
+<https://vocab.eccenca.com/dsm/yearGranularity> <http://www.w3.org/2000/01/rdf-schema#comment> "the date time values for this path have at most a granularity of a year"@en .
+<https://vocab.eccenca.com/dsm/yearGranularity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/yearGranularity> <http://www.w3.org/2000/01/rdf-schema#label> "year granularity"@en .
+_:N3f647f1baa0946d9be84cfc435bcd6e7 <http://www.w3.org/2001/XMLSchema#pattern> "([0-9]+(, )?)+" .
+_:Nb9576d29230546fa86342cc6fa125c38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N3f647f1baa0946d9be84cfc435bcd6e7 .
+_:Nb9576d29230546fa86342cc6fa125c38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
