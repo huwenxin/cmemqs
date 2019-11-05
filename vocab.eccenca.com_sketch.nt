@@ -1,0 +1,206 @@
+<https://vocab.eccenca.com/sketch/BasicShape> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/BasicShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/sketch/BasicShape> <http://www.w3.org/2000/01/rdf-schema#comment> "a basic svg shape with a simple title field"@en .
+<https://vocab.eccenca.com/sketch/BasicShape> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/BasicShape> <http://www.w3.org/2000/01/rdf-schema#label> "Basic Shape"@en .
+<https://vocab.eccenca.com/sketch/BasicShape> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/sketch/Shape> .
+<https://vocab.eccenca.com/sketch/BasicShape> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/Circle> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/Circle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/sketch/Circle> <http://www.w3.org/2000/01/rdf-schema#comment> "A Circle (can also be an ellipsoid if height and width do not match)"@en .
+<https://vocab.eccenca.com/sketch/Circle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/Circle> <http://www.w3.org/2000/01/rdf-schema#label> "Circle"@en .
+<https://vocab.eccenca.com/sketch/Circle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/sketch/BasicShape> .
+<https://vocab.eccenca.com/sketch/Circle> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/ComponentProperty> <http://purl.org/dc/terms/modified> "2015-11-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/ComponentProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/sketch/ComponentProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "a specific relation between two sketchable in order to draw the component as part of the whole"@en .
+<https://vocab.eccenca.com/sketch/ComponentProperty> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/ComponentProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Component Property"@en .
+<https://vocab.eccenca.com/sketch/ComponentProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/sketch/ComponentProperty> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/Line> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/Line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/sketch/Line> <http://www.w3.org/2000/01/rdf-schema#comment> "resource which connects two shapes"@en .
+<https://vocab.eccenca.com/sketch/Line> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/Line> <http://www.w3.org/2000/01/rdf-schema#label> "Line"@en .
+<https://vocab.eccenca.com/sketch/Line> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/sketch/Sketchable> .
+<https://vocab.eccenca.com/sketch/Line> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/Rect> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/Rect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/sketch/Rect> <http://www.w3.org/2000/01/rdf-schema#comment> "A Rectangle"@en .
+<https://vocab.eccenca.com/sketch/Rect> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/Rect> <http://www.w3.org/2000/01/rdf-schema#label> "Rectangle"@en .
+<https://vocab.eccenca.com/sketch/Rect> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/sketch/BasicShape> .
+<https://vocab.eccenca.com/sketch/Rect> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/Shape> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/Shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/sketch/Shape> <http://www.w3.org/2000/01/rdf-schema#comment> "resource (two dimensional area) which can be linked to other nodes"@en .
+<https://vocab.eccenca.com/sketch/Shape> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/Shape> <http://www.w3.org/2000/01/rdf-schema#label> "Shape"@en .
+<https://vocab.eccenca.com/sketch/Shape> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/sketch/Sketchable> .
+<https://vocab.eccenca.com/sketch/Shape> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/Sketch> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/Sketch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/sketch/Sketch> <http://www.w3.org/2000/01/rdf-schema#comment> "a specific collection of arranged sketchables"@en .
+<https://vocab.eccenca.com/sketch/Sketch> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/Sketch> <http://www.w3.org/2000/01/rdf-schema#label> "Sketch"@en .
+<https://vocab.eccenca.com/sketch/Sketch> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/Sketchable> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/Sketchable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/sketch/Sketchable> <http://www.w3.org/2000/01/rdf-schema#comment> "a sketchable simple or complex / composite sketchable 2-dimensional object"@en .
+<https://vocab.eccenca.com/sketch/Sketchable> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/Sketchable> <http://www.w3.org/2000/01/rdf-schema#label> "sketchable object"@en .
+<https://vocab.eccenca.com/sketch/Sketchable> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/Text> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/sketch/Text> <http://www.w3.org/2000/01/rdf-schema#comment> "a two dimensional text area, (maybe) used as part of other sketchables"@en .
+<https://vocab.eccenca.com/sketch/Text> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/Text> <http://www.w3.org/2000/01/rdf-schema#label> "Text"@en .
+<https://vocab.eccenca.com/sketch/Text> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/sketch/Sketchable> .
+<https://vocab.eccenca.com/sketch/Text> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://vocab.eccenca.com/sketch/UmlClassLikeShape> <http://purl.org/dc/terms/modified> "2015-11-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/UmlClassLikeShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/sketch/UmlClassLikeShape> <http://www.w3.org/2000/01/rdf-schema#comment> "A complex rectangle shape with some more attributes"@en .
+<https://vocab.eccenca.com/sketch/UmlClassLikeShape> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/UmlClassLikeShape> <http://www.w3.org/2000/01/rdf-schema#label> "UML Class Like Shape"@en .
+<https://vocab.eccenca.com/sketch/UmlClassLikeShape> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/sketch/Shape> .
+<https://vocab.eccenca.com/sketch/UmlClassLikeShape> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/UmlClassLikeShape> <http://xmlns.com/foaf/0.1/depiction> <https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BankAccount1.svg/320px-BankAccount1.svg.png> .
+<https://vocab.eccenca.com/sketch/UmlClassLikeShape> <http://xmlns.com/foaf/0.1/depiction> <https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/UmlCd_Klasse-3.svg/400px-UmlCd_Klasse-3.svg.png> .
+<https://vocab.eccenca.com/sketch/backgroundColor> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/backgroundColor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/sketch/backgroundColor> <http://www.w3.org/2000/01/rdf-schema#comment> "Background color of a basic shape"@en .
+<https://vocab.eccenca.com/sketch/backgroundColor> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/BasicShape> .
+<https://vocab.eccenca.com/sketch/backgroundColor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/backgroundColor> <http://www.w3.org/2000/01/rdf-schema#label> "background color"@en .
+<https://vocab.eccenca.com/sketch/backgroundColor> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/sketch/rgbHexColor> .
+<https://vocab.eccenca.com/sketch/backgroundColor> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/elements> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/elements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/sketch/elements> <http://www.w3.org/2000/01/rdf-schema#comment> "sketchables used in a sketch"@en .
+<https://vocab.eccenca.com/sketch/elements> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/Sketch> .
+<https://vocab.eccenca.com/sketch/elements> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/elements> <http://www.w3.org/2000/01/rdf-schema#label> "elements"@en .
+<https://vocab.eccenca.com/sketch/elements> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/sketch/Sketchable> .
+<https://vocab.eccenca.com/sketch/elements> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/height> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/height> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/sketch/height> <http://www.w3.org/2000/01/rdf-schema#comment> "Height of a shape"@en .
+<https://vocab.eccenca.com/sketch/height> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/Shape> .
+<https://vocab.eccenca.com/sketch/height> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/height> <http://www.w3.org/2000/01/rdf-schema#label> "Height"@en .
+<https://vocab.eccenca.com/sketch/height> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/sketch/height> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/keywords> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/keywords> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/sketch/keywords> <http://www.w3.org/2000/01/rdf-schema#comment> "resource tags, shown above the title"@en .
+<https://vocab.eccenca.com/sketch/keywords> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/UmlClassLikeShape> .
+<https://vocab.eccenca.com/sketch/keywords> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/keywords> <http://www.w3.org/2000/01/rdf-schema#label> "keywords"@en .
+<https://vocab.eccenca.com/sketch/keywords> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/lineColor> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/lineColor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/sketch/lineColor> <http://www.w3.org/2000/01/rdf-schema#comment> "Color of an Edge"@en .
+<https://vocab.eccenca.com/sketch/lineColor> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/Line> .
+<https://vocab.eccenca.com/sketch/lineColor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/lineColor> <http://www.w3.org/2000/01/rdf-schema#label> "Edge Color"@en .
+<https://vocab.eccenca.com/sketch/lineColor> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/sketch/rgbHexColor> .
+<https://vocab.eccenca.com/sketch/lineColor> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/mappedBy> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/mappedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/sketch/mappedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "a mapping which can be used for translating from a sketchable to a payload"@en .
+<https://vocab.eccenca.com/sketch/mappedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/Sketchable> .
+<https://vocab.eccenca.com/sketch/mappedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/mappedBy> <http://www.w3.org/2000/01/rdf-schema#label> "mapped by"@en .
+<https://vocab.eccenca.com/sketch/mappedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/sketch/map.Mapping> .
+<https://vocab.eccenca.com/sketch/mappedBy> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/posx> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/posx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/sketch/posx> <http://www.w3.org/2000/01/rdf-schema#comment> "The x-coordinate of a shapes upper left corner"@en .
+<https://vocab.eccenca.com/sketch/posx> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/Shape> .
+<https://vocab.eccenca.com/sketch/posx> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/posx> <http://www.w3.org/2000/01/rdf-schema#label> "Position on the x-axis"@en .
+<https://vocab.eccenca.com/sketch/posx> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/sketch/posx> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/posy> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/posy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/sketch/posy> <http://www.w3.org/2000/01/rdf-schema#comment> "The y-coordinate of a shapes upper left corner"@en .
+<https://vocab.eccenca.com/sketch/posy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/Shape> .
+<https://vocab.eccenca.com/sketch/posy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/posy> <http://www.w3.org/2000/01/rdf-schema#label> "Position on the y-axis"@en .
+<https://vocab.eccenca.com/sketch/posy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/sketch/posy> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/represents> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/represents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/sketch/represents> <http://www.w3.org/2000/01/rdf-schema#comment> "a specific sketchable such as a red circle represents a specific RDF target resource"@en .
+<https://vocab.eccenca.com/sketch/represents> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/Sketchable> .
+<https://vocab.eccenca.com/sketch/represents> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/represents> <http://www.w3.org/2000/01/rdf-schema#label> "represents"@en .
+<https://vocab.eccenca.com/sketch/represents> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<https://vocab.eccenca.com/sketch/represents> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/rgbHexColor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<https://vocab.eccenca.com/sketch/rgbHexColor> <http://www.w3.org/2000/01/rdf-schema#comment> "hexadecimal representation of the RGB color including a leading hash"@en .
+<https://vocab.eccenca.com/sketch/rgbHexColor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/rgbHexColor> <http://www.w3.org/2000/01/rdf-schema#label> "RGB Hex Color"@en .
+<https://vocab.eccenca.com/sketch/rgbHexColor> <http://www.w3.org/2002/07/owl#equivalentClass> _:Nf27395090874404382e8118b2e23853e .
+<https://vocab.eccenca.com/sketch/source> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/sketch/source> <http://www.w3.org/2000/01/rdf-schema#comment> "Source shape of a Line"@en .
+<https://vocab.eccenca.com/sketch/source> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/Line> .
+<https://vocab.eccenca.com/sketch/source> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/source> <http://www.w3.org/2000/01/rdf-schema#label> "Source"@en .
+<https://vocab.eccenca.com/sketch/source> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/sketch/Shape> .
+<https://vocab.eccenca.com/sketch/source> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/target> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/target> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/sketch/target> <http://www.w3.org/2000/01/rdf-schema#comment> "Target shape of a Line"@en .
+<https://vocab.eccenca.com/sketch/target> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/Line> .
+<https://vocab.eccenca.com/sketch/target> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/target> <http://www.w3.org/2000/01/rdf-schema#label> "Target Color"@en .
+<https://vocab.eccenca.com/sketch/target> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/sketch/Shape> .
+<https://vocab.eccenca.com/sketch/target> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/textColor> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/textColor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/sketch/textColor> <http://www.w3.org/2000/01/rdf-schema#comment> "Text color of a basic shape"@en .
+<https://vocab.eccenca.com/sketch/textColor> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/BasicShape> .
+<https://vocab.eccenca.com/sketch/textColor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/textColor> <http://www.w3.org/2000/01/rdf-schema#label> "title text color"@en .
+<https://vocab.eccenca.com/sketch/textColor> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/sketch/rgbHexColor> .
+<https://vocab.eccenca.com/sketch/textColor> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/title> <http://purl.org/dc/terms/modified> "2015-11-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/sketch/ComponentProperty> .
+<https://vocab.eccenca.com/sketch/title> <http://www.w3.org/2000/01/rdf-schema#comment> "title of the basic shape"@en .
+<https://vocab.eccenca.com/sketch/title> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/BasicShape> .
+<https://vocab.eccenca.com/sketch/title> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/title> <http://www.w3.org/2000/01/rdf-schema#label> "title"@en .
+<https://vocab.eccenca.com/sketch/title> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/sketch/Text> .
+<https://vocab.eccenca.com/sketch/title> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/type> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/sketch/type> <http://www.w3.org/2000/01/rdf-schema#comment> "resource type, shown under the title"@en .
+<https://vocab.eccenca.com/sketch/type> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/UmlClassLikeShape> .
+<https://vocab.eccenca.com/sketch/type> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/type> <http://www.w3.org/2000/01/rdf-schema#label> "type"@en .
+<https://vocab.eccenca.com/sketch/type> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/usedEditor> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/usedEditor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/sketch/usedEditor> <http://www.w3.org/2000/01/rdf-schema#comment> "Editor which was used to draw this sketch"@en .
+<https://vocab.eccenca.com/sketch/usedEditor> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/Sketch> .
+<https://vocab.eccenca.com/sketch/usedEditor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/usedEditor> <http://www.w3.org/2000/01/rdf-schema#label> "used Editor"@en .
+<https://vocab.eccenca.com/sketch/usedEditor> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/sketch/editor.Editor> .
+<https://vocab.eccenca.com/sketch/usedEditor> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/width> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/width> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/sketch/width> <http://www.w3.org/2000/01/rdf-schema#comment> "Width of a shape"@en .
+<https://vocab.eccenca.com/sketch/width> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/Shape> .
+<https://vocab.eccenca.com/sketch/width> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/width> <http://www.w3.org/2000/01/rdf-schema#label> "Width"@en .
+<https://vocab.eccenca.com/sketch/width> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/sketch/width> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+_:N5defb1b4da4948898be9b77418e8f291 <http://www.w3.org/2001/XMLSchema#pattern> "#[0-9A-F]{6}" .
+_:N6930c83d80594e11ad3681781b9290fc <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N5defb1b4da4948898be9b77418e8f291 .
+_:N6930c83d80594e11ad3681781b9290fc <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:Nf27395090874404382e8118b2e23853e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+_:Nf27395090874404382e8118b2e23853e <http://www.w3.org/2002/07/owl#withRestrictions> _:N6930c83d80594e11ad3681781b9290fc .
