@@ -15,6 +15,12 @@
 <http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/vann/> .
 <http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 <http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/vann/> .
+<http://rdfs.org/ns/void#Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdfs.org/ns/void#Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "A dataset graph consists mainly instance data." .
+<http://rdfs.org/ns/void#Dataset> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset" .
+<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "An ontology graph consists mainly of schema data." .
+<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Ontology" .
 <http://www.w3.org/ns/shacl#NodeShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.w3.org/ns/shacl#NodeShape> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shacl#> .
 <http://www.w3.org/ns/shacl#PropertyShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -166,6 +172,193 @@
 <https://vocab.eccenca.com/shacl/Domain> <https://vocab.eccenca.com/shui/denyNewResources> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://vocab.eccenca.com/shacl/Domain> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://vocab.eccenca.com/shacl/Domain> <https://vocab.eccenca.com/shui/uiQuery> <https://vocab.eccenca.com/shacl/AllDomainsQuery> .
+<https://vocab.eccenca.com/shacl/GraphAbstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/GraphAbstract> <http://www.w3.org/2000/01/rdf-schema#label> "Abstract" .
+<https://vocab.eccenca.com/shacl/GraphAbstract> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/shacl/GraphAbstract> <http://www.w3.org/ns/shacl#description> "A short description of the graph" .
+<https://vocab.eccenca.com/shacl/GraphAbstract> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/GraphAbstract> <http://www.w3.org/ns/shacl#name> "Abstract" .
+<https://vocab.eccenca.com/shacl/GraphAbstract> <http://www.w3.org/ns/shacl#order> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/GraphAbstract> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2000/01/rdf-schema#comment> .
+<https://vocab.eccenca.com/shacl/GraphAbstract> <https://vocab.eccenca.com/shui/readOnly> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/GraphAbstract> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/GraphAuthors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/GraphAuthors> <http://www.w3.org/2000/01/rdf-schema#label> "Authors" .
+<https://vocab.eccenca.com/shacl/GraphAuthors> <http://www.w3.org/ns/shacl#class> <http://xmlns.com/foaf/0.1/Person> .
+<https://vocab.eccenca.com/shacl/GraphAuthors> <http://www.w3.org/ns/shacl#description> "Authors of the graph" .
+<https://vocab.eccenca.com/shacl/GraphAuthors> <http://www.w3.org/ns/shacl#name> "Authors" .
+<https://vocab.eccenca.com/shacl/GraphAuthors> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://vocab.eccenca.com/shacl/GraphAuthors> <http://www.w3.org/ns/shacl#order> "20"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/GraphAuthors> <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/creator> .
+<https://vocab.eccenca.com/shacl/GraphAuthors> <https://vocab.eccenca.com/shui/readOnly> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/GraphAuthors> <https://vocab.eccenca.com/shui/showAlways> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/GraphCollaborator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/GraphCollaborator> <http://www.w3.org/2000/01/rdf-schema#label> "Collaborator" .
+<https://vocab.eccenca.com/shacl/GraphCollaborator> <http://www.w3.org/ns/shacl#class> <http://xmlns.com/foaf/0.1/Person> .
+<https://vocab.eccenca.com/shacl/GraphCollaborator> <http://www.w3.org/ns/shacl#description> "Collaborator of the graph" .
+<https://vocab.eccenca.com/shacl/GraphCollaborator> <http://www.w3.org/ns/shacl#name> "Collaborator" .
+<https://vocab.eccenca.com/shacl/GraphCollaborator> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://vocab.eccenca.com/shacl/GraphCollaborator> <http://www.w3.org/ns/shacl#order> "240"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/GraphCollaborator> <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/contributor> .
+<https://vocab.eccenca.com/shacl/GraphCollaborator> <https://vocab.eccenca.com/shui/readOnly> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/GraphCollaborator> <https://vocab.eccenca.com/shui/showAlways> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/GraphCreationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/GraphCreationDate> <http://www.w3.org/2000/01/rdf-schema#label> "Creation date" .
+<https://vocab.eccenca.com/shacl/GraphCreationDate> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shacl/GraphCreationDate> <http://www.w3.org/ns/shacl#description> "Creation date of the graph" .
+<https://vocab.eccenca.com/shacl/GraphCreationDate> <http://www.w3.org/ns/shacl#name> "Creation date" .
+<https://vocab.eccenca.com/shacl/GraphCreationDate> <http://www.w3.org/ns/shacl#order> "190"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/GraphCreationDate> <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/created> .
+<https://vocab.eccenca.com/shacl/GraphCreationDate> <https://vocab.eccenca.com/shui/readOnly> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/GraphCreationDate> <https://vocab.eccenca.com/shui/showAlways> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/GraphCurrentVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/GraphCurrentVersion> <http://www.w3.org/2000/01/rdf-schema#label> "Current version" .
+<https://vocab.eccenca.com/shacl/GraphCurrentVersion> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/shacl/GraphCurrentVersion> <http://www.w3.org/ns/shacl#description> "Current version of the graph" .
+<https://vocab.eccenca.com/shacl/GraphCurrentVersion> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/GraphCurrentVersion> <http://www.w3.org/ns/shacl#name> "Current version" .
+<https://vocab.eccenca.com/shacl/GraphCurrentVersion> <http://www.w3.org/ns/shacl#order> "50"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/GraphCurrentVersion> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2002/07/owl#versionInfo> .
+<https://vocab.eccenca.com/shacl/GraphCurrentVersion> <https://vocab.eccenca.com/shui/readOnly> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/GraphCurrentVersion> <https://vocab.eccenca.com/shui/showAlways> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/GraphDateOfLastModification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/GraphDateOfLastModification> <http://www.w3.org/2000/01/rdf-schema#label> "Last modified" .
+<https://vocab.eccenca.com/shacl/GraphDateOfLastModification> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shacl/GraphDateOfLastModification> <http://www.w3.org/ns/shacl#description> "Date of last modification of the graph" .
+<https://vocab.eccenca.com/shacl/GraphDateOfLastModification> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/GraphDateOfLastModification> <http://www.w3.org/ns/shacl#name> "Date of last modification" .
+<https://vocab.eccenca.com/shacl/GraphDateOfLastModification> <http://www.w3.org/ns/shacl#order> "60"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/GraphDateOfLastModification> <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/modified> .
+<https://vocab.eccenca.com/shacl/GraphDateOfLastModification> <https://vocab.eccenca.com/shui/readOnly> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/GraphDateOfLastModification> <https://vocab.eccenca.com/shui/showAlways> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/GraphImports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/GraphImports> <http://www.w3.org/2000/01/rdf-schema#label> "Imports" .
+<https://vocab.eccenca.com/shacl/GraphImports> <http://www.w3.org/ns/shacl#class> <http://xmlns.com/foaf/0.1/Person> .
+<https://vocab.eccenca.com/shacl/GraphImports> <http://www.w3.org/ns/shacl#description> "List of imported graphs of this graph. Statements of imported graphs will be shown in this graph as well." .
+<https://vocab.eccenca.com/shacl/GraphImports> <http://www.w3.org/ns/shacl#name> "Imports" .
+<https://vocab.eccenca.com/shacl/GraphImports> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://vocab.eccenca.com/shacl/GraphImports> <http://www.w3.org/ns/shacl#order> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/GraphImports> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2002/07/owl#imports> .
+<https://vocab.eccenca.com/shacl/GraphImports> <https://vocab.eccenca.com/shui/readOnly> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/GraphImports> <https://vocab.eccenca.com/shui/showAlways> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/GraphImports> <https://vocab.eccenca.com/shui/uiQuery> <https://vocab.eccenca.com/shacl/GraphImportsUIQuery> .
+<https://vocab.eccenca.com/shacl/GraphImportsUIQuery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/shui/SparqlQuery> .
+<https://vocab.eccenca.com/shacl/GraphImportsUIQuery> <http://www.w3.org/2000/01/rdf-schema#label> "Graph Shapes: UI query for fetching all graphs" .
+<https://vocab.eccenca.com/shacl/GraphImportsUIQuery> <https://vocab.eccenca.com/shui/queryText> "\nSELECT DISTINCT ?resource\nWHERE {\n  GRAPH ?resource {\n    ?s ?p ?o .\n  }\n}\n" .
+<https://vocab.eccenca.com/shacl/GraphImportsUIQuery> <https://vocab.eccenca.com/shui/queryType> "SELECT" .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeDataset> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset graph information" .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeDataset> <http://www.w3.org/ns/shacl#name> "Graph information" .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeDataset> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphAbstract> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeDataset> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphAuthors> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeDataset> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphCollaborator> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeDataset> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphCreationDate> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeDataset> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphCurrentVersion> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeDataset> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphDateOfLastModification> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeDataset> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphImports> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeDataset> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphLabel> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeDataset> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphPreferredNamespace> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeDataset> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphPreferredNamespacePrefix> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeDataset> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphPublisher> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeDataset> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphRights> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeDataset> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphType> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeDataset> <http://www.w3.org/ns/shacl#targetClass> <http://rdfs.org/ns/void#Dataset> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeDataset> <https://vocab.eccenca.com/shui/tabName> "Information" .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeOntology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeOntology> <http://www.w3.org/2000/01/rdf-schema#label> "Ontology graph information" .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeOntology> <http://www.w3.org/ns/shacl#name> "Graph information" .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeOntology> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphAbstract> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeOntology> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphAuthors> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeOntology> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphCollaborator> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeOntology> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphCreationDate> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeOntology> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphCurrentVersion> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeOntology> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphDateOfLastModification> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeOntology> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphImports> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeOntology> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphLabel> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeOntology> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphPreferredNamespace> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeOntology> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphPreferredNamespacePrefix> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeOntology> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphPublisher> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeOntology> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphRights> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeOntology> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphType> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeOntology> <http://www.w3.org/ns/shacl#targetClass> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeOntology> <https://vocab.eccenca.com/shui/tabName> "Information" .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeProject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeProject> <http://www.w3.org/2000/01/rdf-schema#label> "Project graph information" .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeProject> <http://www.w3.org/ns/shacl#name> "Graph information" .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeProject> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphAbstract> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeProject> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/GraphLabel> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeProject> <http://www.w3.org/ns/shacl#targetClass> <https://vocab.eccenca.com/di/Project> .
+<https://vocab.eccenca.com/shacl/GraphInformationNodeShapeProject> <https://vocab.eccenca.com/shui/tabName> "Information" .
+<https://vocab.eccenca.com/shacl/GraphLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/GraphLabel> <http://www.w3.org/2000/01/rdf-schema#label> "Label" .
+<https://vocab.eccenca.com/shacl/GraphLabel> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/shacl/GraphLabel> <http://www.w3.org/ns/shacl#description> "A short label or name of the graph" .
+<https://vocab.eccenca.com/shacl/GraphLabel> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/GraphLabel> <http://www.w3.org/ns/shacl#name> "Label" .
+<https://vocab.eccenca.com/shacl/GraphLabel> <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/GraphLabel> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2000/01/rdf-schema#label> .
+<https://vocab.eccenca.com/shacl/GraphLabel> <https://vocab.eccenca.com/shui/readOnly> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/GraphLabel> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/GraphPreferredNamespace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/GraphPreferredNamespace> <http://www.w3.org/2000/01/rdf-schema#label> "Preferred namespace" .
+<https://vocab.eccenca.com/shacl/GraphPreferredNamespace> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/shacl/GraphPreferredNamespace> <http://www.w3.org/ns/shacl#description> "Preferred namespace of the graph" .
+<https://vocab.eccenca.com/shacl/GraphPreferredNamespace> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/GraphPreferredNamespace> <http://www.w3.org/ns/shacl#name> "Preferred namespace" .
+<https://vocab.eccenca.com/shacl/GraphPreferredNamespace> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://vocab.eccenca.com/shacl/GraphPreferredNamespace> <http://www.w3.org/ns/shacl#order> "70"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/GraphPreferredNamespace> <http://www.w3.org/ns/shacl#path> <http://purl.org/vocab/vann/preferredNamespaceUri> .
+<https://vocab.eccenca.com/shacl/GraphPreferredNamespace> <https://vocab.eccenca.com/shui/readOnly> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/GraphPreferredNamespace> <https://vocab.eccenca.com/shui/showAlways> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/GraphPreferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/GraphPreferredNamespacePrefix> <http://www.w3.org/2000/01/rdf-schema#label> "Preferred namespace prefix" .
+<https://vocab.eccenca.com/shacl/GraphPreferredNamespacePrefix> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/shacl/GraphPreferredNamespacePrefix> <http://www.w3.org/ns/shacl#description> "Preferred namespace prefix of the graph" .
+<https://vocab.eccenca.com/shacl/GraphPreferredNamespacePrefix> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/GraphPreferredNamespacePrefix> <http://www.w3.org/ns/shacl#name> "Preferred namespace prefix" .
+<https://vocab.eccenca.com/shacl/GraphPreferredNamespacePrefix> <http://www.w3.org/ns/shacl#order> "80"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/GraphPreferredNamespacePrefix> <http://www.w3.org/ns/shacl#path> <http://purl.org/vocab/vann/preferredNamespacePrefix> .
+<https://vocab.eccenca.com/shacl/GraphPreferredNamespacePrefix> <https://vocab.eccenca.com/shui/readOnly> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/GraphPreferredNamespacePrefix> <https://vocab.eccenca.com/shui/showAlways> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/GraphPublisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/GraphPublisher> <http://www.w3.org/2000/01/rdf-schema#comment> "In order to avoid creation of additional resources here, we use the older dc elements version." .
+<https://vocab.eccenca.com/shacl/GraphPublisher> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
+<https://vocab.eccenca.com/shacl/GraphPublisher> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/shacl/GraphPublisher> <http://www.w3.org/ns/shacl#description> "Publisher of the graph" .
+<https://vocab.eccenca.com/shacl/GraphPublisher> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/GraphPublisher> <http://www.w3.org/ns/shacl#name> "Publisher" .
+<https://vocab.eccenca.com/shacl/GraphPublisher> <http://www.w3.org/ns/shacl#order> "30"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/GraphPublisher> <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/elements/1.1/publisher> .
+<https://vocab.eccenca.com/shacl/GraphPublisher> <https://vocab.eccenca.com/shui/readOnly> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/GraphPublisher> <https://vocab.eccenca.com/shui/showAlways> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/GraphRights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/GraphRights> <http://www.w3.org/2000/01/rdf-schema#comment> "In order to avoid creation of additional resources here, we use the older dc elements version." .
+<https://vocab.eccenca.com/shacl/GraphRights> <http://www.w3.org/2000/01/rdf-schema#label> "Rights" .
+<https://vocab.eccenca.com/shacl/GraphRights> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/shacl/GraphRights> <http://www.w3.org/ns/shacl#description> "Information about rights held in and over the graph." .
+<https://vocab.eccenca.com/shacl/GraphRights> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/GraphRights> <http://www.w3.org/ns/shacl#name> "Rights" .
+<https://vocab.eccenca.com/shacl/GraphRights> <http://www.w3.org/ns/shacl#order> "40"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/GraphRights> <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/elements/1.1/rights> .
+<https://vocab.eccenca.com/shacl/GraphRights> <https://vocab.eccenca.com/shui/readOnly> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/GraphRights> <https://vocab.eccenca.com/shui/showAlways> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/GraphType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/GraphType> <http://www.w3.org/2000/01/rdf-schema#label> "Type" .
+<https://vocab.eccenca.com/shacl/GraphType> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/shacl/GraphType> <http://www.w3.org/ns/shacl#description> "The type of the graph. Each type has a specific set of meta data available per default." .
+<https://vocab.eccenca.com/shacl/GraphType> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/GraphType> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/GraphType> <http://www.w3.org/ns/shacl#name> "Type" .
+<https://vocab.eccenca.com/shacl/GraphType> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://vocab.eccenca.com/shacl/GraphType> <http://www.w3.org/ns/shacl#order> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/GraphType> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+<https://vocab.eccenca.com/shacl/GraphType> <https://vocab.eccenca.com/shui/readOnly> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/GraphType> <https://vocab.eccenca.com/shui/showAlways> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/GraphType> <https://vocab.eccenca.com/shui/uiQuery> <https://vocab.eccenca.com/shacl/GraphTypeUIQuery> .
+<https://vocab.eccenca.com/shacl/GraphTypeUIQuery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/shui/SparqlQuery> .
+<https://vocab.eccenca.com/shacl/GraphTypeUIQuery> <http://www.w3.org/2000/01/rdf-schema#label> "Graph Shapes: UI query for fetching all supported graph types" .
+<https://vocab.eccenca.com/shacl/GraphTypeUIQuery> <https://vocab.eccenca.com/shui/queryText> "\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX void: <http://rdfs.org/ns/void#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT DISTINCT ?resource (SAMPLE(?descriptions) as ?description)\nFROM <https://vocab.eccenca.com/shacl/>\nWHERE {\n  ?resource ?p ?o .\n  ?resource rdfs:comment ?descriptions .\n  FILTER (?resource IN (owl:Ontology, void:Dataset))\n}\nGROUP BY ?resource\n" .
+<https://vocab.eccenca.com/shacl/GraphTypeUIQuery> <https://vocab.eccenca.com/shui/queryType> "SELECT" .
 <https://vocab.eccenca.com/shacl/HasTopConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
 <https://vocab.eccenca.com/shacl/HasTopConcept> <http://www.w3.org/2000/01/rdf-schema#comment> "currently not in use ..." .
 <https://vocab.eccenca.com/shacl/HasTopConcept> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2004/02/skos/core#Concept> .
