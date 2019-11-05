@@ -18,9 +18,186 @@
 <http://rdfs.org/ns/void#Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://rdfs.org/ns/void#Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "A dataset graph consists mainly instance data." .
 <http://rdfs.org/ns/void#Dataset> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://www.w3.org/2000/01/rdf-schema#comment> "The datatype of RDF literals storing fragments of HTML content" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://www.w3.org/2000/01/rdf-schema#label> "HTML" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/TR/rdf11-concepts/#section-html> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> <http://www.w3.org/2000/01/rdf-schema#comment> "The class of plain (i.e. untyped) literal values, as used in RIF and OWL 2" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> <http://www.w3.org/2000/01/rdf-schema#label> "PlainLiteral" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/TR/rdf-plain-literal/> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> <http://www.w3.org/2000/01/rdf-schema#comment> "The datatype of XML literal values." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> <http://www.w3.org/2000/01/rdf-schema#label> "XMLLiteral" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> <http://www.w3.org/2000/01/rdf-schema#comment> "The datatype of language-tagged string values" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> <http://www.w3.org/2000/01/rdf-schema#label> "langString" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/TR/rdf11-concepts/#section-Graph-Literal> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.w3.org/2001/XMLSchema#NCName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#NCName> <http://www.w3.org/2000/01/rdf-schema#comment> "NCName represents XML 'non-colonized' Names. The ·value space· of NCName is the set of all strings which ·match· the NCName production of [Namespaces in XML]. The ·lexical space· of NCName is the set of all strings which ·match· the NCName production of [Namespaces in XML]. The ·base type· of NCName is Name." .
+<http://www.w3.org/2001/XMLSchema#NCName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#NCName> .
+<http://www.w3.org/2001/XMLSchema#NCName> <http://www.w3.org/2000/01/rdf-schema#label> "NCName" .
+<http://www.w3.org/2001/XMLSchema#NMTOKEN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#NMTOKEN> <http://www.w3.org/2000/01/rdf-schema#comment> "NMTOKEN represents the NMTOKEN attribute type from [XML 1.0 (Second Edition)]. The ·value space· of NMTOKEN is the set of tokens that ·match· the Nmtoken production in [XML 1.0 (Second Edition)]. The ·lexical space· of NMTOKEN is the set of strings that ·match· the Nmtoken production in [XML 1.0 (Second Edition)]. The ·base type· of NMTOKEN is token." .
+<http://www.w3.org/2001/XMLSchema#NMTOKEN> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#NMTOKEN> .
+<http://www.w3.org/2001/XMLSchema#NMTOKEN> <http://www.w3.org/2000/01/rdf-schema#label> "NMTOKEN" .
+<http://www.w3.org/2001/XMLSchema#Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#Name> <http://www.w3.org/2000/01/rdf-schema#comment> "Name represents XML Names. The ·value space· of Name is the set of all strings which ·match· the Name production of [XML 1.0 (Second Edition)]. The ·lexical space· of Name is the set of all strings which ·match· the Name production of [XML 1.0 (Second Edition)]. The ·base type· of Name is token." .
+<http://www.w3.org/2001/XMLSchema#Name> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#Name> .
+<http://www.w3.org/2001/XMLSchema#Name> <http://www.w3.org/2000/01/rdf-schema#label> "Name" .
+<http://www.w3.org/2001/XMLSchema#anyURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#anyURI> <http://www.w3.org/2000/01/rdf-schema#comment> "The ·lexical space· of anyURI is finite-length character sequences which, when the algorithm defined in Section 5.4 of [XML Linking Language] is applied to them, result in strings which are legal URIs according to [RFC 2396], as amended by [RFC 2732]. Note:  Spaces are, in principle, allowed in the ·lexical space· of anyURI, however, their use is highly discouraged (unless they are encoded by %20)." .
+<http://www.w3.org/2001/XMLSchema#anyURI> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#anyURI> .
+<http://www.w3.org/2001/XMLSchema#anyURI> <http://www.w3.org/2000/01/rdf-schema#label> "anyURI" .
+<http://www.w3.org/2001/XMLSchema#base64Binary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#base64Binary> <http://www.w3.org/2000/01/rdf-schema#comment> "The lexical forms of base64Binary values are limited to the 65 characters of the Base64 Alphabet defined in [RFC 2045], i.e., a-z, A-Z, 0-9, the plus sign (+), the forward slash (/) and the equal sign (=), together with the characters defined in [XML 1.0 (Second Edition)] as white space. No other characters are allowed." .
+<http://www.w3.org/2001/XMLSchema#base64Binary> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#base64Binary> .
+<http://www.w3.org/2001/XMLSchema#base64Binary> <http://www.w3.org/2000/01/rdf-schema#label> "base64Binary" .
+<http://www.w3.org/2001/XMLSchema#boolean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#boolean> <http://www.w3.org/2000/01/rdf-schema#comment> "An instance of a datatype that is defined as ·boolean· can have the following legal literals {true, false, 1, 0}." .
+<http://www.w3.org/2001/XMLSchema#boolean> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#boolean> .
+<http://www.w3.org/2001/XMLSchema#boolean> <http://www.w3.org/2000/01/rdf-schema#label> "boolean" .
+<http://www.w3.org/2001/XMLSchema#byte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#byte> <http://www.w3.org/2000/01/rdf-schema#comment> "byte is ·derived· from short by setting the value of ·maxInclusive· to be 127 and ·minInclusive· to be -128. byte has a lexical representation consisting of an optional sign followed by a finite-length sequence of decimal digits (#x30-#x39). If the sign is omitted, '+' is assumed. For example: -1, 0, 126, +100." .
+<http://www.w3.org/2001/XMLSchema#byte> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#byte> .
+<http://www.w3.org/2001/XMLSchema#byte> <http://www.w3.org/2000/01/rdf-schema#label> "byte" .
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/2000/01/rdf-schema#comment> "The ·lexical space· of date consists of finite-length sequences of characters of the form: '-'? yyyy '-' mm '-' dd zzzzzz? where the date and optional timezone are represented exactly the same way as they are for dateTime. The first moment of the interval is that represented by: '-' yyyy '-' mm '-' dd 'T00:00:00' zzzzzz? and the least upper bound of the interval is the timeline point represented (noncanonically) by: '-' yyyy '-' mm '-' dd 'T24:00:00' zzzzzz?." .
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#date> .
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/2000/01/rdf-schema#label> "date" .
+<http://www.w3.org/2001/XMLSchema#dateTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#dateTime> <http://www.w3.org/2000/01/rdf-schema#comment> "The ·lexical space· of dateTime consists of finite-length sequences of characters of the form: '-'? yyyy '-' mm '-' dd 'T' hh ':' mm ':' ss ('.' s+)? (zzzzzz)? For example, 2002-10-10T12:00:00-05:00 (noon on 10 October 2002, Central Daylight Savings Time as well as Eastern Standard Time in the U.S.) is 2002-10-10T17:00:00Z, five hours later than 2002-10-10T12:00:00Z." .
+<http://www.w3.org/2001/XMLSchema#dateTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#dateTime> .
+<http://www.w3.org/2001/XMLSchema#dateTime> <http://www.w3.org/2000/01/rdf-schema#label> "dateTime" .
+<http://www.w3.org/2001/XMLSchema#dateTimeStamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#dateTimeStamp> <http://www.w3.org/2000/01/rdf-schema#comment> "The lexical space of dateTimeStamp consists of strings which are in the ·lexical space· of dateTime and which also match the regular expression '.*(Z|(\\+|-)[0-9][0-9]:[0-9][0-9])'" .
+<http://www.w3.org/2001/XMLSchema#dateTimeStamp> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema11-2/#dateTimeStamp> .
+<http://www.w3.org/2001/XMLSchema#dateTimeStamp> <http://www.w3.org/2000/01/rdf-schema#label> "dateTimeStamp" .
+<http://www.w3.org/2001/XMLSchema#decimal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#decimal> <http://www.w3.org/2000/01/rdf-schema#comment> "decimal has a lexical representation consisting of a finite-length sequence of decimal digits (#x30-#x39) separated by a period as a decimal indicator. An optional leading sign is allowed. If the sign is omitted, '+' is assumed. Leading and trailing zeroes are optional. If the fractional part is zero, the period and following zeroes can be omitted. For example: -1.23, 12678967.543233, +100000.00, 210." .
+<http://www.w3.org/2001/XMLSchema#decimal> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#decimal> .
+<http://www.w3.org/2001/XMLSchema#decimal> <http://www.w3.org/2000/01/rdf-schema#label> "decimal" .
+<http://www.w3.org/2001/XMLSchema#double> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#double> <http://www.w3.org/2000/01/rdf-schema#comment> "double values have a lexical representation consisting of a mantissa followed, optionally, by the character 'E' or 'e', followed by an exponent. The exponent ·must· be an integer. The mantissa must be a decimal number. The representations for exponent and mantissa must follow the lexical rules for integer and decimal. If the 'E' or 'e' and the following exponent are omitted, an exponent value of 0 is assumed. The special values positive and negative infinity and not-a-number have lexical representations INF, -INF and NaN, respectively. Lexical representations for zero may take a positive or negative sign. For example, -1E4, 1267.43233E12, 12.78e-2, 12 , -0, 0 and INF are all legal literals for double." .
+<http://www.w3.org/2001/XMLSchema#double> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#double> .
+<http://www.w3.org/2001/XMLSchema#double> <http://www.w3.org/2000/01/rdf-schema#label> "double" .
+<http://www.w3.org/2001/XMLSchema#duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#duration> <http://www.w3.org/2000/01/rdf-schema#comment> "The lexical representation for duration is the [ISO 8601] extended format PnYn MnDTnH nMnS, where nY represents the number of years, nM the number of months, nD the number of days, 'T' is the date/time separator, nH the number of hours, nM the number of minutes and nS the number of seconds. The number of seconds can include decimal digits to arbitrary precision." .
+<http://www.w3.org/2001/XMLSchema#duration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#duration> .
+<http://www.w3.org/2001/XMLSchema#duration> <http://www.w3.org/2000/01/rdf-schema#label> "duration" .
+<http://www.w3.org/2001/XMLSchema#float> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#float> <http://www.w3.org/2000/01/rdf-schema#comment> "float values have a lexical representation consisting of a mantissa followed, optionally, by the character 'E' or 'e', followed by an exponent. The exponent ·must· be an integer. The mantissa must be a decimal number. The representations for exponent and mantissa must follow the lexical rules for integer and decimal. If the 'E' or 'e' and the following exponent are omitted, an exponent value of 0 is assumed. The special values positive and negative infinity and not-a-number have lexical representations INF, -INF and NaN, respectively. Lexical representations for zero may take a positive or negative sign. For example, -1E4, 1267.43233E12, 12.78e-2, 12 , -0, 0 and INF are all legal literals for float." .
+<http://www.w3.org/2001/XMLSchema#float> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#float> .
+<http://www.w3.org/2001/XMLSchema#float> <http://www.w3.org/2000/01/rdf-schema#label> "float" .
+<http://www.w3.org/2001/XMLSchema#gDay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#gDay> <http://www.w3.org/2000/01/rdf-schema#comment> "The lexical representation for gDay is the left truncated lexical representation for date: ---DD . An optional following time zone qualifier is allowed as for date. No preceding sign is allowed. No other formats are allowed. See also ISO 8601 Date and Time Formats (·D)." .
+<http://www.w3.org/2001/XMLSchema#gDay> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#gDay> .
+<http://www.w3.org/2001/XMLSchema#gDay> <http://www.w3.org/2000/01/rdf-schema#label> "gDay" .
+<http://www.w3.org/2001/XMLSchema#gMonth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#gMonth> <http://www.w3.org/2000/01/rdf-schema#comment> "The lexical representation for gMonth is the left and right truncated lexical representation for date: --MM. An optional following time zone qualifier is allowed as for date. No preceding sign is allowed. No other formats are allowed. See also ISO 8601 Date and Time Formats (·D)." .
+<http://www.w3.org/2001/XMLSchema#gMonth> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#gMonth> .
+<http://www.w3.org/2001/XMLSchema#gMonth> <http://www.w3.org/2000/01/rdf-schema#label> "gMonth" .
+<http://www.w3.org/2001/XMLSchema#gMonthDay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#gMonthDay> <http://www.w3.org/2000/01/rdf-schema#comment> "The lexical representation for gMonthDay is the left truncated lexical representation for date: --MM-DD. An optional following time zone qualifier is allowed as for date. No preceding sign is allowed. No other formats are allowed. See also ISO 8601 Date and Time Formats (·D). This datatype can be used to represent a specific day in a month. To say, for example, that my birthday occurs on the 14th of September ever year." .
+<http://www.w3.org/2001/XMLSchema#gMonthDay> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#gMonthDay> .
+<http://www.w3.org/2001/XMLSchema#gMonthDay> <http://www.w3.org/2000/01/rdf-schema#label> "gMonthDay" .
+<http://www.w3.org/2001/XMLSchema#gYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#gYear> <http://www.w3.org/2000/01/rdf-schema#comment> "The lexical representation for gYear is the reduced (right truncated) lexical representation for dateTime: CCYY. No left truncation is allowed. An optional following time zone qualifier is allowed as for dateTime. To accommodate year values outside the range from 0001 to 9999, additional digits can be added to the left of this representation and a preceding '-' sign is allowed. For example, to indicate 1999, one would write: 1999. See also ISO 8601 Date and Time Formats (·D)." .
+<http://www.w3.org/2001/XMLSchema#gYear> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#gYear> .
+<http://www.w3.org/2001/XMLSchema#gYear> <http://www.w3.org/2000/01/rdf-schema#label> "gYear" .
+<http://www.w3.org/2001/XMLSchema#gYearMonth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#gYearMonth> <http://www.w3.org/2000/01/rdf-schema#comment> "The lexical representation for gYearMonth is the reduced (right truncated) lexical representation for dateTime: CCYY-MM. No left truncation is allowed. An optional following time zone qualifier is allowed. To accommodate year values outside the range from 0001 to 9999, additional digits can be added to the left of this representation and a preceding '-' sign is allowed. For example, to indicate the month of May 1999, one would write: 1999-05. See also ISO 8601 Date and Time Formats (·D)." .
+<http://www.w3.org/2001/XMLSchema#gYearMonth> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#gYearMonth> .
+<http://www.w3.org/2001/XMLSchema#gYearMonth> <http://www.w3.org/2000/01/rdf-schema#label> "gYearMonth" .
+<http://www.w3.org/2001/XMLSchema#hexBinary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#hexBinary> <http://www.w3.org/2000/01/rdf-schema#comment> "hexBinary has a lexical representation where each binary octet is encoded as a character tuple, consisting of two hexadecimal digits ([0-9a-fA-F]) representing the octet code. For example, '0FB7' is a hex encoding for the 16-bit integer 4023 (whose binary representation is 111110110111)." .
+<http://www.w3.org/2001/XMLSchema#hexBinary> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#hexBinary> .
+<http://www.w3.org/2001/XMLSchema#hexBinary> <http://www.w3.org/2000/01/rdf-schema#label> "hexBinary" .
+<http://www.w3.org/2001/XMLSchema#int> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#int> <http://www.w3.org/2000/01/rdf-schema#comment> "int is ·derived· from long by setting the value of ·maxInclusive· to be 2147483647 and ·minInclusive· to be -2147483648. int has a lexical representation consisting of an optional sign followed by a finite-length sequence of decimal digits (#x30-#x39). If the sign is omitted, '+' is assumed. For example: -1, 0, 126789675, +100000." .
+<http://www.w3.org/2001/XMLSchema#int> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#int> .
+<http://www.w3.org/2001/XMLSchema#int> <http://www.w3.org/2000/01/rdf-schema#label> "int" .
+<http://www.w3.org/2001/XMLSchema#integer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#integer> <http://www.w3.org/2000/01/rdf-schema#comment> "integer has a lexical representation consisting of a finite-length sequence of decimal digits (#x30-#x39) with an optional leading sign. If the sign is omitted, '+' is assumed. For example: -1, 0, 12678967543233, +100000." .
+<http://www.w3.org/2001/XMLSchema#integer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#integer> .
+<http://www.w3.org/2001/XMLSchema#integer> <http://www.w3.org/2000/01/rdf-schema#label> "integer" .
+<http://www.w3.org/2001/XMLSchema#language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#language> <http://www.w3.org/2000/01/rdf-schema#comment> "language represents natural language identifiers as defined by by [RFC 3066] . The ·value space· of language is the set of all strings that are valid language identifiers as defined [RFC 3066] . The ·lexical space· of language is the set of all strings that conform to the pattern [a-zA-Z]{1,8}(-[a-zA-Z0-9]{1,8})* . The ·base type· of language is token." .
+<http://www.w3.org/2001/XMLSchema#language> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#language> .
+<http://www.w3.org/2001/XMLSchema#language> <http://www.w3.org/2000/01/rdf-schema#label> "language" .
+<http://www.w3.org/2001/XMLSchema#long> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#long> <http://www.w3.org/2000/01/rdf-schema#comment> "long is ·derived· from integer by setting the value of ·maxInclusive· to be 9223372036854775807 and ·minInclusive· to be -9223372036854775808. long has a lexical representation consisting of an optional sign followed by a finite-length sequence of decimal digits (#x30-#x39). If the sign is omitted, '+' is assumed. For example: -1, 0, 12678967543233, +100000." .
+<http://www.w3.org/2001/XMLSchema#long> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#long> .
+<http://www.w3.org/2001/XMLSchema#long> <http://www.w3.org/2000/01/rdf-schema#label> "long" .
+<http://www.w3.org/2001/XMLSchema#negativeInteger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#negativeInteger> <http://www.w3.org/2000/01/rdf-schema#comment> "negativeInteger has a lexical representation consisting of a negative sign ('-') followed by a finite-length sequence of decimal digits (#x30-#x39). For example: -1, -12678967543233, -100000." .
+<http://www.w3.org/2001/XMLSchema#negativeInteger> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#negativeInteger> .
+<http://www.w3.org/2001/XMLSchema#negativeInteger> <http://www.w3.org/2000/01/rdf-schema#label> "negativeInteger" .
+<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/2000/01/rdf-schema#comment> "nonNegativeInteger has a lexical representation consisting of an optional sign followed by a finite-length sequence of decimal digits (#x30-#x39). If the sign is omitted, the positive sign ('+') is assumed. If the sign is present, it must be '+' except for lexical forms denoting zero, which may be preceded by a positive ('+') or a negative ('-') sign. For example: 1, 0, 12678967543233, +100000." .
+<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#nonNegativeInteger> .
+<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/2000/01/rdf-schema#label> "nonNegativeInteger" .
+<http://www.w3.org/2001/XMLSchema#nonPositiveInteger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#nonPositiveInteger> <http://www.w3.org/2000/01/rdf-schema#comment> "nonPositiveInteger has a lexical representation consisting of an optional preceding sign followed by a finite-length sequence of decimal digits (#x30-#x39). The sign may be '+' or may be omitted only for lexical forms denoting zero; in all other lexical forms, the negative sign ('-') must be present. For example: -1, 0, -12678967543233, -100000." .
+<http://www.w3.org/2001/XMLSchema#nonPositiveInteger> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#nonPositiveInteger> .
+<http://www.w3.org/2001/XMLSchema#nonPositiveInteger> <http://www.w3.org/2000/01/rdf-schema#label> "nonPositiveInteger" .
+<http://www.w3.org/2001/XMLSchema#normalizedString> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#normalizedString> <http://www.w3.org/2000/01/rdf-schema#comment> "normalizedString represents white space normalized strings. The ·value space· of normalizedString is the set of strings that do not contain the carriage return (#xD), line feed (#xA) nor tab (#x9) characters. The ·lexical space· of normalizedString is the set of strings that do not contain the carriage return (#xD), line feed (#xA) nor tab (#x9) characters. The ·base type· of normalizedString is string." .
+<http://www.w3.org/2001/XMLSchema#normalizedString> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#normalizedString> .
+<http://www.w3.org/2001/XMLSchema#normalizedString> <http://www.w3.org/2000/01/rdf-schema#label> "normalizedString" .
+<http://www.w3.org/2001/XMLSchema#positiveInteger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#positiveInteger> <http://www.w3.org/2000/01/rdf-schema#comment> "positiveInteger has a lexical representation consisting of an optional positive sign ('+') followed by a finite-length sequence of decimal digits (#x30-#x39). For example: 1, 12678967543233, +100000." .
+<http://www.w3.org/2001/XMLSchema#positiveInteger> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#positiveInteger> .
+<http://www.w3.org/2001/XMLSchema#positiveInteger> <http://www.w3.org/2000/01/rdf-schema#label> "positiveInteger" .
+<http://www.w3.org/2001/XMLSchema#short> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#short> <http://www.w3.org/2000/01/rdf-schema#comment> "short is ·derived· from int by setting the value of ·maxInclusive· to be 32767 and ·minInclusive· to be -32768. short has a lexical representation consisting of an optional sign followed by a finite-length sequence of decimal digits (#x30-#x39). If the sign is omitted, '+' is assumed. For example: -1, 0, 12678, +10000." .
+<http://www.w3.org/2001/XMLSchema#short> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#short> .
+<http://www.w3.org/2001/XMLSchema#short> <http://www.w3.org/2000/01/rdf-schema#label> "short" .
+<http://www.w3.org/2001/XMLSchema#string> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#string> <http://www.w3.org/2000/01/rdf-schema#comment> "The string datatype represents character strings in XML. The ·value space· of string is the set of finite-length sequences of characters (as defined in [XML 1.0 (Second Edition)]) that ·match· the Char production from [XML 1.0 (Second Edition)]. A character is an atomic unit of communication; it is not further specified except to note that every character has a corresponding Universal Character Set code point, which is an integer." .
+<http://www.w3.org/2001/XMLSchema#string> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#string> .
+<http://www.w3.org/2001/XMLSchema#string> <http://www.w3.org/2000/01/rdf-schema#label> "string" .
+<http://www.w3.org/2001/XMLSchema#time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#time> <http://www.w3.org/2000/01/rdf-schema#comment> "The lexical representation for time is the left truncated lexical representation for dateTime: hh:mm:ss.sss with optional following time zone indicator. For example, to indicate 1:20 pm for Eastern Standard Time which is 5 hours behind Coordinated Universal Time (UTC), one would write: 13:20:00-05:00. See also ISO 8601 Date and Time Formats (·D)." .
+<http://www.w3.org/2001/XMLSchema#time> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#time> .
+<http://www.w3.org/2001/XMLSchema#time> <http://www.w3.org/2000/01/rdf-schema#label> "time" .
+<http://www.w3.org/2001/XMLSchema#token> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#token> <http://www.w3.org/2000/01/rdf-schema#comment> "token represents tokenized strings. The ·value space· of token is the set of strings that do not contain the carriage return (#xD), line feed (#xA) nor tab (#x9) characters, that have no leading or trailing spaces (#x20) and that have no internal sequences of two or more spaces. The ·lexical space· of token is the set of strings that do not contain the carriage return (#xD), line feed (#xA) nor tab (#x9) characters, that have no leading or trailing spaces (#x20) and that have no internal sequences of two or more spaces. The ·base type· of token is normalizedString." .
+<http://www.w3.org/2001/XMLSchema#token> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#token> .
+<http://www.w3.org/2001/XMLSchema#token> <http://www.w3.org/2000/01/rdf-schema#label> "token" .
+<http://www.w3.org/2001/XMLSchema#unsignedByte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#unsignedByte> <http://www.w3.org/2000/01/rdf-schema#comment> "unsignedByte is ·derived· from unsignedShort by setting the value of ·maxInclusive· to be 255. unsignedByte has a lexical representation consisting of a finite-length sequence of decimal digits (#x30-#x39). For example: 0, 126, 100." .
+<http://www.w3.org/2001/XMLSchema#unsignedByte> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#unsignedByte> .
+<http://www.w3.org/2001/XMLSchema#unsignedByte> <http://www.w3.org/2000/01/rdf-schema#label> "unsignedByte" .
+<http://www.w3.org/2001/XMLSchema#unsignedInt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#unsignedInt> <http://www.w3.org/2000/01/rdf-schema#comment> "unsignedInt is ·derived· from unsignedLong by setting the value of ·maxInclusive· to be 4294967295. unsignedInt has a lexical representation consisting of a finite-length sequence of decimal digits (#x30-#x39). For example: 0, 1267896754, 100000." .
+<http://www.w3.org/2001/XMLSchema#unsignedInt> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#unsignedInt> .
+<http://www.w3.org/2001/XMLSchema#unsignedInt> <http://www.w3.org/2000/01/rdf-schema#label> "unsignedInt" .
+<http://www.w3.org/2001/XMLSchema#unsignedLong> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#unsignedLong> <http://www.w3.org/2000/01/rdf-schema#comment> "unsignedLong is ·derived· from nonNegativeInteger by setting the value of ·maxInclusive· to be 18446744073709551615. unsignedLong has a lexical representation consisting of a finite-length sequence of decimal digits (#x30-#x39). For example: 0, 12678967543233, 100000." .
+<http://www.w3.org/2001/XMLSchema#unsignedLong> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#unsignedLong> .
+<http://www.w3.org/2001/XMLSchema#unsignedLong> <http://www.w3.org/2000/01/rdf-schema#label> "unsignedLong" .
+<http://www.w3.org/2001/XMLSchema#unsignedShort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2001/XMLSchema#unsignedShort> <http://www.w3.org/2000/01/rdf-schema#comment> "unsignedShort is ·derived· from unsignedInt by setting the value of ·maxInclusive· to be 65535. unsignedShort has a lexical representation consisting of a finite-length sequence of decimal digits (#x30-#x39). For example: 0, 12678, 10000." .
+<http://www.w3.org/2001/XMLSchema#unsignedShort> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/xmlschema-2/#unsignedShort> .
+<http://www.w3.org/2001/XMLSchema#unsignedShort> <http://www.w3.org/2000/01/rdf-schema#label> "unsignedShort" .
 <http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "An ontology graph consists mainly of schema data." .
 <http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Ontology" .
+<http://www.w3.org/ns/shacl#BlankNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeKind> .
+<http://www.w3.org/ns/shacl#BlankNodeOrIRI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeKind> .
+<http://www.w3.org/ns/shacl#BlankNodeOrLiteral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeKind> .
+<http://www.w3.org/ns/shacl#IRI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeKind> .
+<http://www.w3.org/ns/shacl#IRIOrLiteral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeKind> .
+<http://www.w3.org/ns/shacl#Literal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeKind> .
 <http://www.w3.org/ns/shacl#NodeShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.w3.org/ns/shacl#NodeShape> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shacl#> .
 <http://www.w3.org/ns/shacl#PropertyShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -525,6 +702,40 @@
 <https://vocab.eccenca.com/shacl/ScopeNote> <http://www.w3.org/ns/shacl#order> "30"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://vocab.eccenca.com/shacl/ScopeNote> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2004/02/skos/core#note> .
 <https://vocab.eccenca.com/shacl/ScopeNote> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/ShaclNodeShapeNodeShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shacl/ShaclNodeShapeNodeShape> <http://www.w3.org/2000/01/rdf-schema#label> "SHACL Node Shape" .
+<https://vocab.eccenca.com/shacl/ShaclNodeShapeNodeShape> <http://www.w3.org/ns/shacl#name> "SHACL Node Shape" .
+<https://vocab.eccenca.com/shacl/ShaclNodeShapeNodeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/shaclNodeShapeProperty> .
+<https://vocab.eccenca.com/shacl/ShaclNodeShapeNodeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/shaclNodeShapeTabName> .
+<https://vocab.eccenca.com/shacl/ShaclNodeShapeNodeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/shaclNodeShapeTargetClass> .
+<https://vocab.eccenca.com/shacl/ShaclNodeShapeNodeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/shaclPropertyShapeOnUpdateUpdate> .
+<https://vocab.eccenca.com/shacl/ShaclNodeShapeNodeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/shaclShapeName> .
+<https://vocab.eccenca.com/shacl/ShaclNodeShapeNodeShape> <http://www.w3.org/ns/shacl#targetClass> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shacl/ShaclNodeShapeNodeShape> <https://vocab.eccenca.com/shui/tabName> "SHACL Node Shape" .
+<https://vocab.eccenca.com/shacl/ShaclPropertyShapeNodeShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shacl/ShaclPropertyShapeNodeShape> <http://www.w3.org/2000/01/rdf-schema#label> "SHACL Property Shape" .
+<https://vocab.eccenca.com/shacl/ShaclPropertyShapeNodeShape> <http://www.w3.org/ns/shacl#name> "SHACL Property Shape" .
+<https://vocab.eccenca.com/shacl/ShaclPropertyShapeNodeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/shaclPropertyShapeClass> .
+<https://vocab.eccenca.com/shacl/ShaclPropertyShapeNodeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/shaclPropertyShapeDatatype> .
+<https://vocab.eccenca.com/shacl/ShaclPropertyShapeNodeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/shaclPropertyShapeDenyNewResources> .
+<https://vocab.eccenca.com/shacl/ShaclPropertyShapeNodeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/shaclPropertyShapeDescription> .
+<https://vocab.eccenca.com/shacl/ShaclPropertyShapeNodeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/shaclPropertyShapeIgnoreOnCopy> .
+<https://vocab.eccenca.com/shacl/ShaclPropertyShapeNodeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/shaclPropertyShapeMaxCount> .
+<https://vocab.eccenca.com/shacl/ShaclPropertyShapeNodeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/shaclPropertyShapeMinCount> .
+<https://vocab.eccenca.com/shacl/ShaclPropertyShapeNodeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/shaclPropertyShapeNode> .
+<https://vocab.eccenca.com/shacl/ShaclPropertyShapeNodeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/shaclPropertyShapeNodeKind> .
+<https://vocab.eccenca.com/shacl/ShaclPropertyShapeNodeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/shaclPropertyShapeOnDeleteUpdate> .
+<https://vocab.eccenca.com/shacl/ShaclPropertyShapeNodeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/shaclPropertyShapeOnInsertUpdate> .
+<https://vocab.eccenca.com/shacl/ShaclPropertyShapeNodeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/shaclPropertyShapeOrder> .
+<https://vocab.eccenca.com/shacl/ShaclPropertyShapeNodeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/shaclPropertyShapePath> .
+<https://vocab.eccenca.com/shacl/ShaclPropertyShapeNodeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/shaclPropertyShapeProperty> .
+<https://vocab.eccenca.com/shacl/ShaclPropertyShapeNodeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/shaclPropertyShapeReadOnly> .
+<https://vocab.eccenca.com/shacl/ShaclPropertyShapeNodeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/shaclPropertyShapeShowAlways> .
+<https://vocab.eccenca.com/shacl/ShaclPropertyShapeNodeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/shaclPropertyShapeUiQuery> .
+<https://vocab.eccenca.com/shacl/ShaclPropertyShapeNodeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/shaclPropertyShapeUriTemplate> .
+<https://vocab.eccenca.com/shacl/ShaclPropertyShapeNodeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/shaclShapeName> .
+<https://vocab.eccenca.com/shacl/ShaclPropertyShapeNodeShape> <http://www.w3.org/ns/shacl#targetClass> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/ShaclPropertyShapeNodeShape> <https://vocab.eccenca.com/shui/tabName> "SHACL Property Shape" .
 <https://vocab.eccenca.com/shacl/TaggingShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
 <https://vocab.eccenca.com/shacl/TaggingShape> <http://www.w3.org/2000/01/rdf-schema#label> "Tagging" .
 <https://vocab.eccenca.com/shacl/TaggingShape> <http://www.w3.org/ns/shacl#name> "Tagging" .
@@ -643,6 +854,242 @@
 <https://vocab.eccenca.com/shacl/UpdateTextShape> <http://www.w3.org/ns/shacl#order> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://vocab.eccenca.com/shacl/UpdateTextShape> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/shui/queryText> .
 <https://vocab.eccenca.com/shacl/UpdateTextShape> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Property" .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeProperty> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeProperty> <http://www.w3.org/ns/shacl#description> "Properties of this node" .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeProperty> <http://www.w3.org/ns/shacl#name> "Property" .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeProperty> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeProperty> <http://www.w3.org/ns/shacl#order> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeProperty> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/shacl#property> .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeProperty> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeTabName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeTabName> <http://www.w3.org/2000/01/rdf-schema#label> "Tab Name" .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeTabName> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeTabName> <http://www.w3.org/ns/shacl#description> "Name of the tab" .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeTabName> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeTabName> <http://www.w3.org/ns/shacl#name> "Tab Name" .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeTabName> <http://www.w3.org/ns/shacl#order> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeTabName> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/shui/tabName> .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeTabName> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeTargetClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeTargetClass> <http://www.w3.org/2000/01/rdf-schema#label> "Target class" .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeTargetClass> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeTargetClass> <http://www.w3.org/ns/shacl#description> "Class this NodeShape applies to." .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeTargetClass> <http://www.w3.org/ns/shacl#name> "Target class" .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeTargetClass> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeTargetClass> <http://www.w3.org/ns/shacl#order> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeTargetClass> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/shacl#targetClass> .
+<https://vocab.eccenca.com/shacl/shaclNodeShapeTargetClass> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeClass> <http://www.w3.org/2000/01/rdf-schema#label> "Class" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeClass> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeClass> <http://www.w3.org/ns/shacl#description> "Class of the connected IRI if nodeKind == sh:IRI." .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeClass> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeClass> <http://www.w3.org/ns/shacl#name> "Class" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeClass> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeClass> <http://www.w3.org/ns/shacl#order> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeClass> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/shacl#class> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeClass> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDatatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDatatype> <http://www.w3.org/2000/01/rdf-schema#label> "Datatype" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDatatype> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDatatype> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDatatype> <http://www.w3.org/ns/shacl#description> "The datatype of the property" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDatatype> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDatatype> <http://www.w3.org/ns/shacl#minCount> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDatatype> <http://www.w3.org/ns/shacl#name> "Datatype" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDatatype> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDatatype> <http://www.w3.org/ns/shacl#order> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDatatype> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/shacl#datatype> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDatatype> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDatatype> <https://vocab.eccenca.com/shui/uiQuery> <https://vocab.eccenca.com/shacl/shaclPropertyShapeDatatypeUIQuery> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDatatypeUIQuery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/shui/SparqlQuery> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDatatypeUIQuery> <http://www.w3.org/2000/01/rdf-schema#label> "Shape Shapes: UI query for fetching rdfs:Datatypes" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDatatypeUIQuery> <https://vocab.eccenca.com/shui/queryText> "\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT DISTINCT ?resource (SAMPLE(?labels) as ?label) (SAMPLE(?descriptions) as ?description)\nWHERE\n{\n    ?resource a rdfs:Datatype .\n    ?resource rdfs:label ?labels .\n    ?resource rdfs:comment ?descriptions .\n    FILTER isIRI(?resource)\n}\nGROUP BY ?resource\nORDER BY ASC(lcase(str(?label)))\n" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDatatypeUIQuery> <https://vocab.eccenca.com/shui/queryType> "SELECT" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDenyNewResources> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDenyNewResources> <http://www.w3.org/2000/01/rdf-schema#label> "Deny new resources" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDenyNewResources> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDenyNewResources> <http://www.w3.org/ns/shacl#description> "Disables the creation of new resources." .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDenyNewResources> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDenyNewResources> <http://www.w3.org/ns/shacl#name> "Deny new resources" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDenyNewResources> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDenyNewResources> <http://www.w3.org/ns/shacl#order> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDenyNewResources> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/shui/denyNewResources> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDescription> <http://www.w3.org/2000/01/rdf-schema#label> "Description" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDescription> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDescription> <http://www.w3.org/ns/shacl#description> "Description" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDescription> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDescription> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDescription> <http://www.w3.org/ns/shacl#name> "Description" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDescription> <http://www.w3.org/ns/shacl#order> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDescription> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/shacl#description> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeDescription> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeIgnoreOnCopy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeIgnoreOnCopy> <http://www.w3.org/2000/01/rdf-schema#label> "Ignore on copy" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeIgnoreOnCopy> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeIgnoreOnCopy> <http://www.w3.org/ns/shacl#description> "Disables reusing the value(s) when creating a copy of the resource." .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeIgnoreOnCopy> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeIgnoreOnCopy> <http://www.w3.org/ns/shacl#name> "Ignore on copy" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeIgnoreOnCopy> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeIgnoreOnCopy> <http://www.w3.org/ns/shacl#order> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeIgnoreOnCopy> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/shui/ignoreOnCopy> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeIgnoreOnCopy> <https://vocab.eccenca.com/shui/showAlways> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeMaxCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeMaxCount> <http://www.w3.org/2000/01/rdf-schema#label> "Max count" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeMaxCount> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeMaxCount> <http://www.w3.org/ns/shacl#description> "Max cardinality" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeMaxCount> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeMaxCount> <http://www.w3.org/ns/shacl#name> "Max count" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeMaxCount> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeMaxCount> <http://www.w3.org/ns/shacl#order> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeMaxCount> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/shacl#maxCount> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeMaxCount> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeMinCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeMinCount> <http://www.w3.org/2000/01/rdf-schema#label> "Min count" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeMinCount> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeMinCount> <http://www.w3.org/ns/shacl#description> "Min cardinality, 0 will show this property under optionals unless 'Show always = true'" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeMinCount> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeMinCount> <http://www.w3.org/ns/shacl#name> "Min count" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeMinCount> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeMinCount> <http://www.w3.org/ns/shacl#order> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeMinCount> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/shacl#minCount> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeMinCount> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeNode> <http://www.w3.org/2000/01/rdf-schema#label> "Node shape" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeNode> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeNode> <http://www.w3.org/ns/shacl#description> "The shape of the linked resource." .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeNode> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeNode> <http://www.w3.org/ns/shacl#name> "Node shape" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeNode> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeNode> <http://www.w3.org/ns/shacl#order> "20"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeNode> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/shacl#node> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeNode> <https://vocab.eccenca.com/shui/showAlways> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeNodeKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeNodeKind> <http://www.w3.org/2000/01/rdf-schema#label> "Node kind" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeNodeKind> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/ns/shacl#NodeKind> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeNodeKind> <http://www.w3.org/ns/shacl#description> "Type of the node (sh:IRI, sh:Literal or blank)" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeNodeKind> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeNodeKind> <http://www.w3.org/ns/shacl#name> "Node kind" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeNodeKind> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeNodeKind> <http://www.w3.org/ns/shacl#order> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeNodeKind> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/shacl#nodeKind> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeNodeKind> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnDeleteUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnDeleteUpdate> <http://www.w3.org/2000/01/rdf-schema#label> "On delete update" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnDeleteUpdate> <http://www.w3.org/ns/shacl#class> <https://vocab.eccenca.com/shui/SparqlUpdate> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnDeleteUpdate> <http://www.w3.org/ns/shacl#description> "A query executed when a value is changed or removed." .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnDeleteUpdate> <http://www.w3.org/ns/shacl#name> "On delete update" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnDeleteUpdate> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnDeleteUpdate> <http://www.w3.org/ns/shacl#order> "32"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnDeleteUpdate> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/shui/onDeleteUpdate> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnDeleteUpdate> <https://vocab.eccenca.com/shui/showAlways> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnInsertUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnInsertUpdate> <http://www.w3.org/2000/01/rdf-schema#label> "On insert update" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnInsertUpdate> <http://www.w3.org/ns/shacl#class> <https://vocab.eccenca.com/shui/SparqlUpdate> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnInsertUpdate> <http://www.w3.org/ns/shacl#description> "A query executed when a value is added or changed." .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnInsertUpdate> <http://www.w3.org/ns/shacl#name> "On insert update" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnInsertUpdate> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnInsertUpdate> <http://www.w3.org/ns/shacl#order> "31"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnInsertUpdate> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/shui/onInsertUpdate> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnInsertUpdate> <https://vocab.eccenca.com/shui/showAlways> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnUpdateUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnUpdateUpdate> <http://www.w3.org/2000/01/rdf-schema#label> "On update update" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnUpdateUpdate> <http://www.w3.org/ns/shacl#class> <https://vocab.eccenca.com/shui/SparqlUpdate> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnUpdateUpdate> <http://www.w3.org/ns/shacl#description> "A query executed when any value of the resource is added, changed or removed." .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnUpdateUpdate> <http://www.w3.org/ns/shacl#name> "On update update" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnUpdateUpdate> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnUpdateUpdate> <http://www.w3.org/ns/shacl#order> "33"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnUpdateUpdate> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/shui/onUpdateUpdate> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOnUpdateUpdate> <https://vocab.eccenca.com/shui/showAlways> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOrder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOrder> <http://www.w3.org/2000/01/rdf-schema#label> "Order" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOrder> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOrder> <http://www.w3.org/ns/shacl#description> "Order, determines the order of the field in the UI." .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOrder> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOrder> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOrder> <http://www.w3.org/ns/shacl#name> "Order" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOrder> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOrder> <http://www.w3.org/ns/shacl#order> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOrder> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/shacl#order> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeOrder> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapePath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapePath> <http://www.w3.org/2000/01/rdf-schema#label> "Path" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapePath> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapePath> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapePath> <http://www.w3.org/ns/shacl#description> "Property" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapePath> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapePath> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapePath> <http://www.w3.org/ns/shacl#name> "Path" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapePath> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapePath> <http://www.w3.org/ns/shacl#order> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapePath> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/shacl#path> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapePath> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Property of" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeProperty> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeProperty> <http://www.w3.org/ns/shacl#description> "The node this property belongs to" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeProperty> <http://www.w3.org/ns/shacl#name> "Property of" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeProperty> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeProperty> <http://www.w3.org/ns/shacl#order> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeProperty> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/shacl#property> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeProperty> <https://vocab.eccenca.com/shui/inversePath> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeProperty> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeReadOnly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeReadOnly> <http://www.w3.org/2000/01/rdf-schema#label> "Read only" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeReadOnly> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeReadOnly> <http://www.w3.org/ns/shacl#description> "Read only (true / false). A value of true means the annotated property shape is not editable by the user. Useful for displaying system properties." .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeReadOnly> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeReadOnly> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeReadOnly> <http://www.w3.org/ns/shacl#name> "Read only" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeReadOnly> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeReadOnly> <http://www.w3.org/ns/shacl#order> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeReadOnly> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/shui/readOnly> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeReadOnly> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeShowAlways> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeShowAlways> <http://www.w3.org/2000/01/rdf-schema#label> "Show always" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeShowAlways> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeShowAlways> <http://www.w3.org/ns/shacl#description> "Show always (true / false). A value of true let optional properties (min count = 0) show up by default." .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeShowAlways> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeShowAlways> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeShowAlways> <http://www.w3.org/ns/shacl#name> "Show always" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeShowAlways> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeShowAlways> <http://www.w3.org/ns/shacl#order> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeShowAlways> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/shui/showAlways> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeShowAlways> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeUiQuery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeUiQuery> <http://www.w3.org/2000/01/rdf-schema#label> "UI query" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeUiQuery> <http://www.w3.org/ns/shacl#class> <https://vocab.eccenca.com/shui/SparqlQuery> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeUiQuery> <http://www.w3.org/ns/shacl#description> "The query selecting the resources displayed in the UI." .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeUiQuery> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeUiQuery> <http://www.w3.org/ns/shacl#name> "UI query" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeUiQuery> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeUiQuery> <http://www.w3.org/ns/shacl#order> "30"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeUiQuery> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/shui/uiQuery> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeUiQuery> <https://vocab.eccenca.com/shui/showAlways> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeUriTemplate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeUriTemplate> <http://www.w3.org/2000/01/rdf-schema#label> "URI template" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeUriTemplate> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://tools.ietf.org/html/rfc6570> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeUriTemplate> <http://www.w3.org/ns/shacl#class> <https://vocab.eccenca.com/shui/URITemplate> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeUriTemplate> <http://www.w3.org/ns/shacl#description> "A compact sequence of characters for describing a range of URIs through variable expansion." .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeUriTemplate> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeUriTemplate> <http://www.w3.org/ns/shacl#name> "URI template" .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeUriTemplate> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeUriTemplate> <http://www.w3.org/ns/shacl#order> "21"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeUriTemplate> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/shui/uriTemplate> .
+<https://vocab.eccenca.com/shacl/shaclPropertyShapeUriTemplate> <https://vocab.eccenca.com/shui/showAlways> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/shaclShapeName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/shaclShapeName> <http://www.w3.org/2000/01/rdf-schema#label> "Name" .
+<https://vocab.eccenca.com/shacl/shaclShapeName> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/shacl/shaclShapeName> <http://www.w3.org/ns/shacl#description> "Name" .
+<https://vocab.eccenca.com/shacl/shaclShapeName> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclShapeName> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclShapeName> <http://www.w3.org/ns/shacl#name> "Name" .
+<https://vocab.eccenca.com/shacl/shaclShapeName> <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/shaclShapeName> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/shacl#name> .
+<https://vocab.eccenca.com/shacl/shaclShapeName> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://vocab.eccenca.com/shui/> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> .
 <https://vocab.eccenca.com/shui/> <http://purl.org/dc/terms/contributor> <https://ns.eccenca.com/mfrommhold> .
 <https://vocab.eccenca.com/shui/> <http://purl.org/dc/terms/contributor> <https://ns.eccenca.com/rnavarropiris> .
