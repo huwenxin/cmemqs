@@ -36,6 +36,61 @@
 <https://ns.eccenca.com/stramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
 <https://ns.eccenca.com/stramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://ns.eccenca.com/stramp> <http://xmlns.com/foaf/0.1/name> "Sebastian Tramp" .
+<https://vocab.eccenca.com/shacl/BackupRetentionPolicyShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shacl/BackupRetentionPolicyShape> <http://www.w3.org/2000/01/rdf-schema#label> "Backup / Data retention policy" .
+<https://vocab.eccenca.com/shacl/BackupRetentionPolicyShape> <http://www.w3.org/ns/shacl#name> "Backup / Data retention policy" .
+<https://vocab.eccenca.com/shacl/BackupRetentionPolicyShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:3164ade4-2d54-5367-99ea-4bde7269a3a2> .
+<https://vocab.eccenca.com/shacl/BackupRetentionPolicyShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:5d8e5d12-6e07-52cb-8938-8e1ec994619e> .
+<https://vocab.eccenca.com/shacl/BackupRetentionPolicyShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:6836d9c5-6157-5b25-a2e2-9fa0d8750add> .
+<https://vocab.eccenca.com/shacl/BackupRetentionPolicyShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:8bd06d56-715e-5afd-9f25-d2be43b52b70> .
+<https://vocab.eccenca.com/shacl/BackupRetentionPolicyShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:95af00a9-be62-59f2-b91d-5e2b6f361138> .
+<https://vocab.eccenca.com/shacl/BackupRetentionPolicyShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:e80a16f8-210c-5183-a111-98ee2878d11d> .
+<https://vocab.eccenca.com/shacl/BackupRetentionPolicyShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:f9787932-4407-5a05-9be1-3d3a257f8089> .
+<https://vocab.eccenca.com/shacl/BackupRetentionPolicyShape> <http://www.w3.org/ns/shacl#targetClass> <https://vocab.eccenca.com/dsm/BackupRetentionPolicy> .
+<https://vocab.eccenca.com/shacl/ConfigurationShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shacl/ConfigurationShape> <http://www.w3.org/2000/01/rdf-schema#label> "Configuration" .
+<https://vocab.eccenca.com/shacl/ConfigurationShape> <http://www.w3.org/ns/shacl#name> "Configuration" .
+<https://vocab.eccenca.com/shacl/ConfigurationShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:240d436c-bb08-5d7f-bcbd-7db51f4133c7> .
+<https://vocab.eccenca.com/shacl/ConfigurationShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:d46d755f-74f8-59b0-8ca2-beb230da429c> .
+<https://vocab.eccenca.com/shacl/ConfigurationShape> <http://www.w3.org/ns/shacl#targetClass> <https://vocab.eccenca.com/dsm/Configuration> .
+<https://vocab.eccenca.com/shacl/DatasetShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shacl/DatasetShape> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset" .
+<https://vocab.eccenca.com/shacl/DatasetShape> <http://www.w3.org/ns/shacl#name> "Dataset" .
+<https://vocab.eccenca.com/shacl/DatasetShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:0750aaf3-a125-5a70-8b3e-cac59160a480> .
+<https://vocab.eccenca.com/shacl/DatasetShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:1b6f0818-1562-5793-8714-2eb34ad71947> .
+<https://vocab.eccenca.com/shacl/DatasetShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:3dcd045f-9213-5a1b-b571-b4f368cfbcb6> .
+<https://vocab.eccenca.com/shacl/DatasetShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:585a3453-7ad4-5650-ad29-6e8ca6440a38> .
+<https://vocab.eccenca.com/shacl/DatasetShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:81b7916e-c17e-558d-8765-90f6fed71823> .
+<https://vocab.eccenca.com/shacl/DatasetShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:8b51e8f7-71ef-5df2-ad98-2164bcbf9637> .
+<https://vocab.eccenca.com/shacl/DatasetShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:9b91b0e7-c6a3-5eaf-8197-47305493afbd> .
+<https://vocab.eccenca.com/shacl/DatasetShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:c032eee2-c948-51ee-a19d-a1b3bdca3290> .
+<https://vocab.eccenca.com/shacl/DatasetShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:d03303ae-2f3a-5361-afff-036b11402e4c> .
+<https://vocab.eccenca.com/shacl/DatasetShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:dc643611-93d9-5ef4-b892-f7e466a68d7a> .
+<https://vocab.eccenca.com/shacl/DatasetShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:ef40cb09-c6f0-5bbe-baf6-3c8be6b5ae0c> .
+<https://vocab.eccenca.com/shacl/DatasetShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:f1b904da-0744-5cdb-be5d-c7cf4e4c39e7> .
+<https://vocab.eccenca.com/shacl/DatasetShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:f1ece8a4-4f3c-582d-b6ba-7c27178de9fd> .
+<https://vocab.eccenca.com/shacl/DatasetShape> <http://www.w3.org/ns/shacl#targetClass> <https://vocab.eccenca.com/dsm/Dataset> .
+<https://vocab.eccenca.com/shacl/DatasetShape> <https://vocab.eccenca.com/shui/tabName> "Dataset" .
+<https://vocab.eccenca.com/shacl/PeriodOfTimeShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shacl/PeriodOfTimeShape> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal coverage " .
+<https://vocab.eccenca.com/shacl/PeriodOfTimeShape> <http://www.w3.org/ns/shacl#name> "Temporal coverage " .
+<https://vocab.eccenca.com/shacl/PeriodOfTimeShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:1e4b4704-5cb8-5346-9ea7-51fc51d8bfb9> .
+<https://vocab.eccenca.com/shacl/PeriodOfTimeShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:e9c803f2-953f-5343-a78b-d8e9ba6149ea> .
+<https://vocab.eccenca.com/shacl/PeriodOfTimeShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:f9574314-b36f-5421-a310-fff5d2d02a85> .
+<https://vocab.eccenca.com/shacl/PeriodOfTimeShape> <http://www.w3.org/ns/shacl#targetClass> <http://purl.org/dc/terms/PeriodOfTime> .
+<https://vocab.eccenca.com/shacl/QualityCertificateShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shacl/QualityCertificateShape> <http://www.w3.org/2000/01/rdf-schema#label> "Quality certificate" .
+<https://vocab.eccenca.com/shacl/QualityCertificateShape> <http://www.w3.org/ns/shacl#name> "Quality certificate" .
+<https://vocab.eccenca.com/shacl/QualityCertificateShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:19999085-2606-5944-b475-a27441cc23a0> .
+<https://vocab.eccenca.com/shacl/QualityCertificateShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:7554d9fb-e98a-5ec1-85ef-fe20fab1bc86> .
+<https://vocab.eccenca.com/shacl/QualityCertificateShape> <http://www.w3.org/ns/shacl#targetClass> <http://www.w3.org/ns/dqv#QualityCertificate> .
+<https://vocab.eccenca.com/shacl/QualityMeasurementShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shacl/QualityMeasurementShape> <http://www.w3.org/2000/01/rdf-schema#label> "Quality measurement" .
+<https://vocab.eccenca.com/shacl/QualityMeasurementShape> <http://www.w3.org/ns/shacl#name> "Quality measurement" .
+<https://vocab.eccenca.com/shacl/QualityMeasurementShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:58bf3fc5-5c8a-52cc-991c-ba5d968f82cc> .
+<https://vocab.eccenca.com/shacl/QualityMeasurementShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:823a455e-b99e-5a95-ae92-164b0c70c780> .
+<https://vocab.eccenca.com/shacl/QualityMeasurementShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:feba9ddf-6226-58d7-a7d8-bb8b25816128> .
+<https://vocab.eccenca.com/shacl/QualityMeasurementShape> <http://www.w3.org/ns/shacl#targetClass> <http://www.w3.org/ns/dqv#QualityMeasurement> .
 <https://vocab.eccenca.com/shacl/QueryDescriptionShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
 <https://vocab.eccenca.com/shacl/QueryDescriptionShape> <http://www.w3.org/2000/01/rdf-schema#label> "Description" .
 <https://vocab.eccenca.com/shacl/QueryDescriptionShape> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -73,6 +128,47 @@
 <https://vocab.eccenca.com/shacl/QueryTextShape> <http://www.w3.org/ns/shacl#order> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://vocab.eccenca.com/shacl/QueryTextShape> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/shui/queryText> .
 <https://vocab.eccenca.com/shacl/QueryTextShape> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/RelationAssignmentShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shacl/RelationAssignmentShape> <http://www.w3.org/2000/01/rdf-schema#label> "Relation" .
+<https://vocab.eccenca.com/shacl/RelationAssignmentShape> <http://www.w3.org/ns/shacl#name> "Relation" .
+<https://vocab.eccenca.com/shacl/RelationAssignmentShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:30bdddce-5736-5ba8-8ef0-11cfa9642c88> .
+<https://vocab.eccenca.com/shacl/RelationAssignmentShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:5af23311-f859-5de7-8985-de0c4a21a3b5> .
+<https://vocab.eccenca.com/shacl/RelationAssignmentShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:8571045f-e3a9-5879-aca4-75beffaaca14> .
+<https://vocab.eccenca.com/shacl/RelationAssignmentShape> <http://www.w3.org/ns/shacl#targetClass> <https://vocab.eccenca.com/dsm/RelationAssignment> .
+<https://vocab.eccenca.com/shacl/RoleAssignmentShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shacl/RoleAssignmentShape> <http://www.w3.org/2000/01/rdf-schema#label> "Role" .
+<https://vocab.eccenca.com/shacl/RoleAssignmentShape> <http://www.w3.org/ns/shacl#name> "Role" .
+<https://vocab.eccenca.com/shacl/RoleAssignmentShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:0d431010-ce89-554e-b870-38e1978ff762> .
+<https://vocab.eccenca.com/shacl/RoleAssignmentShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:1cc40fb0-e2ad-5ec2-967a-57b2bd33a466> .
+<https://vocab.eccenca.com/shacl/RoleAssignmentShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:9cad8851-f870-5565-a5ec-df1c85935929> .
+<https://vocab.eccenca.com/shacl/RoleAssignmentShape> <http://www.w3.org/ns/shacl#targetClass> <https://vocab.eccenca.com/dsm/RoleAssignment> .
+<https://vocab.eccenca.com/shacl/SchemaClassShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shacl/SchemaClassShape> <http://www.w3.org/2000/01/rdf-schema#label> "Schema class (e.g. table or sheet)" .
+<https://vocab.eccenca.com/shacl/SchemaClassShape> <http://www.w3.org/ns/shacl#name> "Schema class (e.g. table or sheet)" .
+<https://vocab.eccenca.com/shacl/SchemaClassShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:25a08062-50f6-56ed-93e2-720074c775ff> .
+<https://vocab.eccenca.com/shacl/SchemaClassShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:8e93c8be-dca4-58ba-b176-00d6720151f8> .
+<https://vocab.eccenca.com/shacl/SchemaClassShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:bffe0a72-ea41-5659-99ca-2b4e19d3b93a> .
+<https://vocab.eccenca.com/shacl/SchemaClassShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:dcbd823e-4b8f-53f5-9c53-1fdf8af509c1> .
+<https://vocab.eccenca.com/shacl/SchemaClassShape> <http://www.w3.org/ns/shacl#targetClass> <https://vocab.eccenca.com/dsm/SchemaClass> .
+<https://vocab.eccenca.com/shacl/SchemaClassShape> <https://vocab.eccenca.com/shui/tabName> "Schema class" .
+<https://vocab.eccenca.com/shacl/SchemaPathShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shacl/SchemaPathShape> <http://www.w3.org/2000/01/rdf-schema#label> "Schema path (e.g. attribute or column)" .
+<https://vocab.eccenca.com/shacl/SchemaPathShape> <http://www.w3.org/ns/shacl#name> "Schema path (e.g. attribute or column)" .
+<https://vocab.eccenca.com/shacl/SchemaPathShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:0ccc9da4-a875-50ae-8b9a-ac324093c3da> .
+<https://vocab.eccenca.com/shacl/SchemaPathShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:39957b3b-063c-59bb-8c03-b6297f9ed5e6> .
+<https://vocab.eccenca.com/shacl/SchemaPathShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:69c2fbaa-6c8d-5d37-bbee-e4537a7591f2> .
+<https://vocab.eccenca.com/shacl/SchemaPathShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:74dfbc65-6de9-565d-885a-f9fb931fe601> .
+<https://vocab.eccenca.com/shacl/SchemaPathShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:7b2a406f-284d-5f55-bda9-8795a5185ad7> .
+<https://vocab.eccenca.com/shacl/SchemaPathShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:ba677c2c-0827-51a1-bdd4-0a5bfb91df55> .
+<https://vocab.eccenca.com/shacl/SchemaPathShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:c50e4c7f-8d92-57b2-b1d3-f10eb1a359ee> .
+<https://vocab.eccenca.com/shacl/SchemaPathShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:c83ee6c3-ef44-51af-83d2-8e5b2b2fd79d> .
+<https://vocab.eccenca.com/shacl/SchemaPathShape> <http://www.w3.org/ns/shacl#targetClass> <https://vocab.eccenca.com/dsm/SchemaPath> .
+<https://vocab.eccenca.com/shacl/SchemaPathShape> <https://vocab.eccenca.com/shui/tabName> "Schema path" .
+<https://vocab.eccenca.com/shacl/TaggingShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shacl/TaggingShape> <http://www.w3.org/2000/01/rdf-schema#label> "Tagging" .
+<https://vocab.eccenca.com/shacl/TaggingShape> <http://www.w3.org/ns/shacl#name> "Tagging" .
+<https://vocab.eccenca.com/shacl/TaggingShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:ed73a9a5-6ff0-5919-803e-3b7d90d8ee70> .
+<https://vocab.eccenca.com/shacl/TaggingShape> <http://www.w3.org/ns/shacl#targetClass> <http://purl.org/muto/core#Tagging> .
 <https://vocab.eccenca.com/shacl/TemplateStringShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
 <https://vocab.eccenca.com/shacl/TemplateStringShape> <http://www.w3.org/2000/01/rdf-schema#label> "URI Template" .
 <https://vocab.eccenca.com/shacl/TemplateStringShape> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://tools.ietf.org/html/rfc6570> .
@@ -310,3 +406,425 @@
 <https://vocab.eccenca.com/shui/uriTemplate> <http://www.w3.org/2000/01/rdf-schema#label> "URI template for new resources"@en .
 <https://vocab.eccenca.com/shui/uriTemplate> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/shui/URITemplate> .
 <https://vocab.eccenca.com/shui/uriTemplate> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://tools.ietf.org/html/rfc6570> .
+<urn:uuid:0750aaf3-a125-5a70-8b3e-cac59160a480> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:0750aaf3-a125-5a70-8b3e-cac59160a480> <http://www.w3.org/2000/01/rdf-schema#label> "Status" .
+<urn:uuid:0750aaf3-a125-5a70-8b3e-cac59160a480> <http://www.w3.org/ns/shacl#class> <https://vocab.eccenca.com/dsm/Status> .
+<urn:uuid:0750aaf3-a125-5a70-8b3e-cac59160a480> <http://www.w3.org/ns/shacl#description> "The current status of the dataset." .
+<urn:uuid:0750aaf3-a125-5a70-8b3e-cac59160a480> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:0750aaf3-a125-5a70-8b3e-cac59160a480> <http://www.w3.org/ns/shacl#name> "Status" .
+<urn:uuid:0750aaf3-a125-5a70-8b3e-cac59160a480> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<urn:uuid:0750aaf3-a125-5a70-8b3e-cac59160a480> <http://www.w3.org/ns/shacl#order> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:0750aaf3-a125-5a70-8b3e-cac59160a480> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/dsm/hasStatus> .
+<urn:uuid:0750aaf3-a125-5a70-8b3e-cac59160a480> <https://vocab.eccenca.com/shui/denyNewResources> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<urn:uuid:0750aaf3-a125-5a70-8b3e-cac59160a480> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<urn:uuid:0ccc9da4-a875-50ae-8b9a-ac324093c3da> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:0ccc9da4-a875-50ae-8b9a-ac324093c3da> <http://www.w3.org/2000/01/rdf-schema#label> "Status" .
+<urn:uuid:0ccc9da4-a875-50ae-8b9a-ac324093c3da> <http://www.w3.org/ns/shacl#class> <https://vocab.eccenca.com/dsm/Status> .
+<urn:uuid:0ccc9da4-a875-50ae-8b9a-ac324093c3da> <http://www.w3.org/ns/shacl#description> "The current status of the schema class." .
+<urn:uuid:0ccc9da4-a875-50ae-8b9a-ac324093c3da> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:0ccc9da4-a875-50ae-8b9a-ac324093c3da> <http://www.w3.org/ns/shacl#name> "Status" .
+<urn:uuid:0ccc9da4-a875-50ae-8b9a-ac324093c3da> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<urn:uuid:0ccc9da4-a875-50ae-8b9a-ac324093c3da> <http://www.w3.org/ns/shacl#order> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:0ccc9da4-a875-50ae-8b9a-ac324093c3da> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/dsm/hasStatus> .
+<urn:uuid:0ccc9da4-a875-50ae-8b9a-ac324093c3da> <https://vocab.eccenca.com/shui/denyNewResources> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<urn:uuid:0ccc9da4-a875-50ae-8b9a-ac324093c3da> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<urn:uuid:0d431010-ce89-554e-b870-38e1978ff762> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:0d431010-ce89-554e-b870-38e1978ff762> <http://www.w3.org/2000/01/rdf-schema#label> "Type" .
+<urn:uuid:0d431010-ce89-554e-b870-38e1978ff762> <http://www.w3.org/ns/shacl#class> <https://vocab.eccenca.com/dsm/Role> .
+<urn:uuid:0d431010-ce89-554e-b870-38e1978ff762> <http://www.w3.org/ns/shacl#description> "The role type which is to be possessed by the person or group, regarding this dataset." .
+<urn:uuid:0d431010-ce89-554e-b870-38e1978ff762> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:0d431010-ce89-554e-b870-38e1978ff762> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:0d431010-ce89-554e-b870-38e1978ff762> <http://www.w3.org/ns/shacl#name> "Type" .
+<urn:uuid:0d431010-ce89-554e-b870-38e1978ff762> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<urn:uuid:0d431010-ce89-554e-b870-38e1978ff762> <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:0d431010-ce89-554e-b870-38e1978ff762> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/dsm/assignedRole> .
+<urn:uuid:0d431010-ce89-554e-b870-38e1978ff762> <https://vocab.eccenca.com/shui/denyNewResources> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<urn:uuid:19999085-2606-5944-b475-a27441cc23a0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:19999085-2606-5944-b475-a27441cc23a0> <http://www.w3.org/2000/01/rdf-schema#label> "Certificate document" .
+<urn:uuid:19999085-2606-5944-b475-a27441cc23a0> <http://www.w3.org/ns/shacl#class> <http://xmlns.com/foaf/0.1/Document> .
+<urn:uuid:19999085-2606-5944-b475-a27441cc23a0> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:19999085-2606-5944-b475-a27441cc23a0> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:19999085-2606-5944-b475-a27441cc23a0> <http://www.w3.org/ns/shacl#name> "Certificate document" .
+<urn:uuid:19999085-2606-5944-b475-a27441cc23a0> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<urn:uuid:19999085-2606-5944-b475-a27441cc23a0> <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:19999085-2606-5944-b475-a27441cc23a0> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/oa#hasBody> .
+<urn:uuid:1b6f0818-1562-5793-8714-2eb34ad71947> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:1b6f0818-1562-5793-8714-2eb34ad71947> <http://www.w3.org/2000/01/rdf-schema#label> "Standard" .
+<urn:uuid:1b6f0818-1562-5793-8714-2eb34ad71947> <http://www.w3.org/ns/shacl#class> <http://purl.org/dc/terms/Standard> .
+<urn:uuid:1b6f0818-1562-5793-8714-2eb34ad71947> <http://www.w3.org/ns/shacl#description> "Expresses the conformance of the dataset with a given standard." .
+<urn:uuid:1b6f0818-1562-5793-8714-2eb34ad71947> <http://www.w3.org/ns/shacl#name> "Standard" .
+<urn:uuid:1b6f0818-1562-5793-8714-2eb34ad71947> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<urn:uuid:1b6f0818-1562-5793-8714-2eb34ad71947> <http://www.w3.org/ns/shacl#order> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:1b6f0818-1562-5793-8714-2eb34ad71947> <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/conformsTo> .
+<urn:uuid:1cc40fb0-e2ad-5ec2-967a-57b2bd33a466> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:1cc40fb0-e2ad-5ec2-967a-57b2bd33a466> <http://www.w3.org/2000/01/rdf-schema#label> "Agent" .
+<urn:uuid:1cc40fb0-e2ad-5ec2-967a-57b2bd33a466> <http://www.w3.org/ns/shacl#class> <http://xmlns.com/foaf/0.1/Agent> .
+<urn:uuid:1cc40fb0-e2ad-5ec2-967a-57b2bd33a466> <http://www.w3.org/ns/shacl#description> "The person or group which possesses the role, regarding this dataset." .
+<urn:uuid:1cc40fb0-e2ad-5ec2-967a-57b2bd33a466> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:1cc40fb0-e2ad-5ec2-967a-57b2bd33a466> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:1cc40fb0-e2ad-5ec2-967a-57b2bd33a466> <http://www.w3.org/ns/shacl#name> "Agent" .
+<urn:uuid:1cc40fb0-e2ad-5ec2-967a-57b2bd33a466> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<urn:uuid:1cc40fb0-e2ad-5ec2-967a-57b2bd33a466> <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:1cc40fb0-e2ad-5ec2-967a-57b2bd33a466> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/dsm/assignedAgent> .
+<urn:uuid:1e4b4704-5cb8-5346-9ea7-51fc51d8bfb9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:1e4b4704-5cb8-5346-9ea7-51fc51d8bfb9> <http://www.w3.org/2000/01/rdf-schema#label> "Start of coverage" .
+<urn:uuid:1e4b4704-5cb8-5346-9ea7-51fc51d8bfb9> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<urn:uuid:1e4b4704-5cb8-5346-9ea7-51fc51d8bfb9> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:1e4b4704-5cb8-5346-9ea7-51fc51d8bfb9> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:1e4b4704-5cb8-5346-9ea7-51fc51d8bfb9> <http://www.w3.org/ns/shacl#name> "Start of coverage" .
+<urn:uuid:1e4b4704-5cb8-5346-9ea7-51fc51d8bfb9> <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:1e4b4704-5cb8-5346-9ea7-51fc51d8bfb9> <http://www.w3.org/ns/shacl#path> <http://schema.org/startDate> .
+<urn:uuid:240d436c-bb08-5d7f-bcbd-7db51f4133c7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:240d436c-bb08-5d7f-bcbd-7db51f4133c7> <http://www.w3.org/2000/01/rdf-schema#label> "Value" .
+<urn:uuid:240d436c-bb08-5d7f-bcbd-7db51f4133c7> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<urn:uuid:240d436c-bb08-5d7f-bcbd-7db51f4133c7> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:240d436c-bb08-5d7f-bcbd-7db51f4133c7> <http://www.w3.org/ns/shacl#name> "Value" .
+<urn:uuid:240d436c-bb08-5d7f-bcbd-7db51f4133c7> <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:240d436c-bb08-5d7f-bcbd-7db51f4133c7> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/dsm/value> .
+<urn:uuid:25a08062-50f6-56ed-93e2-720074c775ff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:25a08062-50f6-56ed-93e2-720074c775ff> <http://www.w3.org/2000/01/rdf-schema#label> "Status" .
+<urn:uuid:25a08062-50f6-56ed-93e2-720074c775ff> <http://www.w3.org/ns/shacl#class> <https://vocab.eccenca.com/dsm/Status> .
+<urn:uuid:25a08062-50f6-56ed-93e2-720074c775ff> <http://www.w3.org/ns/shacl#description> "The current status of the schema class." .
+<urn:uuid:25a08062-50f6-56ed-93e2-720074c775ff> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:25a08062-50f6-56ed-93e2-720074c775ff> <http://www.w3.org/ns/shacl#name> "Status" .
+<urn:uuid:25a08062-50f6-56ed-93e2-720074c775ff> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<urn:uuid:25a08062-50f6-56ed-93e2-720074c775ff> <http://www.w3.org/ns/shacl#order> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:25a08062-50f6-56ed-93e2-720074c775ff> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/dsm/hasStatus> .
+<urn:uuid:25a08062-50f6-56ed-93e2-720074c775ff> <https://vocab.eccenca.com/shui/denyNewResources> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<urn:uuid:25a08062-50f6-56ed-93e2-720074c775ff> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<urn:uuid:30bdddce-5736-5ba8-8ef0-11cfa9642c88> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:30bdddce-5736-5ba8-8ef0-11cfa9642c88> <http://www.w3.org/2000/01/rdf-schema#label> "Type" .
+<urn:uuid:30bdddce-5736-5ba8-8ef0-11cfa9642c88> <http://www.w3.org/ns/shacl#class> <https://vocab.eccenca.com/dsm/Relation> .
+<urn:uuid:30bdddce-5736-5ba8-8ef0-11cfa9642c88> <http://www.w3.org/ns/shacl#description> "The assigned relation type." .
+<urn:uuid:30bdddce-5736-5ba8-8ef0-11cfa9642c88> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:30bdddce-5736-5ba8-8ef0-11cfa9642c88> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:30bdddce-5736-5ba8-8ef0-11cfa9642c88> <http://www.w3.org/ns/shacl#name> "Type" .
+<urn:uuid:30bdddce-5736-5ba8-8ef0-11cfa9642c88> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<urn:uuid:30bdddce-5736-5ba8-8ef0-11cfa9642c88> <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:30bdddce-5736-5ba8-8ef0-11cfa9642c88> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/dsm/relation> .
+<urn:uuid:30bdddce-5736-5ba8-8ef0-11cfa9642c88> <https://vocab.eccenca.com/shui/denyNewResources> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<urn:uuid:3164ade4-2d54-5367-99ea-4bde7269a3a2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:3164ade4-2d54-5367-99ea-4bde7269a3a2> <http://www.w3.org/2000/01/rdf-schema#label> "Recovery window (value)" .
+<urn:uuid:3164ade4-2d54-5367-99ea-4bde7269a3a2> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:3164ade4-2d54-5367-99ea-4bde7269a3a2> <http://www.w3.org/ns/shacl#name> "Recovery window (value)" .
+<urn:uuid:3164ade4-2d54-5367-99ea-4bde7269a3a2> <http://www.w3.org/ns/shacl#order> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:3164ade4-2d54-5367-99ea-4bde7269a3a2> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/dsm/recoveryWindowTimeValue> .
+<urn:uuid:39957b3b-063c-59bb-8c03-b6297f9ed5e6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:39957b3b-063c-59bb-8c03-b6297f9ed5e6> <http://www.w3.org/2000/01/rdf-schema#label> "Relation to other attribute" .
+<urn:uuid:39957b3b-063c-59bb-8c03-b6297f9ed5e6> <http://www.w3.org/ns/shacl#name> "Relation to other attribute" .
+<urn:uuid:39957b3b-063c-59bb-8c03-b6297f9ed5e6> <http://www.w3.org/ns/shacl#node> <https://vocab.eccenca.com/shacl/RelationAssignmentShape> .
+<urn:uuid:39957b3b-063c-59bb-8c03-b6297f9ed5e6> <http://www.w3.org/ns/shacl#order> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:39957b3b-063c-59bb-8c03-b6297f9ed5e6> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/dsm/sourceResource> .
+<urn:uuid:39957b3b-063c-59bb-8c03-b6297f9ed5e6> <https://vocab.eccenca.com/shui/inversePath> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<urn:uuid:3dcd045f-9213-5a1b-b571-b4f368cfbcb6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:3dcd045f-9213-5a1b-b571-b4f368cfbcb6> <http://www.w3.org/2000/01/rdf-schema#label> "Version" .
+<urn:uuid:3dcd045f-9213-5a1b-b571-b4f368cfbcb6> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<urn:uuid:3dcd045f-9213-5a1b-b571-b4f368cfbcb6> <http://www.w3.org/ns/shacl#description> "The textual version identifier of the dataset." .
+<urn:uuid:3dcd045f-9213-5a1b-b571-b4f368cfbcb6> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:3dcd045f-9213-5a1b-b571-b4f368cfbcb6> <http://www.w3.org/ns/shacl#name> "Version" .
+<urn:uuid:3dcd045f-9213-5a1b-b571-b4f368cfbcb6> <http://www.w3.org/ns/shacl#order> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:3dcd045f-9213-5a1b-b571-b4f368cfbcb6> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/dsm/version> .
+<urn:uuid:585a3453-7ad4-5650-ad29-6e8ca6440a38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:585a3453-7ad4-5650-ad29-6e8ca6440a38> <http://www.w3.org/2000/01/rdf-schema#label> "Backup / Data retention policy" .
+<urn:uuid:585a3453-7ad4-5650-ad29-6e8ca6440a38> <http://www.w3.org/ns/shacl#name> "Backup / Data retention policy" .
+<urn:uuid:585a3453-7ad4-5650-ad29-6e8ca6440a38> <http://www.w3.org/ns/shacl#node> <https://vocab.eccenca.com/shacl/BackupRetentionPolicyShape> .
+<urn:uuid:585a3453-7ad4-5650-ad29-6e8ca6440a38> <http://www.w3.org/ns/shacl#order> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:585a3453-7ad4-5650-ad29-6e8ca6440a38> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/dsm/hasBackupRetentionPolicy> .
+<urn:uuid:58bf3fc5-5c8a-52cc-991c-ba5d968f82cc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:58bf3fc5-5c8a-52cc-991c-ba5d968f82cc> <http://www.w3.org/2000/01/rdf-schema#label> "Comment" .
+<urn:uuid:58bf3fc5-5c8a-52cc-991c-ba5d968f82cc> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<urn:uuid:58bf3fc5-5c8a-52cc-991c-ba5d968f82cc> <http://www.w3.org/ns/shacl#description> "An optional comment regarding the quality measurement" .
+<urn:uuid:58bf3fc5-5c8a-52cc-991c-ba5d968f82cc> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:58bf3fc5-5c8a-52cc-991c-ba5d968f82cc> <http://www.w3.org/ns/shacl#name> "Comment" .
+<urn:uuid:58bf3fc5-5c8a-52cc-991c-ba5d968f82cc> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<urn:uuid:58bf3fc5-5c8a-52cc-991c-ba5d968f82cc> <http://www.w3.org/ns/shacl#order> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:58bf3fc5-5c8a-52cc-991c-ba5d968f82cc> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2000/01/rdf-schema#comment> .
+<urn:uuid:58bf3fc5-5c8a-52cc-991c-ba5d968f82cc> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<urn:uuid:5af23311-f859-5de7-8985-de0c4a21a3b5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:5af23311-f859-5de7-8985-de0c4a21a3b5> <http://www.w3.org/2000/01/rdf-schema#label> "Target" .
+<urn:uuid:5af23311-f859-5de7-8985-de0c4a21a3b5> <http://www.w3.org/ns/shacl#class> <https://vocab.eccenca.com/dsm/SchemaPath> .
+<urn:uuid:5af23311-f859-5de7-8985-de0c4a21a3b5> <http://www.w3.org/ns/shacl#description> "The resource to relate with." .
+<urn:uuid:5af23311-f859-5de7-8985-de0c4a21a3b5> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:5af23311-f859-5de7-8985-de0c4a21a3b5> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:5af23311-f859-5de7-8985-de0c4a21a3b5> <http://www.w3.org/ns/shacl#name> "Target" .
+<urn:uuid:5af23311-f859-5de7-8985-de0c4a21a3b5> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<urn:uuid:5af23311-f859-5de7-8985-de0c4a21a3b5> <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:5af23311-f859-5de7-8985-de0c4a21a3b5> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/dsm/targetResource> .
+<urn:uuid:5d8e5d12-6e07-52cb-8938-8e1ec994619e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:5d8e5d12-6e07-52cb-8938-8e1ec994619e> <http://www.w3.org/2000/01/rdf-schema#label> "Time scope" .
+<urn:uuid:5d8e5d12-6e07-52cb-8938-8e1ec994619e> <http://www.w3.org/ns/shacl#class> <https://vocab.eccenca.com/dsm/TimeUnit> .
+<urn:uuid:5d8e5d12-6e07-52cb-8938-8e1ec994619e> <http://www.w3.org/ns/shacl#description> "The unit of measurement, the frequency is based on." .
+<urn:uuid:5d8e5d12-6e07-52cb-8938-8e1ec994619e> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:5d8e5d12-6e07-52cb-8938-8e1ec994619e> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:5d8e5d12-6e07-52cb-8938-8e1ec994619e> <http://www.w3.org/ns/shacl#name> "Time scope" .
+<urn:uuid:5d8e5d12-6e07-52cb-8938-8e1ec994619e> <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:5d8e5d12-6e07-52cb-8938-8e1ec994619e> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/dsm/backupFrequencyScope> .
+<urn:uuid:6836d9c5-6157-5b25-a2e2-9fa0d8750add> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:6836d9c5-6157-5b25-a2e2-9fa0d8750add> <http://www.w3.org/2000/01/rdf-schema#label> "Redundancy" .
+<urn:uuid:6836d9c5-6157-5b25-a2e2-9fa0d8750add> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:6836d9c5-6157-5b25-a2e2-9fa0d8750add> <http://www.w3.org/ns/shacl#name> "Redundancy" .
+<urn:uuid:6836d9c5-6157-5b25-a2e2-9fa0d8750add> <http://www.w3.org/ns/shacl#order> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:6836d9c5-6157-5b25-a2e2-9fa0d8750add> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/dsm/backupRedundancy> .
+<urn:uuid:69c2fbaa-6c8d-5d37-bbee-e4537a7591f2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:69c2fbaa-6c8d-5d37-bbee-e4537a7591f2> <http://www.w3.org/2000/01/rdf-schema#label> "Quality measurement" .
+<urn:uuid:69c2fbaa-6c8d-5d37-bbee-e4537a7591f2> <http://www.w3.org/ns/shacl#name> "Quality measurement" .
+<urn:uuid:69c2fbaa-6c8d-5d37-bbee-e4537a7591f2> <http://www.w3.org/ns/shacl#node> <https://vocab.eccenca.com/shacl/QualityMeasurementShape> .
+<urn:uuid:69c2fbaa-6c8d-5d37-bbee-e4537a7591f2> <http://www.w3.org/ns/shacl#order> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:69c2fbaa-6c8d-5d37-bbee-e4537a7591f2> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/dqv#hasQualityMeasurement> .
+<urn:uuid:74dfbc65-6de9-565d-885a-f9fb931fe601> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:74dfbc65-6de9-565d-885a-f9fb931fe601> <http://www.w3.org/2000/01/rdf-schema#label> "Name" .
+<urn:uuid:74dfbc65-6de9-565d-885a-f9fb931fe601> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<urn:uuid:74dfbc65-6de9-565d-885a-f9fb931fe601> <http://www.w3.org/ns/shacl#description> "The preferred human readable label for the schema path." .
+<urn:uuid:74dfbc65-6de9-565d-885a-f9fb931fe601> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:74dfbc65-6de9-565d-885a-f9fb931fe601> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:74dfbc65-6de9-565d-885a-f9fb931fe601> <http://www.w3.org/ns/shacl#name> "Name" .
+<urn:uuid:74dfbc65-6de9-565d-885a-f9fb931fe601> <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:74dfbc65-6de9-565d-885a-f9fb931fe601> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2000/01/rdf-schema#label> .
+<urn:uuid:7554d9fb-e98a-5ec1-85ef-fe20fab1bc86> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:7554d9fb-e98a-5ec1-85ef-fe20fab1bc86> <http://www.w3.org/2000/01/rdf-schema#label> "Comment" .
+<urn:uuid:7554d9fb-e98a-5ec1-85ef-fe20fab1bc86> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<urn:uuid:7554d9fb-e98a-5ec1-85ef-fe20fab1bc86> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:7554d9fb-e98a-5ec1-85ef-fe20fab1bc86> <http://www.w3.org/ns/shacl#name> "Comment" .
+<urn:uuid:7554d9fb-e98a-5ec1-85ef-fe20fab1bc86> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<urn:uuid:7554d9fb-e98a-5ec1-85ef-fe20fab1bc86> <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:7554d9fb-e98a-5ec1-85ef-fe20fab1bc86> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2000/01/rdf-schema#comment> .
+<urn:uuid:7b2a406f-284d-5f55-bda9-8795a5185ad7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:7b2a406f-284d-5f55-bda9-8795a5185ad7> <http://www.w3.org/2000/01/rdf-schema#label> "Role" .
+<urn:uuid:7b2a406f-284d-5f55-bda9-8795a5185ad7> <http://www.w3.org/ns/shacl#description> "A role assigned to this schema path." .
+<urn:uuid:7b2a406f-284d-5f55-bda9-8795a5185ad7> <http://www.w3.org/ns/shacl#name> "Role" .
+<urn:uuid:7b2a406f-284d-5f55-bda9-8795a5185ad7> <http://www.w3.org/ns/shacl#node> <https://vocab.eccenca.com/shacl/RoleAssignmentShape> .
+<urn:uuid:7b2a406f-284d-5f55-bda9-8795a5185ad7> <http://www.w3.org/ns/shacl#order> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:7b2a406f-284d-5f55-bda9-8795a5185ad7> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/dsm/hasRoleAssignment> .
+<urn:uuid:81b7916e-c17e-558d-8765-90f6fed71823> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:81b7916e-c17e-558d-8765-90f6fed71823> <http://www.w3.org/2000/01/rdf-schema#label> "Domain" .
+<urn:uuid:81b7916e-c17e-558d-8765-90f6fed71823> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2004/02/skos/core#Concept> .
+<urn:uuid:81b7916e-c17e-558d-8765-90f6fed71823> <http://www.w3.org/ns/shacl#description> "The semantic domain with regard to the contents." .
+<urn:uuid:81b7916e-c17e-558d-8765-90f6fed71823> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:81b7916e-c17e-558d-8765-90f6fed71823> <http://www.w3.org/ns/shacl#name> "Domain" .
+<urn:uuid:81b7916e-c17e-558d-8765-90f6fed71823> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<urn:uuid:81b7916e-c17e-558d-8765-90f6fed71823> <http://www.w3.org/ns/shacl#order> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:81b7916e-c17e-558d-8765-90f6fed71823> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/dcat#theme> .
+<urn:uuid:81b7916e-c17e-558d-8765-90f6fed71823> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<urn:uuid:823a455e-b99e-5a95-ae92-164b0c70c780> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:823a455e-b99e-5a95-ae92-164b0c70c780> <http://www.w3.org/2000/01/rdf-schema#label> "Value" .
+<urn:uuid:823a455e-b99e-5a95-ae92-164b0c70c780> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<urn:uuid:823a455e-b99e-5a95-ae92-164b0c70c780> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:823a455e-b99e-5a95-ae92-164b0c70c780> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:823a455e-b99e-5a95-ae92-164b0c70c780> <http://www.w3.org/ns/shacl#name> "Value" .
+<urn:uuid:823a455e-b99e-5a95-ae92-164b0c70c780> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<urn:uuid:823a455e-b99e-5a95-ae92-164b0c70c780> <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:823a455e-b99e-5a95-ae92-164b0c70c780> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/dqv#value> .
+<urn:uuid:8571045f-e3a9-5879-aca4-75beffaaca14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:8571045f-e3a9-5879-aca4-75beffaaca14> <http://www.w3.org/2000/01/rdf-schema#label> "Comment" .
+<urn:uuid:8571045f-e3a9-5879-aca4-75beffaaca14> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<urn:uuid:8571045f-e3a9-5879-aca4-75beffaaca14> <http://www.w3.org/ns/shacl#description> "An optional comment regarding this relation assignment." .
+<urn:uuid:8571045f-e3a9-5879-aca4-75beffaaca14> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:8571045f-e3a9-5879-aca4-75beffaaca14> <http://www.w3.org/ns/shacl#name> "Comment" .
+<urn:uuid:8571045f-e3a9-5879-aca4-75beffaaca14> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<urn:uuid:8571045f-e3a9-5879-aca4-75beffaaca14> <http://www.w3.org/ns/shacl#order> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:8571045f-e3a9-5879-aca4-75beffaaca14> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2000/01/rdf-schema#comment> .
+<urn:uuid:8571045f-e3a9-5879-aca4-75beffaaca14> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<urn:uuid:8b51e8f7-71ef-5df2-ad98-2164bcbf9637> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:8b51e8f7-71ef-5df2-ad98-2164bcbf9637> <http://www.w3.org/2000/01/rdf-schema#label> "Role" .
+<urn:uuid:8b51e8f7-71ef-5df2-ad98-2164bcbf9637> <http://www.w3.org/ns/shacl#description> "A role assigned to this dataset." .
+<urn:uuid:8b51e8f7-71ef-5df2-ad98-2164bcbf9637> <http://www.w3.org/ns/shacl#name> "Role" .
+<urn:uuid:8b51e8f7-71ef-5df2-ad98-2164bcbf9637> <http://www.w3.org/ns/shacl#node> <https://vocab.eccenca.com/shacl/RoleAssignmentShape> .
+<urn:uuid:8b51e8f7-71ef-5df2-ad98-2164bcbf9637> <http://www.w3.org/ns/shacl#order> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:8b51e8f7-71ef-5df2-ad98-2164bcbf9637> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/dsm/hasRoleAssignment> .
+<urn:uuid:8bd06d56-715e-5afd-9f25-d2be43b52b70> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:8bd06d56-715e-5afd-9f25-d2be43b52b70> <http://www.w3.org/2000/01/rdf-schema#label> "Comment" .
+<urn:uuid:8bd06d56-715e-5afd-9f25-d2be43b52b70> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<urn:uuid:8bd06d56-715e-5afd-9f25-d2be43b52b70> <http://www.w3.org/ns/shacl#description> "An optional comment regarding this policy." .
+<urn:uuid:8bd06d56-715e-5afd-9f25-d2be43b52b70> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:8bd06d56-715e-5afd-9f25-d2be43b52b70> <http://www.w3.org/ns/shacl#name> "Comment" .
+<urn:uuid:8bd06d56-715e-5afd-9f25-d2be43b52b70> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<urn:uuid:8bd06d56-715e-5afd-9f25-d2be43b52b70> <http://www.w3.org/ns/shacl#order> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:8bd06d56-715e-5afd-9f25-d2be43b52b70> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2000/01/rdf-schema#comment> .
+<urn:uuid:8e93c8be-dca4-58ba-b176-00d6720151f8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:8e93c8be-dca4-58ba-b176-00d6720151f8> <http://www.w3.org/2000/01/rdf-schema#label> "Tags" .
+<urn:uuid:8e93c8be-dca4-58ba-b176-00d6720151f8> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:8e93c8be-dca4-58ba-b176-00d6720151f8> <http://www.w3.org/ns/shacl#name> "Tags" .
+<urn:uuid:8e93c8be-dca4-58ba-b176-00d6720151f8> <http://www.w3.org/ns/shacl#node> <https://vocab.eccenca.com/shacl/TaggingShape> .
+<urn:uuid:8e93c8be-dca4-58ba-b176-00d6720151f8> <http://www.w3.org/ns/shacl#order> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:8e93c8be-dca4-58ba-b176-00d6720151f8> <http://www.w3.org/ns/shacl#path> <http://purl.org/muto/core#taggedResource> .
+<urn:uuid:8e93c8be-dca4-58ba-b176-00d6720151f8> <https://vocab.eccenca.com/shui/inversePath> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<urn:uuid:8e93c8be-dca4-58ba-b176-00d6720151f8> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<urn:uuid:95af00a9-be62-59f2-b91d-5e2b6f361138> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:95af00a9-be62-59f2-b91d-5e2b6f361138> <http://www.w3.org/2000/01/rdf-schema#label> "Recovery window (unit)" .
+<urn:uuid:95af00a9-be62-59f2-b91d-5e2b6f361138> <http://www.w3.org/ns/shacl#class> <https://vocab.eccenca.com/dsm/TimeUnit> .
+<urn:uuid:95af00a9-be62-59f2-b91d-5e2b6f361138> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:95af00a9-be62-59f2-b91d-5e2b6f361138> <http://www.w3.org/ns/shacl#name> "Recovery window (unit)" .
+<urn:uuid:95af00a9-be62-59f2-b91d-5e2b6f361138> <http://www.w3.org/ns/shacl#order> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:95af00a9-be62-59f2-b91d-5e2b6f361138> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/dsm/recoveryWindowTimeUnit> .
+<urn:uuid:9b91b0e7-c6a3-5eaf-8197-47305493afbd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:9b91b0e7-c6a3-5eaf-8197-47305493afbd> <http://www.w3.org/2000/01/rdf-schema#label> "Name" .
+<urn:uuid:9b91b0e7-c6a3-5eaf-8197-47305493afbd> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<urn:uuid:9b91b0e7-c6a3-5eaf-8197-47305493afbd> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:9b91b0e7-c6a3-5eaf-8197-47305493afbd> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:9b91b0e7-c6a3-5eaf-8197-47305493afbd> <http://www.w3.org/ns/shacl#name> "Name" .
+<urn:uuid:9b91b0e7-c6a3-5eaf-8197-47305493afbd> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<urn:uuid:9b91b0e7-c6a3-5eaf-8197-47305493afbd> <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:9b91b0e7-c6a3-5eaf-8197-47305493afbd> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2000/01/rdf-schema#label> .
+<urn:uuid:9cad8851-f870-5565-a5ec-df1c85935929> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:9cad8851-f870-5565-a5ec-df1c85935929> <http://www.w3.org/2000/01/rdf-schema#label> "Comment" .
+<urn:uuid:9cad8851-f870-5565-a5ec-df1c85935929> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<urn:uuid:9cad8851-f870-5565-a5ec-df1c85935929> <http://www.w3.org/ns/shacl#description> "An optional comment regarding this role assignment." .
+<urn:uuid:9cad8851-f870-5565-a5ec-df1c85935929> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:9cad8851-f870-5565-a5ec-df1c85935929> <http://www.w3.org/ns/shacl#name> "Comment" .
+<urn:uuid:9cad8851-f870-5565-a5ec-df1c85935929> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<urn:uuid:9cad8851-f870-5565-a5ec-df1c85935929> <http://www.w3.org/ns/shacl#order> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:9cad8851-f870-5565-a5ec-df1c85935929> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2000/01/rdf-schema#comment> .
+<urn:uuid:9cad8851-f870-5565-a5ec-df1c85935929> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<urn:uuid:ba677c2c-0827-51a1-bdd4-0a5bfb91df55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:ba677c2c-0827-51a1-bdd4-0a5bfb91df55> <http://www.w3.org/2000/01/rdf-schema#label> "Description" .
+<urn:uuid:ba677c2c-0827-51a1-bdd4-0a5bfb91df55> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<urn:uuid:ba677c2c-0827-51a1-bdd4-0a5bfb91df55> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:ba677c2c-0827-51a1-bdd4-0a5bfb91df55> <http://www.w3.org/ns/shacl#name> "Description" .
+<urn:uuid:ba677c2c-0827-51a1-bdd4-0a5bfb91df55> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<urn:uuid:ba677c2c-0827-51a1-bdd4-0a5bfb91df55> <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:ba677c2c-0827-51a1-bdd4-0a5bfb91df55> <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/description> .
+<urn:uuid:ba677c2c-0827-51a1-bdd4-0a5bfb91df55> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<urn:uuid:bffe0a72-ea41-5659-99ca-2b4e19d3b93a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:bffe0a72-ea41-5659-99ca-2b4e19d3b93a> <http://www.w3.org/2000/01/rdf-schema#label> "Name" .
+<urn:uuid:bffe0a72-ea41-5659-99ca-2b4e19d3b93a> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<urn:uuid:bffe0a72-ea41-5659-99ca-2b4e19d3b93a> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:bffe0a72-ea41-5659-99ca-2b4e19d3b93a> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:bffe0a72-ea41-5659-99ca-2b4e19d3b93a> <http://www.w3.org/ns/shacl#name> "Name" .
+<urn:uuid:bffe0a72-ea41-5659-99ca-2b4e19d3b93a> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<urn:uuid:bffe0a72-ea41-5659-99ca-2b4e19d3b93a> <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:bffe0a72-ea41-5659-99ca-2b4e19d3b93a> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2000/01/rdf-schema#label> .
+<urn:uuid:c032eee2-c948-51ee-a19d-a1b3bdca3290> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:c032eee2-c948-51ee-a19d-a1b3bdca3290> <http://www.w3.org/2000/01/rdf-schema#label> "Description" .
+<urn:uuid:c032eee2-c948-51ee-a19d-a1b3bdca3290> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<urn:uuid:c032eee2-c948-51ee-a19d-a1b3bdca3290> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:c032eee2-c948-51ee-a19d-a1b3bdca3290> <http://www.w3.org/ns/shacl#name> "Description" .
+<urn:uuid:c032eee2-c948-51ee-a19d-a1b3bdca3290> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<urn:uuid:c032eee2-c948-51ee-a19d-a1b3bdca3290> <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:c032eee2-c948-51ee-a19d-a1b3bdca3290> <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/description> .
+<urn:uuid:c032eee2-c948-51ee-a19d-a1b3bdca3290> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<urn:uuid:c50e4c7f-8d92-57b2-b1d3-f10eb1a359ee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:c50e4c7f-8d92-57b2-b1d3-f10eb1a359ee> <http://www.w3.org/2000/01/rdf-schema#label> "Standard" .
+<urn:uuid:c50e4c7f-8d92-57b2-b1d3-f10eb1a359ee> <http://www.w3.org/ns/shacl#class> <http://purl.org/dc/terms/Standard> .
+<urn:uuid:c50e4c7f-8d92-57b2-b1d3-f10eb1a359ee> <http://www.w3.org/ns/shacl#description> "Expresses the conformance of the values of the path with a given standard." .
+<urn:uuid:c50e4c7f-8d92-57b2-b1d3-f10eb1a359ee> <http://www.w3.org/ns/shacl#name> "Standard" .
+<urn:uuid:c50e4c7f-8d92-57b2-b1d3-f10eb1a359ee> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<urn:uuid:c50e4c7f-8d92-57b2-b1d3-f10eb1a359ee> <http://www.w3.org/ns/shacl#order> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:c50e4c7f-8d92-57b2-b1d3-f10eb1a359ee> <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/conformsTo> .
+<urn:uuid:c83ee6c3-ef44-51af-83d2-8e5b2b2fd79d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:c83ee6c3-ef44-51af-83d2-8e5b2b2fd79d> <http://www.w3.org/2000/01/rdf-schema#label> "Tags" .
+<urn:uuid:c83ee6c3-ef44-51af-83d2-8e5b2b2fd79d> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:c83ee6c3-ef44-51af-83d2-8e5b2b2fd79d> <http://www.w3.org/ns/shacl#name> "Tags" .
+<urn:uuid:c83ee6c3-ef44-51af-83d2-8e5b2b2fd79d> <http://www.w3.org/ns/shacl#node> <https://vocab.eccenca.com/shacl/TaggingShape> .
+<urn:uuid:c83ee6c3-ef44-51af-83d2-8e5b2b2fd79d> <http://www.w3.org/ns/shacl#order> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:c83ee6c3-ef44-51af-83d2-8e5b2b2fd79d> <http://www.w3.org/ns/shacl#path> <http://purl.org/muto/core#taggedResource> .
+<urn:uuid:c83ee6c3-ef44-51af-83d2-8e5b2b2fd79d> <https://vocab.eccenca.com/shui/inversePath> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<urn:uuid:c83ee6c3-ef44-51af-83d2-8e5b2b2fd79d> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<urn:uuid:d03303ae-2f3a-5361-afff-036b11402e4c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:d03303ae-2f3a-5361-afff-036b11402e4c> <http://www.w3.org/2000/01/rdf-schema#label> "Quality certificate" .
+<urn:uuid:d03303ae-2f3a-5361-afff-036b11402e4c> <http://www.w3.org/ns/shacl#description> "Expresses that the dataset received a specific certificate." .
+<urn:uuid:d03303ae-2f3a-5361-afff-036b11402e4c> <http://www.w3.org/ns/shacl#name> "Quality certificate" .
+<urn:uuid:d03303ae-2f3a-5361-afff-036b11402e4c> <http://www.w3.org/ns/shacl#node> <https://vocab.eccenca.com/shacl/QualityCertificateShape> .
+<urn:uuid:d03303ae-2f3a-5361-afff-036b11402e4c> <http://www.w3.org/ns/shacl#order> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:d03303ae-2f3a-5361-afff-036b11402e4c> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/dqv#hasQualityAnnotation> .
+<urn:uuid:d46d755f-74f8-59b0-8ca2-beb230da429c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:d46d755f-74f8-59b0-8ca2-beb230da429c> <http://www.w3.org/2000/01/rdf-schema#label> "Key" .
+<urn:uuid:d46d755f-74f8-59b0-8ca2-beb230da429c> <http://www.w3.org/ns/shacl#class> <https://vocab.eccenca.com/dsm/ConfigurationKey> .
+<urn:uuid:d46d755f-74f8-59b0-8ca2-beb230da429c> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:d46d755f-74f8-59b0-8ca2-beb230da429c> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:d46d755f-74f8-59b0-8ca2-beb230da429c> <http://www.w3.org/ns/shacl#name> "Key" .
+<urn:uuid:d46d755f-74f8-59b0-8ca2-beb230da429c> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<urn:uuid:d46d755f-74f8-59b0-8ca2-beb230da429c> <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:d46d755f-74f8-59b0-8ca2-beb230da429c> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/dsm/key> .
+<urn:uuid:dc643611-93d9-5ef4-b892-f7e466a68d7a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:dc643611-93d9-5ef4-b892-f7e466a68d7a> <http://www.w3.org/2000/01/rdf-schema#label> "Workflow configuration" .
+<urn:uuid:dc643611-93d9-5ef4-b892-f7e466a68d7a> <http://www.w3.org/ns/shacl#description> "A key/value configuration structure which can be used to control workflow execution." .
+<urn:uuid:dc643611-93d9-5ef4-b892-f7e466a68d7a> <http://www.w3.org/ns/shacl#name> "Workflow configuration" .
+<urn:uuid:dc643611-93d9-5ef4-b892-f7e466a68d7a> <http://www.w3.org/ns/shacl#node> <https://vocab.eccenca.com/shacl/ConfigurationShape> .
+<urn:uuid:dc643611-93d9-5ef4-b892-f7e466a68d7a> <http://www.w3.org/ns/shacl#order> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:dc643611-93d9-5ef4-b892-f7e466a68d7a> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/dsm/hasConfiguration> .
+<urn:uuid:dcbd823e-4b8f-53f5-9c53-1fdf8af509c1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:dcbd823e-4b8f-53f5-9c53-1fdf8af509c1> <http://www.w3.org/2000/01/rdf-schema#label> "Description" .
+<urn:uuid:dcbd823e-4b8f-53f5-9c53-1fdf8af509c1> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<urn:uuid:dcbd823e-4b8f-53f5-9c53-1fdf8af509c1> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:dcbd823e-4b8f-53f5-9c53-1fdf8af509c1> <http://www.w3.org/ns/shacl#name> "Description" .
+<urn:uuid:dcbd823e-4b8f-53f5-9c53-1fdf8af509c1> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<urn:uuid:dcbd823e-4b8f-53f5-9c53-1fdf8af509c1> <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:dcbd823e-4b8f-53f5-9c53-1fdf8af509c1> <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/description> .
+<urn:uuid:dcbd823e-4b8f-53f5-9c53-1fdf8af509c1> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<urn:uuid:e80a16f8-210c-5183-a111-98ee2878d11d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:e80a16f8-210c-5183-a111-98ee2878d11d> <http://www.w3.org/2000/01/rdf-schema#label> "Start" .
+<urn:uuid:e80a16f8-210c-5183-a111-98ee2878d11d> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<urn:uuid:e80a16f8-210c-5183-a111-98ee2878d11d> <http://www.w3.org/ns/shacl#description> "The start time for the continuous backup time calculation." .
+<urn:uuid:e80a16f8-210c-5183-a111-98ee2878d11d> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:e80a16f8-210c-5183-a111-98ee2878d11d> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:e80a16f8-210c-5183-a111-98ee2878d11d> <http://www.w3.org/ns/shacl#name> "Start" .
+<urn:uuid:e80a16f8-210c-5183-a111-98ee2878d11d> <http://www.w3.org/ns/shacl#order> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:e80a16f8-210c-5183-a111-98ee2878d11d> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/dsm/backupFrequencyStart> .
+<urn:uuid:e9c803f2-953f-5343-a78b-d8e9ba6149ea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:e9c803f2-953f-5343-a78b-d8e9ba6149ea> <http://www.w3.org/2000/01/rdf-schema#label> "End of coverage" .
+<urn:uuid:e9c803f2-953f-5343-a78b-d8e9ba6149ea> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<urn:uuid:e9c803f2-953f-5343-a78b-d8e9ba6149ea> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:e9c803f2-953f-5343-a78b-d8e9ba6149ea> <http://www.w3.org/ns/shacl#name> "End of coverage" .
+<urn:uuid:e9c803f2-953f-5343-a78b-d8e9ba6149ea> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<urn:uuid:e9c803f2-953f-5343-a78b-d8e9ba6149ea> <http://www.w3.org/ns/shacl#order> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:e9c803f2-953f-5343-a78b-d8e9ba6149ea> <http://www.w3.org/ns/shacl#path> <http://schema.org/endDate> .
+<urn:uuid:e9c803f2-953f-5343-a78b-d8e9ba6149ea> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<urn:uuid:ed73a9a5-6ff0-5919-803e-3b7d90d8ee70> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:ed73a9a5-6ff0-5919-803e-3b7d90d8ee70> <http://www.w3.org/2000/01/rdf-schema#label> "Tags" .
+<urn:uuid:ed73a9a5-6ff0-5919-803e-3b7d90d8ee70> <http://www.w3.org/ns/shacl#class> <http://purl.org/muto/core#Tag> .
+<urn:uuid:ed73a9a5-6ff0-5919-803e-3b7d90d8ee70> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:ed73a9a5-6ff0-5919-803e-3b7d90d8ee70> <http://www.w3.org/ns/shacl#name> "Tags" .
+<urn:uuid:ed73a9a5-6ff0-5919-803e-3b7d90d8ee70> <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:ed73a9a5-6ff0-5919-803e-3b7d90d8ee70> <http://www.w3.org/ns/shacl#path> <http://purl.org/muto/core#hasTag> .
+<urn:uuid:ef40cb09-c6f0-5bbe-baf6-3c8be6b5ae0c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:ef40cb09-c6f0-5bbe-baf6-3c8be6b5ae0c> <http://www.w3.org/2000/01/rdf-schema#label> "Tags" .
+<urn:uuid:ef40cb09-c6f0-5bbe-baf6-3c8be6b5ae0c> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:ef40cb09-c6f0-5bbe-baf6-3c8be6b5ae0c> <http://www.w3.org/ns/shacl#name> "Tags" .
+<urn:uuid:ef40cb09-c6f0-5bbe-baf6-3c8be6b5ae0c> <http://www.w3.org/ns/shacl#node> <https://vocab.eccenca.com/shacl/TaggingShape> .
+<urn:uuid:ef40cb09-c6f0-5bbe-baf6-3c8be6b5ae0c> <http://www.w3.org/ns/shacl#order> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:ef40cb09-c6f0-5bbe-baf6-3c8be6b5ae0c> <http://www.w3.org/ns/shacl#path> <http://purl.org/muto/core#taggedResource> .
+<urn:uuid:ef40cb09-c6f0-5bbe-baf6-3c8be6b5ae0c> <https://vocab.eccenca.com/shui/inversePath> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<urn:uuid:ef40cb09-c6f0-5bbe-baf6-3c8be6b5ae0c> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<urn:uuid:f1b904da-0744-5cdb-be5d-c7cf4e4c39e7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:f1b904da-0744-5cdb-be5d-c7cf4e4c39e7> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal coverage" .
+<urn:uuid:f1b904da-0744-5cdb-be5d-c7cf4e4c39e7> <http://www.w3.org/ns/shacl#name> "Temporal coverage" .
+<urn:uuid:f1b904da-0744-5cdb-be5d-c7cf4e4c39e7> <http://www.w3.org/ns/shacl#node> <https://vocab.eccenca.com/shacl/PeriodOfTimeShape> .
+<urn:uuid:f1b904da-0744-5cdb-be5d-c7cf4e4c39e7> <http://www.w3.org/ns/shacl#order> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:f1b904da-0744-5cdb-be5d-c7cf4e4c39e7> <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/temporal> .
+<urn:uuid:f1ece8a4-4f3c-582d-b6ba-7c27178de9fd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:f1ece8a4-4f3c-582d-b6ba-7c27178de9fd> <http://www.w3.org/2000/01/rdf-schema#label> "Update frequency" .
+<urn:uuid:f1ece8a4-4f3c-582d-b6ba-7c27178de9fd> <http://www.w3.org/ns/shacl#class> <http://purl.org/dc/terms/Frequency> .
+<urn:uuid:f1ece8a4-4f3c-582d-b6ba-7c27178de9fd> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:f1ece8a4-4f3c-582d-b6ba-7c27178de9fd> <http://www.w3.org/ns/shacl#name> "Update frequency" .
+<urn:uuid:f1ece8a4-4f3c-582d-b6ba-7c27178de9fd> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<urn:uuid:f1ece8a4-4f3c-582d-b6ba-7c27178de9fd> <http://www.w3.org/ns/shacl#order> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:f1ece8a4-4f3c-582d-b6ba-7c27178de9fd> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/dsm/updateFrequency> .
+<urn:uuid:f9574314-b36f-5421-a310-fff5d2d02a85> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:f9574314-b36f-5421-a310-fff5d2d02a85> <http://www.w3.org/2000/01/rdf-schema#label> "Name" .
+<urn:uuid:f9574314-b36f-5421-a310-fff5d2d02a85> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<urn:uuid:f9574314-b36f-5421-a310-fff5d2d02a85> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:f9574314-b36f-5421-a310-fff5d2d02a85> <http://www.w3.org/ns/shacl#name> "Name" .
+<urn:uuid:f9574314-b36f-5421-a310-fff5d2d02a85> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<urn:uuid:f9574314-b36f-5421-a310-fff5d2d02a85> <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:f9574314-b36f-5421-a310-fff5d2d02a85> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2000/01/rdf-schema#label> .
+<urn:uuid:f9574314-b36f-5421-a310-fff5d2d02a85> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<urn:uuid:f9787932-4407-5a05-9be1-3d3a257f8089> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:f9787932-4407-5a05-9be1-3d3a257f8089> <http://www.w3.org/2000/01/rdf-schema#label> "Frequency" .
+<urn:uuid:f9787932-4407-5a05-9be1-3d3a257f8089> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<urn:uuid:f9787932-4407-5a05-9be1-3d3a257f8089> <http://www.w3.org/ns/shacl#description> "How often will the backup be processed in one unit of time scope." .
+<urn:uuid:f9787932-4407-5a05-9be1-3d3a257f8089> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:f9787932-4407-5a05-9be1-3d3a257f8089> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:f9787932-4407-5a05-9be1-3d3a257f8089> <http://www.w3.org/ns/shacl#name> "Frequency" .
+<urn:uuid:f9787932-4407-5a05-9be1-3d3a257f8089> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<urn:uuid:f9787932-4407-5a05-9be1-3d3a257f8089> <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:f9787932-4407-5a05-9be1-3d3a257f8089> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/dsm/backupFrequency> .
+<urn:uuid:feba9ddf-6226-58d7-a7d8-bb8b25816128> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<urn:uuid:feba9ddf-6226-58d7-a7d8-bb8b25816128> <http://www.w3.org/2000/01/rdf-schema#label> "Metric" .
+<urn:uuid:feba9ddf-6226-58d7-a7d8-bb8b25816128> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/ns/dqv#Metric> .
+<urn:uuid:feba9ddf-6226-58d7-a7d8-bb8b25816128> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:feba9ddf-6226-58d7-a7d8-bb8b25816128> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:feba9ddf-6226-58d7-a7d8-bb8b25816128> <http://www.w3.org/ns/shacl#name> "Metric" .
+<urn:uuid:feba9ddf-6226-58d7-a7d8-bb8b25816128> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<urn:uuid:feba9ddf-6226-58d7-a7d8-bb8b25816128> <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<urn:uuid:feba9ddf-6226-58d7-a7d8-bb8b25816128> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/dqv#isMeasurementOf> .
+<urn:uuid:feba9ddf-6226-58d7-a7d8-bb8b25816128> <https://vocab.eccenca.com/shui/denyNewResources> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
