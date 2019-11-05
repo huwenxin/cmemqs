@@ -1,4 +1,4 @@
-<http://purl.oclc.org/NET/muo/ucum/> <http://purl.org/dc/terms/description> "The instances of this ontology have been automatically\n         generated from the UCUM (The Unified Code for Units of Measure).\n         See http://aurora.rg.iupui.edu/UCUM/ for more details\n         on UCUM. The members of the MyMobileWeb consortium\n         explicitly acknowledge the copyright of the data from\n         the UCUM ontology."@en .
+<http://purl.oclc.org/NET/muo/ucum/> <http://purl.org/dc/terms/description> "The instances of this ontology have been automatically\n generated from the UCUM (The Unified Code for Units of Measure).\n See http://aurora.rg.iupui.edu/UCUM/ for more details\n on UCUM. The members of the MyMobileWeb consortium\n explicitly acknowledge the copyright of the data from\n the UCUM ontology."@en .
 <http://purl.oclc.org/NET/muo/ucum/> <http://purl.org/dc/terms/modified> "2008-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://purl.oclc.org/NET/muo/ucum/> <http://purl.org/vocab/vann/preferredNamespacePrefix> "ucum" .
 <http://purl.oclc.org/NET/muo/ucum/> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://purl.oclc.org/NET/muo/ucum/" .
@@ -51,14 +51,14 @@
 <http://www.w3.org/2001/XMLSchema#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
 <http://www.w3.org/2001/XMLSchema#> <http://www.w3.org/2000/01/rdf-schema#label> "xsd: XML Schema Datatypes"@en .
 <http://www.w3.org/2001/XMLSchema#> <http://www.w3.org/ns/dcat#distribution> <https://vocab.eccenca.com/proxy/default/graph?owlImportsResolution=false&graph=http://www.w3.org/2001/XMLSchema> .
-<http://www.w3.org/2002/07/owl#> <http://purl.org/dc/terms/description> "This ontology partially describes the built-in classes and   properties that together form the basis of the RDF/XML syntax of OWL 2."@en .
+<http://www.w3.org/2002/07/owl#> <http://purl.org/dc/terms/description> "This ontology partially describes the built-in classes and properties that together form the basis of the RDF/XML syntax of OWL 2."@en .
 <http://www.w3.org/2002/07/owl#> <http://purl.org/dc/terms/modified> "2009-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://www.w3.org/2002/07/owl#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "owl" .
 <http://www.w3.org/2002/07/owl#> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://www.w3.org/2002/07/owl#" .
 <http://www.w3.org/2002/07/owl#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
 <http://www.w3.org/2002/07/owl#> <http://www.w3.org/2000/01/rdf-schema#label> "The OWL 2 Schema vocabulary"@en .
 <http://www.w3.org/2002/07/owl#> <http://www.w3.org/ns/dcat#distribution> <https://lov.linkeddata.es/dataset/lov/vocabs/owl/versions/2009-11-15.n3> .
-<http://www.w3.org/2003/01/geo/wgs84_pos> <http://purl.org/dc/terms/description> "A vocabulary for representing latitude, longitude and   altitude information in the WGS84 geodetic reference datum."@en .
+<http://www.w3.org/2003/01/geo/wgs84_pos> <http://purl.org/dc/terms/description> "A vocabulary for representing latitude, longitude and altitude information in the WGS84 geodetic reference datum."@en .
 <http://www.w3.org/2003/01/geo/wgs84_pos> <http://purl.org/dc/terms/issued> "2003-01-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://www.w3.org/2003/01/geo/wgs84_pos> <http://purl.org/dc/terms/modified> "2009-04-20"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://www.w3.org/2003/01/geo/wgs84_pos> <http://purl.org/vocab/vann/preferredNamespacePrefix> "geo" .
