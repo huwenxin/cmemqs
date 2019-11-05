@@ -1,5 +1,0 @@
-<http://example.org/Bob> <http://example.org/has> <http://example.org/Fairytale> .
-<http://example.org/Fairytale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Book> .
-<http://example.org/Fairytale> <http://www.w3.org/2000/01/rdf-schema#label> "Märchen" .
-<http://example.org/muller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Person> .
-<http://example.org/muller> <http://www.w3.org/2000/01/rdf-schema#label> "Müller" .
