@@ -1,3 +1,5 @@
+<http://eccenca.com/Thesaurus/8f4ecc38-b2f8-4f2d-9dd4-1e25191ee4b8/> <http://purl.org/dc/terms/created> "2019-11-05T19:47:01.932Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://eccenca.com/Thesaurus/8f4ecc38-b2f8-4f2d-9dd4-1e25191ee4b8/> <http://purl.org/dc/terms/creator> <http://eccenca.com/admin> .
 <http://eccenca.com/Thesaurus/8f4ecc38-b2f8-4f2d-9dd4-1e25191ee4b8/> <http://purl.org/dc/terms/description> "Just a test thesaurus" .
 <http://eccenca.com/Thesaurus/8f4ecc38-b2f8-4f2d-9dd4-1e25191ee4b8/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/ThesaurusProject> .
 <http://eccenca.com/Thesaurus/8f4ecc38-b2f8-4f2d-9dd4-1e25191ee4b8/> <http://www.w3.org/2004/02/skos/core#prefLabel> "testThesaurus" .
