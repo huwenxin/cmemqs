@@ -1,3 +1,31 @@
+<http://purl.org/NET/rdflicense/cc-by4.0> <http://www.w3.org/2000/01/rdf-schema#label> "Creative Commons - Attribution 4.0 International - CC BY 4.0" .
+<https://ns.eccenca.com/eccenca-GmbH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
+<https://ns.eccenca.com/eccenca-GmbH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://ns.eccenca.com/eccenca-GmbH> <http://www.w3.org/2000/01/rdf-schema#label> "eccenca GmbH" .
+<https://ns.eccenca.com/leipert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
+<https://ns.eccenca.com/leipert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://ns.eccenca.com/leipert> <http://xmlns.com/foaf/0.1/mbox> <mailto:lukas.eipert@eccenca.com> .
+<https://ns.eccenca.com/leipert> <http://xmlns.com/foaf/0.1/name> "Lukas Eipert" .
+<https://ns.eccenca.com/stramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
+<https://ns.eccenca.com/stramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://ns.eccenca.com/stramp> <http://xmlns.com/foaf/0.1/mbox> <mailto:sebastian.tramp@eccenca.com> .
+<https://ns.eccenca.com/stramp> <http://xmlns.com/foaf/0.1/name> "Sebastian Tramp" .
+<https://vocab.eccenca.com/sketch/> <http://creativecommons.org/ns#license> <http://purl.org/NET/rdflicense/cc-by4.0> .
+<https://vocab.eccenca.com/sketch/> <http://purl.org/dc/terms/creator> <https://ns.eccenca.com/leipert> .
+<https://vocab.eccenca.com/sketch/> <http://purl.org/dc/terms/creator> <https://ns.eccenca.com/stramp> .
+<https://vocab.eccenca.com/sketch/> <http://purl.org/dc/terms/issued> "2015-08-21"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/> <http://purl.org/dc/terms/publisher> <https://ns.eccenca.com/eccenca-GmbH> .
+<https://vocab.eccenca.com/sketch/> <http://purl.org/dc/terms/rights> "Copyright © 2015 eccenca GmbH" .
+<https://vocab.eccenca.com/sketch/> <http://purl.org/vocab/vann/preferredNamespacePrefix> "eccsketch" .
+<https://vocab.eccenca.com/sketch/> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://vocab.eccenca.com/sketch/" .
+<https://vocab.eccenca.com/sketch/> <http://rdfs.org/ns/void#vocabulary> <http://purl.org/vocab/vann/> .
+<https://vocab.eccenca.com/sketch/> <http://rdfs.org/ns/void#vocabulary> <http://xmlns.com/foaf/0.1/> .
+<https://vocab.eccenca.com/sketch/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://vocab.eccenca.com/sketch/> <http://www.w3.org/2000/01/rdf-schema#comment> "With eccsketch, domain experts and owners of ontologies can create mappings from their own concepts to concepts which represent graphical objects such as circles and rectangles in order to generate domain specific visual representations and graphical editors for their domain."@en .
+<https://vocab.eccenca.com/sketch/> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/> <http://www.w3.org/2000/01/rdf-schema#label> "CMEM RDF Sketch Ontology"@en .
+<https://vocab.eccenca.com/sketch/> <http://www.w3.org/2002/07/owl#versionInfo> "v0.1.2-4-gdda1d21" .
 <https://vocab.eccenca.com/sketch/BasicShape> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://vocab.eccenca.com/sketch/BasicShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://vocab.eccenca.com/sketch/BasicShape> <http://www.w3.org/2000/01/rdf-schema#comment> "a basic svg shape with a simple title field"@en .
