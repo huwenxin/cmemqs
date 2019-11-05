@@ -1,3 +1,10 @@
+<https://ns.eccenca.com/example/data/dataset/5b166cd4-c6fa-43ed-a818-e276a218f247> <http://purl.org/dc/terms/created> "2019-11-05T20:32:55.751Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://ns.eccenca.com/example/data/dataset/5b166cd4-c6fa-43ed-a818-e276a218f247> <http://purl.org/dc/terms/creator> <http://eccenca.com/admin> .
+<https://ns.eccenca.com/example/data/dataset/5b166cd4-c6fa-43ed-a818-e276a218f247> <http://purl.org/dc/terms/description> "This is just a test dataset" .
+<https://ns.eccenca.com/example/data/dataset/5b166cd4-c6fa-43ed-a818-e276a218f247> <http://purl.org/dc/terms/modified> "2019-11-05T20:32:55.751Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://ns.eccenca.com/example/data/dataset/5b166cd4-c6fa-43ed-a818-e276a218f247> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://ns.eccenca.com/example/data/dataset/5b166cd4-c6fa-43ed-a818-e276a218f247> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/Dataset> .
+<https://ns.eccenca.com/example/data/dataset/5b166cd4-c6fa-43ed-a818-e276a218f247> <http://www.w3.org/2000/01/rdf-schema#label> "testDataset" .
 <https://ns.eccenca.com/example/data/dataset/9a5bd07d-c271-48f5-bbab-51fa60073dda> <http://purl.org/dc/terms/created> "2019-11-05T20:31:29.616Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://ns.eccenca.com/example/data/dataset/9a5bd07d-c271-48f5-bbab-51fa60073dda> <http://purl.org/dc/terms/creator> <http://eccenca.com/admin> .
 <https://ns.eccenca.com/example/data/dataset/9a5bd07d-c271-48f5-bbab-51fa60073dda> <http://purl.org/dc/terms/description> "This is just a test dataset" .
@@ -13,6 +20,12 @@
 <https://ns.eccenca.com/example/data/dataset/> <http://www.w3.org/2000/01/rdf-schema#label> "CMEM Dataset Catalog"@en .
 <https://ns.eccenca.com/example/data/dataset/> <http://www.w3.org/2002/07/owl#imports> <https://vocab.eccenca.com/dsm/> .
 <https://ns.eccenca.com/example/data/dataset/> <http://www.w3.org/2002/07/owl#imports> <https://vocab.eccenca.com/sketch/> .
+<https://ns.eccenca.com/example/data/dataset/prov-3719dd82-d307-4373-8727-af881d3459ec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/DataManagerEntryCreation> .
+<https://ns.eccenca.com/example/data/dataset/prov-3719dd82-d307-4373-8727-af881d3459ec> <http://www.w3.org/2000/01/rdf-schema#label> "Entry 'testDataset' created in DataManager" .
+<https://ns.eccenca.com/example/data/dataset/prov-3719dd82-d307-4373-8727-af881d3459ec> <http://www.w3.org/ns/prov#endedAtTime> "2019-11-05T20:32:55.751Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://ns.eccenca.com/example/data/dataset/prov-3719dd82-d307-4373-8727-af881d3459ec> <http://www.w3.org/ns/prov#generated> <https://ns.eccenca.com/example/data/dataset/5b166cd4-c6fa-43ed-a818-e276a218f247> .
+<https://ns.eccenca.com/example/data/dataset/prov-3719dd82-d307-4373-8727-af881d3459ec> <http://www.w3.org/ns/prov#startedAtTime> "2019-11-05T20:32:55.751Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://ns.eccenca.com/example/data/dataset/prov-3719dd82-d307-4373-8727-af881d3459ec> <http://www.w3.org/ns/prov#wasAssociatedWith> <http://eccenca.com/admin> .
 <https://ns.eccenca.com/example/data/dataset/prov-d071f8ea-91ac-4843-958a-07b70a12cf44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/DataManagerEntryCreation> .
 <https://ns.eccenca.com/example/data/dataset/prov-d071f8ea-91ac-4843-958a-07b70a12cf44> <http://www.w3.org/2000/01/rdf-schema#label> "Entry 'testDataset' created in DataManager" .
 <https://ns.eccenca.com/example/data/dataset/prov-d071f8ea-91ac-4843-958a-07b70a12cf44> <http://www.w3.org/ns/prov#endedAtTime> "2019-11-05T20:31:29.616Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
