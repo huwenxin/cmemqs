@@ -6,6 +6,36 @@
 <http://dbpedia.org/resource/German_language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Language> .
 <http://dbpedia.org/resource/German_language> <http://www.w3.org/2000/01/rdf-schema#label> "Deutsche Sprache"@de .
 <http://dbpedia.org/resource/German_language> <http://www.w3.org/2000/01/rdf-schema#label> "German language"@en .
+<http://purl.org/NET/rdflicense/cc-by4.0> <http://www.w3.org/2000/01/rdf-schema#label> "Creative Commons - Attribution 4.0 International - CC BY 4.0" .
+<https://ns.eccenca.com/aschultz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
+<https://ns.eccenca.com/aschultz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://ns.eccenca.com/aschultz> <http://xmlns.com/foaf/0.1/mbox> <mailto:andreas.schultz@eccenca.com> .
+<https://ns.eccenca.com/aschultz> <http://xmlns.com/foaf/0.1/name> "Andreas Schultz" .
+<https://ns.eccenca.com/eccenca-GmbH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
+<https://ns.eccenca.com/eccenca-GmbH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Group> .
+<https://ns.eccenca.com/eccenca-GmbH> <http://www.w3.org/2000/01/rdf-schema#label> "eccenca GmbH" .
+<https://ns.eccenca.com/stramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
+<https://ns.eccenca.com/stramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://ns.eccenca.com/stramp> <http://xmlns.com/foaf/0.1/mbox> <mailto:sebastian.tramp@eccenca.com> .
+<https://ns.eccenca.com/stramp> <http://xmlns.com/foaf/0.1/name> "Sebastian Tramp" .
+<https://vocab.eccenca.com/dsm/> <http://creativecommons.org/ns#license> <http://purl.org/NET/rdflicense/cc-by4.0> .
+<https://vocab.eccenca.com/dsm/> <http://purl.org/dc/terms/created> "2015-10-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/dsm/> <http://purl.org/dc/terms/creator> <https://ns.eccenca.com/aschultz> .
+<https://vocab.eccenca.com/dsm/> <http://purl.org/dc/terms/creator> <https://ns.eccenca.com/stramp> .
+<https://vocab.eccenca.com/dsm/> <http://purl.org/dc/terms/modified> "2017-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/dsm/> <http://purl.org/dc/terms/publisher> <https://ns.eccenca.com/eccenca-GmbH> .
+<https://vocab.eccenca.com/dsm/> <http://purl.org/dc/terms/rights> "Copyright © 2017 eccenca GmbH" .
+<https://vocab.eccenca.com/dsm/> <http://purl.org/vocab/vann/preferredNamespacePrefix> "eccdsm" .
+<https://vocab.eccenca.com/dsm/> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://vocab.eccenca.com/dsm/" .
+<https://vocab.eccenca.com/dsm/> <http://rdfs.org/ns/void#vocabulary> <http://purl.org/vocab/vann/> .
+<https://vocab.eccenca.com/dsm/> <http://rdfs.org/ns/void#vocabulary> <http://www.w3.org/2004/02/skos/core#> .
+<https://vocab.eccenca.com/dsm/> <http://rdfs.org/ns/void#vocabulary> <http://www.w3.org/ns/dqv#> .
+<https://vocab.eccenca.com/dsm/> <http://rdfs.org/ns/void#vocabulary> <http://xmlns.com/foaf/0.1/> .
+<https://vocab.eccenca.com/dsm/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://vocab.eccenca.com/dsm/> <http://www.w3.org/2000/01/rdf-schema#comment> "eccenca vocabulary to manage dataset metadata and relations"@en .
+<https://vocab.eccenca.com/dsm/> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/> <http://www.w3.org/2000/01/rdf-schema#label> "CMEM Dataset Management Ontology"@en .
+<https://vocab.eccenca.com/dsm/> <http://www.w3.org/2002/07/owl#versionInfo> "v0.8.0" .
 <https://vocab.eccenca.com/dsm/BackupRetentionPolicy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://vocab.eccenca.com/dsm/BackupRetentionPolicy> <http://www.w3.org/2000/01/rdf-schema#comment> "Covers the specification of the backup and data retention needs for the dataset."@en .
 <https://vocab.eccenca.com/dsm/BackupRetentionPolicy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
