@@ -1,10 +1,16 @@
+<https://ns.eccenca.com/example/data/dataset/7f2ae228-dc87-4ad4-9fe4-6eff0455e9e1/1572984173476_newResource_eccencaDataPlatform> <http://purl.org/dc/terms/created> "2019-11-05T20:02:54.154Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://ns.eccenca.com/example/data/dataset/7f2ae228-dc87-4ad4-9fe4-6eff0455e9e1/1572984173476_newResource_eccencaDataPlatform> <http://purl.org/dc/terms/modified> "2019-11-05T20:02:54.154Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://ns.eccenca.com/example/data/dataset/7f2ae228-dc87-4ad4-9fe4-6eff0455e9e1/1572984173476_newResource_eccencaDataPlatform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://ns.eccenca.com/example/data/dataset/7f2ae228-dc87-4ad4-9fe4-6eff0455e9e1/1572984173476_newResource_eccencaDataPlatform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/Resource> .
+<https://ns.eccenca.com/example/data/dataset/7f2ae228-dc87-4ad4-9fe4-6eff0455e9e1/1572984173476_newResource_eccencaDataPlatform> <http://www.w3.org/2000/01/rdf-schema#label> "1572984173476_newResource.eccencaDataPlatform" .
 <https://ns.eccenca.com/example/data/dataset/7f2ae228-dc87-4ad4-9fe4-6eff0455e9e1> <http://purl.org/dc/terms/created> "2019-11-05T20:02:13.286Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://ns.eccenca.com/example/data/dataset/7f2ae228-dc87-4ad4-9fe4-6eff0455e9e1> <http://purl.org/dc/terms/creator> <http://eccenca.com/admin> .
 <https://ns.eccenca.com/example/data/dataset/7f2ae228-dc87-4ad4-9fe4-6eff0455e9e1> <http://purl.org/dc/terms/description> "Just a test dataset" .
-<https://ns.eccenca.com/example/data/dataset/7f2ae228-dc87-4ad4-9fe4-6eff0455e9e1> <http://purl.org/dc/terms/modified> "2019-11-05T20:02:13.286Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://ns.eccenca.com/example/data/dataset/7f2ae228-dc87-4ad4-9fe4-6eff0455e9e1> <http://purl.org/dc/terms/modified> "2019-11-05T20:02:54.154Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://ns.eccenca.com/example/data/dataset/7f2ae228-dc87-4ad4-9fe4-6eff0455e9e1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://ns.eccenca.com/example/data/dataset/7f2ae228-dc87-4ad4-9fe4-6eff0455e9e1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/Dataset> .
 <https://ns.eccenca.com/example/data/dataset/7f2ae228-dc87-4ad4-9fe4-6eff0455e9e1> <http://www.w3.org/2000/01/rdf-schema#label> "testDataset" .
+<https://ns.eccenca.com/example/data/dataset/7f2ae228-dc87-4ad4-9fe4-6eff0455e9e1> <https://vocab.eccenca.com/dsm/hasResource> <https://ns.eccenca.com/example/data/dataset/7f2ae228-dc87-4ad4-9fe4-6eff0455e9e1/1572984173476_newResource_eccencaDataPlatform> .
 <https://ns.eccenca.com/example/data/dataset/> <http://rdfs.org/ns/void#vocabulary> <http://purl.org/dc/terms/> .
 <https://ns.eccenca.com/example/data/dataset/> <http://rdfs.org/ns/void#vocabulary> <http://purl.org/vocab/vann/> .
 <https://ns.eccenca.com/example/data/dataset/> <http://rdfs.org/ns/void#vocabulary> <http://xmlns.com/foaf/0.1/> .
