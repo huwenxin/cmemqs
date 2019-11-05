@@ -1,0 +1,20 @@
+<http://dbpedia.org/resource/English_language> <http://dbpedia.org/ontology/iso6391Code> "en" .
+<http://dbpedia.org/resource/English_language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Language> .
+<http://dbpedia.org/resource/English_language> <http://www.w3.org/2000/01/rdf-schema#label> "Englische Sprache"@de .
+<http://dbpedia.org/resource/English_language> <http://www.w3.org/2000/01/rdf-schema#label> "English language"@en .
+<http://dbpedia.org/resource/German_language> <http://dbpedia.org/ontology/iso6391Code> "de" .
+<http://dbpedia.org/resource/German_language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Language> .
+<http://dbpedia.org/resource/German_language> <http://www.w3.org/2000/01/rdf-schema#label> "Deutsche Sprache"@de .
+<http://dbpedia.org/resource/German_language> <http://www.w3.org/2000/01/rdf-schema#label> "German language"@en .
+<https://vocab.eccenca.com/dsm/ThesaurusProject> <http://purl.org/dc/terms/created> "2018-07-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/dsm/ThesaurusProject> <http://purl.org/dc/terms/modified> "2018-07-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/dsm/ThesaurusProject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/ThesaurusProject> <http://www.w3.org/2000/01/rdf-schema#comment> "A container resource which consists of one or more SKOS concept schemes."@en .
+<https://vocab.eccenca.com/dsm/ThesaurusProject> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/ThesaurusProject> <http://www.w3.org/2000/01/rdf-schema#label> "Thesaurus project"@en .
+<https://vocab.eccenca.com/dsm/primaryLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/primaryLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "A single primary language associated with the resource."@en .
+<https://vocab.eccenca.com/dsm/primaryLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/ThesaurusProject> .
+<https://vocab.eccenca.com/dsm/primaryLanguage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/primaryLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "primary language"@en .
+<https://vocab.eccenca.com/dsm/primaryLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Language> .
