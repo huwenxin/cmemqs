@@ -1,0 +1,219 @@
+<http://creativecommons.org/licenses/by/4.0/> <http://www.w3.org/2000/01/rdf-schema#label> "Creative Commons Attribution 4.0 International" .
+<http://creativecommons.org/ns#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://creativecommons.org/ns#license> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://creativecommons.org/ns> .
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/terms/creator> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/terms/issued> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/terms/modified> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/terms/rights> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> .
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/vann/> .
+<http://www.w3.org/ns/shacl#NodeShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/shacl#NodeShape> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shacl#> .
+<http://www.w3.org/ns/shacl#PropertyShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/shacl#PropertyShape> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shacl#> .
+<https://ns.eccenca.com/eccenca-GmbH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
+<https://ns.eccenca.com/eccenca-GmbH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://ns.eccenca.com/eccenca-GmbH> <http://xmlns.com/foaf/0.1/name> "eccenca GmbH" .
+<https://ns.eccenca.com/leipert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
+<https://ns.eccenca.com/leipert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://ns.eccenca.com/leipert> <http://xmlns.com/foaf/0.1/name> "Lukas Eipert" .
+<https://ns.eccenca.com/mfrommhold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
+<https://ns.eccenca.com/mfrommhold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://ns.eccenca.com/mfrommhold> <http://xmlns.com/foaf/0.1/name> "Marvin Frommhold" .
+<https://ns.eccenca.com/rnavarropiris> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
+<https://ns.eccenca.com/rnavarropiris> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://ns.eccenca.com/rnavarropiris> <http://xmlns.com/foaf/0.1/familyName> "Navarro Piris" .
+<https://ns.eccenca.com/rnavarropiris> <http://xmlns.com/foaf/0.1/givenName> "Ruben" .
+<https://ns.eccenca.com/rnavarropiris> <http://xmlns.com/foaf/0.1/name> "Ruben Navarro Piris" .
+<https://ns.eccenca.com/stramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
+<https://ns.eccenca.com/stramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://ns.eccenca.com/stramp> <http://xmlns.com/foaf/0.1/name> "Sebastian Tramp" .
+<https://vocab.eccenca.com/shui/> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> .
+<https://vocab.eccenca.com/shui/> <http://purl.org/dc/terms/contributor> <https://ns.eccenca.com/mfrommhold> .
+<https://vocab.eccenca.com/shui/> <http://purl.org/dc/terms/contributor> <https://ns.eccenca.com/rnavarropiris> .
+<https://vocab.eccenca.com/shui/> <http://purl.org/dc/terms/creator> <https://ns.eccenca.com/leipert> .
+<https://vocab.eccenca.com/shui/> <http://purl.org/dc/terms/creator> <https://ns.eccenca.com/stramp> .
+<https://vocab.eccenca.com/shui/> <http://purl.org/dc/terms/issued> "2017-12-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/> <http://purl.org/dc/terms/modified> "2019-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/> <http://purl.org/dc/terms/publisher> <https://ns.eccenca.com/eccenca-GmbH> .
+<https://vocab.eccenca.com/shui/> <http://purl.org/dc/terms/rights> "Copyright © 2017-present, eccenca GmbH, Germany" .
+<https://vocab.eccenca.com/shui/> <http://purl.org/vocab/vann/preferredNamespacePrefix> "shui" .
+<https://vocab.eccenca.com/shui/> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://vocab.eccenca.com/shui/" .
+<https://vocab.eccenca.com/shui/> <http://rdfs.org/ns/void#vocabulary> <http://purl.org/dc/terms/> .
+<https://vocab.eccenca.com/shui/> <http://rdfs.org/ns/void#vocabulary> <http://purl.org/vocab/vann/> .
+<https://vocab.eccenca.com/shui/> <http://rdfs.org/ns/void#vocabulary> <http://xmlns.com/foaf/0.1/> .
+<https://vocab.eccenca.com/shui/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+<https://vocab.eccenca.com/shui/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://vocab.eccenca.com/shui/> <http://www.w3.org/2000/01/rdf-schema#comment> "Vocabulary for UI definitions extending SHACL shapes"@en .
+<https://vocab.eccenca.com/shui/> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/shui/> .
+<https://vocab.eccenca.com/shui/> <http://www.w3.org/2000/01/rdf-schema#label> "shui: SHACL UI extension"@en .
+<https://vocab.eccenca.com/shui/> <http://www.w3.org/2002/07/owl#versionInfo> "v1.10.2" .
+<https://vocab.eccenca.com/shui/SparqlOperation> <http://purl.org/dc/terms/issued> "2018-08-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/SparqlOperation> <http://purl.org/dc/terms/modified> "2018-08-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/SparqlOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/shui/SparqlOperation> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents a SPARQL 1.1 Operation."@en .
+<https://vocab.eccenca.com/shui/SparqlOperation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/shui/> .
+<https://vocab.eccenca.com/shui/SparqlOperation> <http://www.w3.org/2000/01/rdf-schema#label> "SPARQL 1.1 Operation"@en .
+<https://vocab.eccenca.com/shui/SparqlQuery> <http://purl.org/dc/terms/issued> "2017-12-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/SparqlQuery> <http://purl.org/dc/terms/modified> "2017-12-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/SparqlQuery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/shui/SparqlQuery> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents a SPARQL 1.1 Query e.g. used to control UI components."@en .
+<https://vocab.eccenca.com/shui/SparqlQuery> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/shui/> .
+<https://vocab.eccenca.com/shui/SparqlQuery> <http://www.w3.org/2000/01/rdf-schema#label> "SPARQL 1.1 Query"@en .
+<https://vocab.eccenca.com/shui/SparqlQuery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/shui/SparqlOperation> .
+<https://vocab.eccenca.com/shui/SparqlUpdate> <http://purl.org/dc/terms/issued> "2018-08-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/SparqlUpdate> <http://purl.org/dc/terms/modified> "2018-08-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/SparqlUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/shui/SparqlUpdate> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents a SPARQL 1.1 Update e.g. used to trigger operations on UI components."@en .
+<https://vocab.eccenca.com/shui/SparqlUpdate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/shui/> .
+<https://vocab.eccenca.com/shui/SparqlUpdate> <http://www.w3.org/2000/01/rdf-schema#label> "SPARQL 1.1 Update"@en .
+<https://vocab.eccenca.com/shui/SparqlUpdate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/shui/SparqlOperation> .
+<https://vocab.eccenca.com/shui/URITemplate> <http://purl.org/dc/terms/issued> "2017-02-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/URITemplate> <http://purl.org/dc/terms/modified> "2017-02-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/URITemplate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/shui/URITemplate> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents a URI Template, e.g. used to generate an URI for new resources."@en .
+<https://vocab.eccenca.com/shui/URITemplate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/shui/> .
+<https://vocab.eccenca.com/shui/URITemplate> <http://www.w3.org/2000/01/rdf-schema#label> "URI Template"@en .
+<https://vocab.eccenca.com/shui/activeColumn> <http://purl.org/dc/terms/issued> "2017-12-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/activeColumn> <http://purl.org/dc/terms/modified> "2017-12-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/activeColumn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/shui/activeColumn> <http://www.w3.org/2000/01/rdf-schema#comment> "When listing resources, the annotated shape is used to show an additional column which is visible per default."@en .
+<https://vocab.eccenca.com/shui/activeColumn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shui/activeColumn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/shui/> .
+<https://vocab.eccenca.com/shui/activeColumn> <http://www.w3.org/2000/01/rdf-schema#label> "active column"@en .
+<https://vocab.eccenca.com/shui/activeColumn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shui/denyNewResources> <http://purl.org/dc/terms/issued> "2017-12-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/denyNewResources> <http://purl.org/dc/terms/modified> "2017-12-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/denyNewResources> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/shui/denyNewResources> <http://www.w3.org/2000/01/rdf-schema#comment> "Prevents the user from creating new resources. Affects property shapes of sh:nodeKind IRI only."@en .
+<https://vocab.eccenca.com/shui/denyNewResources> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shui/denyNewResources> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/shui/> .
+<https://vocab.eccenca.com/shui/denyNewResources> <http://www.w3.org/2000/01/rdf-schema#label> "deny new resources"@en .
+<https://vocab.eccenca.com/shui/denyNewResources> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shui/ignoreOnCopy> <http://purl.org/dc/terms/issued> "2019-06-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/ignoreOnCopy> <http://purl.org/dc/terms/modified> "2019-06-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/ignoreOnCopy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/shui/ignoreOnCopy> <http://www.w3.org/2000/01/rdf-schema#comment> "The shaped values will be ignored when the shaped resource is copied."@en .
+<https://vocab.eccenca.com/shui/ignoreOnCopy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shui/ignoreOnCopy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/shui/> .
+<https://vocab.eccenca.com/shui/ignoreOnCopy> <http://www.w3.org/2000/01/rdf-schema#label> "ignore on copy"@en .
+<https://vocab.eccenca.com/shui/ignoreOnCopy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shui/navigationListQuery> <http://purl.org/dc/terms/issued> "2018-11-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/navigationListQuery> <http://purl.org/dc/terms/modified> "2018-11-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/navigationListQuery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/shui/navigationListQuery> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links a the node shape to a SPARQL 1.1 Query in order to provide a sophisticated user navigation list query e.g. to add specific additional columns (this is similar to activeColumn). The query should use {{FROM}} as a placeholder for the FROM section."@en .
+<https://vocab.eccenca.com/shui/navigationListQuery> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shui/navigationListQuery> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/shui/> .
+<https://vocab.eccenca.com/shui/navigationListQuery> <http://www.w3.org/2000/01/rdf-schema#label> "navigation list query"@en .
+<https://vocab.eccenca.com/shui/navigationListQuery> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/shui/SparqlQuery> .
+<https://vocab.eccenca.com/shui/onDeleteUpdate> <http://purl.org/dc/terms/issued> "2018-08-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/onDeleteUpdate> <http://purl.org/dc/terms/modified> "2018-08-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/onDeleteUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/shui/onDeleteUpdate> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a SPARQL 1.1 Update to this property shape which should be executed when a statement matched by this property shape is deleted."@en .
+<https://vocab.eccenca.com/shui/onDeleteUpdate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shui/onDeleteUpdate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/shui/> .
+<https://vocab.eccenca.com/shui/onDeleteUpdate> <http://www.w3.org/2000/01/rdf-schema#label> "on delete update"@en .
+<https://vocab.eccenca.com/shui/onDeleteUpdate> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/shui/SparqlUpdate> .
+<https://vocab.eccenca.com/shui/onInsertUpdate> <http://purl.org/dc/terms/issued> "2018-08-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/onInsertUpdate> <http://purl.org/dc/terms/modified> "2018-08-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/onInsertUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/shui/onInsertUpdate> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a SPARQL 1.1 Update to this property shape which should be executed when a statement matched by this property shape is inserted."@en .
+<https://vocab.eccenca.com/shui/onInsertUpdate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shui/onInsertUpdate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/shui/> .
+<https://vocab.eccenca.com/shui/onInsertUpdate> <http://www.w3.org/2000/01/rdf-schema#label> "on insert update"@en .
+<https://vocab.eccenca.com/shui/onInsertUpdate> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/shui/SparqlUpdate> .
+<https://vocab.eccenca.com/shui/onUpdateUpdate> <http://purl.org/dc/terms/issued> "2019-09-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/onUpdateUpdate> <http://purl.org/dc/terms/modified> "2019-09-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/onUpdateUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/shui/onUpdateUpdate> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a SPARQL 1.1 Update to this node shape which should be executed when any statement of the shaped node is modified (information added, removed or modified)."@en .
+<https://vocab.eccenca.com/shui/onUpdateUpdate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shui/onUpdateUpdate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/shui/> .
+<https://vocab.eccenca.com/shui/onUpdateUpdate> <http://www.w3.org/2000/01/rdf-schema#label> "on update update"@en .
+<https://vocab.eccenca.com/shui/onUpdateUpdate> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/shui/SparqlUpdate> .
+<https://vocab.eccenca.com/shui/queryText> <http://purl.org/dc/terms/issued> "2017-12-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/queryText> <http://purl.org/dc/terms/modified> "2019-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/queryText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/shui/queryText> <http://www.w3.org/2000/01/rdf-schema#comment> "The actual SPARQL 1.1 Operation text as multiline string including namespace declarations. The text can include placeholders which will be substituted before execution:\n\n* `{{shuiResource}}`: the subject resource of the statement matched by the property shape\n* `{{shuiMainResource}}`: the focus node of the parent property shape\n* `{{shuiObject}}`: the object value of the statement matched by the property shape\n* `{{shuiProperty}}`: the IRI of the property of the statement matched by the property shape\n* `{{shuiGraph}}`: the IRI of the current working graph"@en .
+<https://vocab.eccenca.com/shui/queryText> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/shui/SparqlOperation> .
+<https://vocab.eccenca.com/shui/queryText> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/shui/> .
+<https://vocab.eccenca.com/shui/queryText> <http://www.w3.org/2000/01/rdf-schema#label> "query text"@en .
+<https://vocab.eccenca.com/shui/queryText> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/shui/sparqlOperation> .
+<https://vocab.eccenca.com/shui/queryText> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://spinrdf.org/spin#text> .
+<https://vocab.eccenca.com/shui/queryType> <http://purl.org/dc/terms/issued> "2018-02-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/queryType> <http://purl.org/dc/terms/modified> "2018-02-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/queryType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/shui/queryType> <http://www.w3.org/2000/01/rdf-schema#comment> "A literal indicating the type of the query."@en .
+<https://vocab.eccenca.com/shui/queryType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/shui/SparqlQuery> .
+<https://vocab.eccenca.com/shui/queryType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/shui/> .
+<https://vocab.eccenca.com/shui/queryType> <http://www.w3.org/2000/01/rdf-schema#label> "query type"@en .
+<https://vocab.eccenca.com/shui/queryType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/shui/readOnly> <http://purl.org/dc/terms/issued> "2019-06-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/readOnly> <http://purl.org/dc/terms/modified> "2019-06-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/readOnly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/shui/readOnly> <http://www.w3.org/2000/01/rdf-schema#comment> "Prevents the user to modify the shaped value."@en .
+<https://vocab.eccenca.com/shui/readOnly> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shui/readOnly> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/shui/> .
+<https://vocab.eccenca.com/shui/readOnly> <http://www.w3.org/2000/01/rdf-schema#label> "read only"@en .
+<https://vocab.eccenca.com/shui/readOnly> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shui/showAlways> <http://purl.org/dc/terms/issued> "2017-12-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/showAlways> <http://purl.org/dc/terms/modified> "2017-12-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/showAlways> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/shui/showAlways> <http://www.w3.org/2000/01/rdf-schema#comment> "The annotated shape is always shown to the user (even if its optional only)."@en .
+<https://vocab.eccenca.com/shui/showAlways> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shui/showAlways> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/shui/> .
+<https://vocab.eccenca.com/shui/showAlways> <http://www.w3.org/2000/01/rdf-schema#label> "show always"@en .
+<https://vocab.eccenca.com/shui/showAlways> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shui/sparqlOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<https://vocab.eccenca.com/shui/sparqlOperation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/shui/sparqlQuery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<https://vocab.eccenca.com/shui/sparqlQuery> <http://www.w3.org/2000/01/rdf-schema#comment> "SPARQL 1.1 Query" .
+<https://vocab.eccenca.com/shui/sparqlQuery> <http://www.w3.org/2000/01/rdf-schema#label> "sparqlQuery" .
+<https://vocab.eccenca.com/shui/sparqlQuery> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.w3.org/TR/sparql11-query/> .
+<https://vocab.eccenca.com/shui/sparqlQuery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/shui/sparqlOperation> .
+<https://vocab.eccenca.com/shui/sparqlUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<https://vocab.eccenca.com/shui/sparqlUpdate> <http://www.w3.org/2000/01/rdf-schema#comment> "SPARQL 1.1 Update" .
+<https://vocab.eccenca.com/shui/sparqlUpdate> <http://www.w3.org/2000/01/rdf-schema#label> "sparqlUpdate" .
+<https://vocab.eccenca.com/shui/sparqlUpdate> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.w3.org/TR/sparql11-update/> .
+<https://vocab.eccenca.com/shui/sparqlUpdate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/shui/sparqlOperation> .
+<https://vocab.eccenca.com/shui/tabName> <http://purl.org/dc/terms/issued> "2017-12-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/tabName> <http://purl.org/dc/terms/modified> "2017-12-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/tabName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/shui/tabName> <http://www.w3.org/2000/01/rdf-schema#comment> "The name to be used when presenting a user interface based on this node shape in a tab."@en .
+<https://vocab.eccenca.com/shui/tabName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shui/tabName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/shui/> .
+<https://vocab.eccenca.com/shui/tabName> <http://www.w3.org/2000/01/rdf-schema#label> "tab name"@en .
+<https://vocab.eccenca.com/shui/tabName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shui/templateString> <http://purl.org/dc/terms/issued> "2017-02-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/templateString> <http://purl.org/dc/terms/modified> "2017-02-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/templateString> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/shui/templateString> <http://www.w3.org/2000/01/rdf-schema#comment> "The actual URI template as defined by RFC 6570."@en .
+<https://vocab.eccenca.com/shui/templateString> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/shui/URITemplate> .
+<https://vocab.eccenca.com/shui/templateString> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/shui/> .
+<https://vocab.eccenca.com/shui/templateString> <http://www.w3.org/2000/01/rdf-schema#label> "URI template string"@en .
+<https://vocab.eccenca.com/shui/templateString> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/shui/templateString> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://tools.ietf.org/html/rfc6570> .
+<https://vocab.eccenca.com/shui/uiQuery> <http://purl.org/dc/terms/issued> "2017-12-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/uiQuery> <http://purl.org/dc/terms/modified> "2017-12-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/uiQuery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/shui/uiQuery> <http://www.w3.org/2000/01/rdf-schema#comment> "In addition to sh:class and other validation, this links a SPARQL 1.1 Query to this property shape in order to provide a sophisticated user interface query e.g. to return specific labels and descriptions."@en .
+<https://vocab.eccenca.com/shui/uiQuery> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shui/uiQuery> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/shui/> .
+<https://vocab.eccenca.com/shui/uiQuery> <http://www.w3.org/2000/01/rdf-schema#label> "user interface query"@en .
+<https://vocab.eccenca.com/shui/uiQuery> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/shui/SparqlQuery> .
+<https://vocab.eccenca.com/shui/uriTemplate> <http://purl.org/dc/terms/issued> "2017-02-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/uriTemplate> <http://purl.org/dc/terms/modified> "2017-02-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shui/uriTemplate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/shui/uriTemplate> <http://www.w3.org/2000/01/rdf-schema#comment> "When creating a new resource, this URI template will be used. Available placeholders are {graph}, {uuid} and {label}."@en .
+<https://vocab.eccenca.com/shui/uriTemplate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shui/uriTemplate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/shui/> .
+<https://vocab.eccenca.com/shui/uriTemplate> <http://www.w3.org/2000/01/rdf-schema#label> "URI template for new resources"@en .
+<https://vocab.eccenca.com/shui/uriTemplate> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/shui/URITemplate> .
+<https://vocab.eccenca.com/shui/uriTemplate> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://tools.ietf.org/html/rfc6570> .
