@@ -76,6 +76,68 @@
 <https://vocab.eccenca.com/sketch/backgroundColor> <http://www.w3.org/2000/01/rdf-schema#label> "background color"@en .
 <https://vocab.eccenca.com/sketch/backgroundColor> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/sketch/rgbHexColor> .
 <https://vocab.eccenca.com/sketch/backgroundColor> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/editor.Editor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/sketch/editor.Editor> <http://www.w3.org/2000/01/rdf-schema#comment> "an app which can load and modify specific sketches"@en .
+<https://vocab.eccenca.com/sketch/editor.Editor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/editor.Editor> <http://www.w3.org/2000/01/rdf-schema#label> "Editor"@en .
+<https://vocab.eccenca.com/sketch/editor.EditorFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/sketch/editor.EditorFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "an Editor Feature is a component which can be disabled or enabled, should not be instantiated directly"@en .
+<https://vocab.eccenca.com/sketch/editor.EditorFeature> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/editor.EditorFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Editor Feature"@en .
+<https://vocab.eccenca.com/sketch/editor.PropertyEditor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/sketch/editor.PropertyEditor> <http://www.w3.org/2000/01/rdf-schema#comment> "the Property Editor is an area which allows to edit properties of a resource"@en .
+<https://vocab.eccenca.com/sketch/editor.PropertyEditor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/editor.PropertyEditor> <http://www.w3.org/2000/01/rdf-schema#label> "Property Editor"@en .
+<https://vocab.eccenca.com/sketch/editor.PropertyEditor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/sketch/editor.EditorFeature> .
+<https://vocab.eccenca.com/sketch/editor.Stencil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/sketch/editor.Stencil> <http://www.w3.org/2000/01/rdf-schema#comment> "the Stencil is an area from which you can drag and drop Sketchables onto the workspace"@en .
+<https://vocab.eccenca.com/sketch/editor.Stencil> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/editor.Stencil> <http://www.w3.org/2000/01/rdf-schema#label> "Stencil"@en .
+<https://vocab.eccenca.com/sketch/editor.Stencil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/sketch/editor.EditorFeature> .
+<https://vocab.eccenca.com/sketch/editor.StencilGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/sketch/editor.StencilGroup> <http://www.w3.org/2000/01/rdf-schema#comment> "Groups of Sketchables in a Stencil"@en .
+<https://vocab.eccenca.com/sketch/editor.StencilGroup> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/editor.StencilGroup> <http://www.w3.org/2000/01/rdf-schema#label> "Stencil Group"@en .
+<https://vocab.eccenca.com/sketch/editor.enabledFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/sketch/editor.enabledFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "enabled EditorFeatures"@en .
+<https://vocab.eccenca.com/sketch/editor.enabledFeature> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/editor.Editor> .
+<https://vocab.eccenca.com/sketch/editor.enabledFeature> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/editor.enabledFeature> <http://www.w3.org/2000/01/rdf-schema#label> "enabled Feature"@en .
+<https://vocab.eccenca.com/sketch/editor.enabledFeature> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/sketch/editor.EditorFeature> .
+<https://vocab.eccenca.com/sketch/editor.hasMapping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/sketch/editor.hasMapping> <http://www.w3.org/2000/01/rdf-schema#comment> "assigns Sketchables to a StencilGroup"@en .
+<https://vocab.eccenca.com/sketch/editor.hasMapping> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/editor.StencilGroup> .
+<https://vocab.eccenca.com/sketch/editor.hasMapping> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/editor.hasMapping> <http://www.w3.org/2000/01/rdf-schema#label> "has Sketchable"@en .
+<https://vocab.eccenca.com/sketch/editor.hasMapping> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/sketch/map.Mapping> .
+<https://vocab.eccenca.com/sketch/editor.hasMapping> <http://www.w3.org/2002/07/owl#inverseOf> <https://vocab.eccenca.com/sketch/editor.isPartOfStencilGroup> .
+<https://vocab.eccenca.com/sketch/editor.hasStencilGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/sketch/editor.hasStencilGroup> <http://www.w3.org/2000/01/rdf-schema#comment> "assigns Stencil Groups to a Stencil"@en .
+<https://vocab.eccenca.com/sketch/editor.hasStencilGroup> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/editor.Stencil> .
+<https://vocab.eccenca.com/sketch/editor.hasStencilGroup> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/editor.hasStencilGroup> <http://www.w3.org/2000/01/rdf-schema#label> "has stencil group"@en .
+<https://vocab.eccenca.com/sketch/editor.hasStencilGroup> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/sketch/editor.StencilGroup> .
+<https://vocab.eccenca.com/sketch/editor.hasStencilGroup> <http://www.w3.org/2002/07/owl#inverseOf> <https://vocab.eccenca.com/sketch/editor.isPartOfStencil> .
+<https://vocab.eccenca.com/sketch/editor.isPartOfStencil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/sketch/editor.isPartOfStencil> <http://www.w3.org/2000/01/rdf-schema#comment> "assigns a StencilGroup to a Stencil"@en .
+<https://vocab.eccenca.com/sketch/editor.isPartOfStencil> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/editor.StencilGroup> .
+<https://vocab.eccenca.com/sketch/editor.isPartOfStencil> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/editor.isPartOfStencil> <http://www.w3.org/2000/01/rdf-schema#label> "is part of stencil"@en .
+<https://vocab.eccenca.com/sketch/editor.isPartOfStencil> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/sketch/editor.Stencil> .
+<https://vocab.eccenca.com/sketch/editor.isPartOfStencil> <http://www.w3.org/2002/07/owl#inverseOf> <https://vocab.eccenca.com/sketch/editor.hasStencilGroup> .
+<https://vocab.eccenca.com/sketch/editor.isPartOfStencilGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/sketch/editor.isPartOfStencilGroup> <http://www.w3.org/2000/01/rdf-schema#comment> "assigns a Sketchable to a StencilGroup"@en .
+<https://vocab.eccenca.com/sketch/editor.isPartOfStencilGroup> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/map.Mapping> .
+<https://vocab.eccenca.com/sketch/editor.isPartOfStencilGroup> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/editor.isPartOfStencilGroup> <http://www.w3.org/2000/01/rdf-schema#label> "is part of Stencil Group"@en .
+<https://vocab.eccenca.com/sketch/editor.isPartOfStencilGroup> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/sketch/editor.StencilGroup> .
+<https://vocab.eccenca.com/sketch/editor.isPartOfStencilGroup> <http://www.w3.org/2002/07/owl#inverseOf> <https://vocab.eccenca.com/sketch/editor.hasMapping> .
+<https://vocab.eccenca.com/sketch/editor.usesMapping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/sketch/editor.usesMapping> <http://www.w3.org/2000/01/rdf-schema#comment> "an editor uses one or more mappings in order to provide gui elements"@en .
+<https://vocab.eccenca.com/sketch/editor.usesMapping> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/editor.Editor> .
+<https://vocab.eccenca.com/sketch/editor.usesMapping> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/editor.usesMapping> <http://www.w3.org/2000/01/rdf-schema#label> "uses Mapping"@en .
+<https://vocab.eccenca.com/sketch/editor.usesMapping> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/sketch/map.Mapping> .
 <https://vocab.eccenca.com/sketch/elements> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://vocab.eccenca.com/sketch/elements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://vocab.eccenca.com/sketch/elements> <http://www.w3.org/2000/01/rdf-schema#comment> "sketchables used in a sketch"@en .
