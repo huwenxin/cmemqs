@@ -1,3 +1,10 @@
+<https://ns.eccenca.com/example/data/dataset/882fc7c7-4c7d-4e2d-9d58-82c6d97a8209> <http://purl.org/dc/terms/created> "2019-11-05T20:45:08.094Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://ns.eccenca.com/example/data/dataset/882fc7c7-4c7d-4e2d-9d58-82c6d97a8209> <http://purl.org/dc/terms/creator> <http://eccenca.com/admin> .
+<https://ns.eccenca.com/example/data/dataset/882fc7c7-4c7d-4e2d-9d58-82c6d97a8209> <http://purl.org/dc/terms/description> "This is just a description of a test dataset" .
+<https://ns.eccenca.com/example/data/dataset/882fc7c7-4c7d-4e2d-9d58-82c6d97a8209> <http://purl.org/dc/terms/modified> "2019-11-05T20:45:08.094Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://ns.eccenca.com/example/data/dataset/882fc7c7-4c7d-4e2d-9d58-82c6d97a8209> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://ns.eccenca.com/example/data/dataset/882fc7c7-4c7d-4e2d-9d58-82c6d97a8209> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/Dataset> .
+<https://ns.eccenca.com/example/data/dataset/882fc7c7-4c7d-4e2d-9d58-82c6d97a8209> <http://www.w3.org/2000/01/rdf-schema#label> "testDataset" .
 <https://ns.eccenca.com/example/data/dataset/> <http://rdfs.org/ns/void#vocabulary> <http://purl.org/dc/terms/> .
 <https://ns.eccenca.com/example/data/dataset/> <http://rdfs.org/ns/void#vocabulary> <http://purl.org/vocab/vann/> .
 <https://ns.eccenca.com/example/data/dataset/> <http://rdfs.org/ns/void#vocabulary> <http://xmlns.com/foaf/0.1/> .
@@ -6,6 +13,12 @@
 <https://ns.eccenca.com/example/data/dataset/> <http://www.w3.org/2000/01/rdf-schema#label> "CMEM Dataset Catalog"@en .
 <https://ns.eccenca.com/example/data/dataset/> <http://www.w3.org/2002/07/owl#imports> <https://vocab.eccenca.com/dsm/> .
 <https://ns.eccenca.com/example/data/dataset/> <http://www.w3.org/2002/07/owl#imports> <https://vocab.eccenca.com/sketch/> .
+<https://ns.eccenca.com/example/data/dataset/prov-bc65ae49-5408-4761-97c5-4a25d86a00f4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/DataManagerEntryCreation> .
+<https://ns.eccenca.com/example/data/dataset/prov-bc65ae49-5408-4761-97c5-4a25d86a00f4> <http://www.w3.org/2000/01/rdf-schema#label> "Entry 'testDataset' created in DataManager" .
+<https://ns.eccenca.com/example/data/dataset/prov-bc65ae49-5408-4761-97c5-4a25d86a00f4> <http://www.w3.org/ns/prov#endedAtTime> "2019-11-05T20:45:08.094Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://ns.eccenca.com/example/data/dataset/prov-bc65ae49-5408-4761-97c5-4a25d86a00f4> <http://www.w3.org/ns/prov#generated> <https://ns.eccenca.com/example/data/dataset/882fc7c7-4c7d-4e2d-9d58-82c6d97a8209> .
+<https://ns.eccenca.com/example/data/dataset/prov-bc65ae49-5408-4761-97c5-4a25d86a00f4> <http://www.w3.org/ns/prov#startedAtTime> "2019-11-05T20:45:08.094Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://ns.eccenca.com/example/data/dataset/prov-bc65ae49-5408-4761-97c5-4a25d86a00f4> <http://www.w3.org/ns/prov#wasAssociatedWith> <http://eccenca.com/admin> .
 <https://vocab.eccenca.com/dsm/ApprovedStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/Status> .
 <https://vocab.eccenca.com/dsm/ApprovedStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "The example status approved"@en .
 <https://vocab.eccenca.com/dsm/ApprovedStatus> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
