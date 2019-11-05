@@ -169,6 +169,96 @@
 <https://vocab.eccenca.com/sketch/lineColor> <http://www.w3.org/2000/01/rdf-schema#label> "Edge Color"@en .
 <https://vocab.eccenca.com/sketch/lineColor> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/sketch/rgbHexColor> .
 <https://vocab.eccenca.com/sketch/lineColor> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/map.ClassMapping> <http://purl.org/dc/terms/modified> "2015-11-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/map.ClassMapping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/sketch/map.ClassMapping> <http://www.w3.org/2000/01/rdf-schema#comment> "mapping which maps a class resource to something sketchable"@en .
+<https://vocab.eccenca.com/sketch/map.ClassMapping> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/map.ClassMapping> <http://www.w3.org/2000/01/rdf-schema#label> "class mapping"@en .
+<https://vocab.eccenca.com/sketch/map.ClassMapping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/sketch/map.Mapping> .
+<https://vocab.eccenca.com/sketch/map.ClassMapping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N905585be6e7f42e8b18a65dbaaeb7e38 .
+<https://vocab.eccenca.com/sketch/map.ClassMapping> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/map.ClassToLine> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/map.ClassToLine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/sketch/map.ClassToLine> <http://www.w3.org/2000/01/rdf-schema#comment> "A mapping between line sketchable, such as arrows, and a class. Arrows are formed by using these n-ary relation resources. start and endpoints must be mapped in addition the class."@en .
+<https://vocab.eccenca.com/sketch/map.ClassToLine> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/map.ClassToLine> <http://www.w3.org/2000/01/rdf-schema#label> "class mapping (line)"@en .
+<https://vocab.eccenca.com/sketch/map.ClassToLine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/sketch/map.ClassMapping> .
+<https://vocab.eccenca.com/sketch/map.ClassToLine> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://vocab.eccenca.com/sketch/map.ClassToShape> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/map.ClassToShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/sketch/map.ClassToShape> <http://www.w3.org/2000/01/rdf-schema#comment> "mapping between shape sketchable, such as circle, and a class"@en .
+<https://vocab.eccenca.com/sketch/map.ClassToShape> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/map.ClassToShape> <http://www.w3.org/2000/01/rdf-schema#label> "class mapping (shape)"@en .
+<https://vocab.eccenca.com/sketch/map.ClassToShape> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/sketch/map.ClassMapping> .
+<https://vocab.eccenca.com/sketch/map.ClassToShape> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/map.DatatypePropertyToText> <http://purl.org/dc/terms/modified> "2015-11-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/map.DatatypePropertyToText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/sketch/map.DatatypePropertyToText> <http://www.w3.org/2000/01/rdf-schema#comment> "An attribute mapping maps the value of a property of a sketchable to the value of a property of the target resources and vice versa."@en .
+<https://vocab.eccenca.com/sketch/map.DatatypePropertyToText> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/map.DatatypePropertyToText> <http://www.w3.org/2000/01/rdf-schema#label> "attribute mapping"@en .
+<https://vocab.eccenca.com/sketch/map.DatatypePropertyToText> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/sketch/map.PropertyMapping> .
+<https://vocab.eccenca.com/sketch/map.DatatypePropertyToText> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/map.Mapping> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/map.Mapping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/sketch/map.Mapping> <http://www.w3.org/2000/01/rdf-schema#comment> "a mapping from an instance of the sketchable space to an instance of the payload space"@en .
+<https://vocab.eccenca.com/sketch/map.Mapping> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/map.Mapping> <http://www.w3.org/2000/01/rdf-schema#label> "mapping"@en .
+<https://vocab.eccenca.com/sketch/map.Mapping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N71ed1537cba247ab8c649776e3e1733f .
+<https://vocab.eccenca.com/sketch/map.Mapping> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/map.ObjectPropertyToLine> <http://purl.org/dc/terms/modified> "2015-11-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/map.ObjectPropertyToLine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/sketch/map.ObjectPropertyToLine> <http://www.w3.org/2000/01/rdf-schema#comment> "A mapping between line sketchable, such as arrows, and a property. start and end point of the arrow sketchable are simply subject and object of the statements where property is the mapped ObjectProperty."@en .
+<https://vocab.eccenca.com/sketch/map.ObjectPropertyToLine> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/map.ObjectPropertyToLine> <http://www.w3.org/2000/01/rdf-schema#label> "line mapping (property)"@en .
+<https://vocab.eccenca.com/sketch/map.ObjectPropertyToLine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/sketch/map.PropertyMapping> .
+<https://vocab.eccenca.com/sketch/map.ObjectPropertyToLine> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/map.PropertyMapping> <http://purl.org/dc/terms/modified> "2015-11-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/map.PropertyMapping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/sketch/map.PropertyMapping> <http://www.w3.org/2000/01/rdf-schema#comment> "mapping which maps a property resource to something sketchable"@en .
+<https://vocab.eccenca.com/sketch/map.PropertyMapping> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/map.PropertyMapping> <http://www.w3.org/2000/01/rdf-schema#label> "property mapping"@en .
+<https://vocab.eccenca.com/sketch/map.PropertyMapping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://vocab.eccenca.com/sketch/map.Mapping> .
+<https://vocab.eccenca.com/sketch/map.PropertyMapping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N9a8aadba901e452eb80bdc5a520f66ba .
+<https://vocab.eccenca.com/sketch/map.PropertyMapping> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/map.class> <http://purl.org/dc/terms/modified> "2015-11-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/map.class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/sketch/map.class> <http://www.w3.org/2000/01/rdf-schema#comment> "Possible mapping targets of a mapping. Points to a class, all instances of this class can be mapped."@en .
+<https://vocab.eccenca.com/sketch/map.class> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/map.ClassMapping> .
+<https://vocab.eccenca.com/sketch/map.class> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/map.class> <http://www.w3.org/2000/01/rdf-schema#label> "class"@en .
+<https://vocab.eccenca.com/sketch/map.class> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/map.componentProperty> <http://purl.org/dc/terms/modified> "2015-11-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/map.componentProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/sketch/map.componentProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "references a ComponentProperty which is used with the super mapped sketchable"@en .
+<https://vocab.eccenca.com/sketch/map.componentProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/map.Mapping> .
+<https://vocab.eccenca.com/sketch/map.componentProperty> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/map.componentProperty> <http://www.w3.org/2000/01/rdf-schema#label> "component property"@en .
+<https://vocab.eccenca.com/sketch/map.componentProperty> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/sketch/ComponentProperty> .
+<https://vocab.eccenca.com/sketch/map.componentProperty> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/map.partOf> <http://purl.org/dc/terms/modified> "2015-11-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/map.partOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/sketch/map.partOf> <http://www.w3.org/2000/01/rdf-schema#comment> "mapped sketchables are part of a mapped outer sketchable"@en .
+<https://vocab.eccenca.com/sketch/map.partOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/map.Mapping> .
+<https://vocab.eccenca.com/sketch/map.partOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/map.partOf> <http://www.w3.org/2000/01/rdf-schema#label> "part of"@en .
+<https://vocab.eccenca.com/sketch/map.partOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/sketch/map.Mapping> .
+<https://vocab.eccenca.com/sketch/map.partOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/map.property> <http://purl.org/dc/terms/modified> "2015-11-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/map.property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/sketch/map.property> <http://www.w3.org/2000/01/rdf-schema#comment> "Possible mapping targets of a mapping. Points to an property, all subject/object pairs of this property can be mapped."@en .
+<https://vocab.eccenca.com/sketch/map.property> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/map.PropertyMapping> .
+<https://vocab.eccenca.com/sketch/map.property> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/map.property> <http://www.w3.org/2000/01/rdf-schema#label> "property"@en .
+<https://vocab.eccenca.com/sketch/map.property> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://vocab.eccenca.com/sketch/map.property> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://vocab.eccenca.com/sketch/map.sketchable> <http://purl.org/dc/terms/modified> "2015-11-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/sketch/map.sketchable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/sketch/map.sketchable> <http://www.w3.org/2000/01/rdf-schema#comment> "assigns a sketchable resource class to a mapping in order to use this object as a default visualization for mapped resources"@en .
+<https://vocab.eccenca.com/sketch/map.sketchable> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/sketch/map.Mapping> .
+<https://vocab.eccenca.com/sketch/map.sketchable> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/sketch/> .
+<https://vocab.eccenca.com/sketch/map.sketchable> <http://www.w3.org/2000/01/rdf-schema#label> "source (sketchable)"@en .
+<https://vocab.eccenca.com/sketch/map.sketchable> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/sketch/map.sketchable> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
 <https://vocab.eccenca.com/sketch/mappedBy> <http://purl.org/dc/terms/modified> "2015-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://vocab.eccenca.com/sketch/mappedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://vocab.eccenca.com/sketch/mappedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "a mapping which can be used for translating from a sketchable to a payload"@en .
@@ -263,6 +353,15 @@
 <https://vocab.eccenca.com/sketch/width> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
 _:N6eaf0ba71462483bbc492a00a2e20d32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:Ncf2890fd4b744e079e20472a0b83b38c .
 _:N6eaf0ba71462483bbc492a00a2e20d32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:N71ed1537cba247ab8c649776e3e1733f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:N71ed1537cba247ab8c649776e3e1733f <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:N71ed1537cba247ab8c649776e3e1733f <http://www.w3.org/2002/07/owl#onProperty> <https://vocab.eccenca.com/sketch/map.sketchable> .
+_:N905585be6e7f42e8b18a65dbaaeb7e38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:N905585be6e7f42e8b18a65dbaaeb7e38 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:N905585be6e7f42e8b18a65dbaaeb7e38 <http://www.w3.org/2002/07/owl#onProperty> <https://vocab.eccenca.com/sketch/map.class> .
+_:N9a8aadba901e452eb80bdc5a520f66ba <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:N9a8aadba901e452eb80bdc5a520f66ba <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:N9a8aadba901e452eb80bdc5a520f66ba <http://www.w3.org/2002/07/owl#onProperty> <https://vocab.eccenca.com/sketch/map.property> .
 _:Nabe11ef8b8ae4bf8954887d62af9e57c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
 _:Nabe11ef8b8ae4bf8954887d62af9e57c <http://www.w3.org/2002/07/owl#withRestrictions> _:N6eaf0ba71462483bbc492a00a2e20d32 .
 _:Ncf2890fd4b744e079e20472a0b83b38c <http://www.w3.org/2001/XMLSchema#pattern> "#[0-9A-F]{6}" .
