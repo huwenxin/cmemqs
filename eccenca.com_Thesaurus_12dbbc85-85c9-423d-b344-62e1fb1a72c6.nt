@@ -1,0 +1,4 @@
+<http://eccenca.com/Thesaurus/12dbbc85-85c9-423d-b344-62e1fb1a72c6/> <http://purl.org/dc/terms/description> "Just a test thesaurus" .
+<http://eccenca.com/Thesaurus/12dbbc85-85c9-423d-b344-62e1fb1a72c6/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/ThesaurusProject> .
+<http://eccenca.com/Thesaurus/12dbbc85-85c9-423d-b344-62e1fb1a72c6/> <http://www.w3.org/2004/02/skos/core#prefLabel> "testThesaurus" .
+<http://eccenca.com/Thesaurus/12dbbc85-85c9-423d-b344-62e1fb1a72c6/> <http://www.w3.org/ns/dcat#theme> <https://vocab.eccenca.com/dsm/ResearchDevelopmentDomain> .
