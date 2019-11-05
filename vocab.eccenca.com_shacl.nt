@@ -36,6 +36,25 @@
 <https://ns.eccenca.com/stramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
 <https://ns.eccenca.com/stramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://ns.eccenca.com/stramp> <http://xmlns.com/foaf/0.1/name> "Sebastian Tramp" .
+<https://vocab.eccenca.com/shacl/All-concept-schemes-query> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/shui/SparqlQuery> .
+<https://vocab.eccenca.com/shacl/All-concept-schemes-query> <http://www.w3.org/2000/01/rdf-schema#comment> "UI query for all concept schemes" .
+<https://vocab.eccenca.com/shacl/All-concept-schemes-query> <http://www.w3.org/2000/01/rdf-schema#label> "All concept schemes" .
+<https://vocab.eccenca.com/shacl/All-concept-schemes-query> <https://vocab.eccenca.com/shui/queryText> "\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dct: <http://purl.org/dc/terms/>\nSELECT\n?resource\n(SAMPLE(?labels) AS ?label)\n(SAMPLE(?descriptions) AS ?description)\nFROM <{{shuiGraph}}>\nWHERE {\n    ?resource a skos:ConceptScheme .\n    OPTIONAL { ?resource skos:prefLabel ?labels . }\n    OPTIONAL { ?resource dct:description ?descriptions . }\n}\nGROUP BY ?resource\n" .
+<https://vocab.eccenca.com/shacl/All-concepts-query> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/shui/SparqlQuery> .
+<https://vocab.eccenca.com/shacl/All-concepts-query> <http://www.w3.org/2000/01/rdf-schema#comment> "UI query for all concepts" .
+<https://vocab.eccenca.com/shacl/All-concepts-query> <http://www.w3.org/2000/01/rdf-schema#label> "All concepts" .
+<https://vocab.eccenca.com/shacl/All-concepts-query> <https://vocab.eccenca.com/shui/queryText> "\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nSELECT\n?resource\n(SAMPLE(?labels) AS ?label)\n(SAMPLE(?descriptions) AS ?description)\nFROM <{{shuiGraph}}>\nWHERE {\n    ?resource a skos:Concept .\n    OPTIONAL { ?resource skos:prefLabel ?labels . }\n    OPTIONAL { ?resource skos:definition ?descriptions . }\n}\nGROUP BY ?resource\n" .
+<https://vocab.eccenca.com/shacl/AllDomainsQuery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/shui/SparqlQuery> .
+<https://vocab.eccenca.com/shacl/AllDomainsQuery> <http://www.w3.org/2000/01/rdf-schema#comment> "UI query for getting all skos:Concepts from the DSM graph (= dataset domains)" .
+<https://vocab.eccenca.com/shacl/AllDomainsQuery> <http://www.w3.org/2000/01/rdf-schema#label> "All domains query" .
+<https://vocab.eccenca.com/shacl/AllDomainsQuery> <https://vocab.eccenca.com/shui/queryText> "\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dct: <http://purl.org/dc/terms/>\nSELECT\n?resource\n(SAMPLE(?labels) AS ?label)\n(SAMPLE(?descriptions) AS ?description)\nFROM <https://ns.eccenca.com/example/data/dataset/>\nWHERE {\n    ?resource a skos:Concept .\n    OPTIONAL { ?resource skos:prefLabel ?labels . }\n    OPTIONAL { ?resource skos:definition ?descriptions . }\n}\nGROUP BY ?resource\n" .
+<https://vocab.eccenca.com/shacl/AlternativeLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/AlternativeLabel> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/shacl/AlternativeLabel> <http://www.w3.org/ns/shacl#description> "The preferred and alternative labels are useful when generating or creating human-readable representations of a knowledge organization system." .
+<https://vocab.eccenca.com/shacl/AlternativeLabel> <http://www.w3.org/ns/shacl#name> "Alternative label" .
+<https://vocab.eccenca.com/shacl/AlternativeLabel> <http://www.w3.org/ns/shacl#order> "40"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/AlternativeLabel> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2004/02/skos/core#altLabel> .
+<https://vocab.eccenca.com/shacl/AlternativeLabel> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://vocab.eccenca.com/shacl/BackupRetentionPolicyShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
 <https://vocab.eccenca.com/shacl/BackupRetentionPolicyShape> <http://www.w3.org/2000/01/rdf-schema#label> "Backup / Data retention policy" .
 <https://vocab.eccenca.com/shacl/BackupRetentionPolicyShape> <http://www.w3.org/ns/shacl#name> "Backup / Data retention policy" .
@@ -47,6 +66,65 @@
 <https://vocab.eccenca.com/shacl/BackupRetentionPolicyShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:e80a16f8-210c-5183-a111-98ee2878d11d> .
 <https://vocab.eccenca.com/shacl/BackupRetentionPolicyShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:f9787932-4407-5a05-9be1-3d3a257f8089> .
 <https://vocab.eccenca.com/shacl/BackupRetentionPolicyShape> <http://www.w3.org/ns/shacl#targetClass> <https://vocab.eccenca.com/dsm/BackupRetentionPolicy> .
+<https://vocab.eccenca.com/shacl/BroaderConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/BroaderConcept> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://vocab.eccenca.com/shacl/BroaderConcept> <http://www.w3.org/ns/shacl#description> "The properties skos:broader and skos:narrower are used to assert a direct hierarchical link between two SKOS concepts." .
+<https://vocab.eccenca.com/shacl/BroaderConcept> <http://www.w3.org/ns/shacl#name> "Broader concepts" .
+<https://vocab.eccenca.com/shacl/BroaderConcept> <http://www.w3.org/ns/shacl#order> "100"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/BroaderConcept> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2004/02/skos/core#broader> .
+<https://vocab.eccenca.com/shacl/BroaderConcept> <https://vocab.eccenca.com/shui/denyNewResources> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/BroaderConcept> <https://vocab.eccenca.com/shui/onDeleteUpdate> <https://vocab.eccenca.com/shacl/Clean-explicit-inverse-update> .
+<https://vocab.eccenca.com/shacl/BroaderConcept> <https://vocab.eccenca.com/shui/onInsertUpdate> <https://vocab.eccenca.com/shacl/Make-inverse-explicit-update> .
+<https://vocab.eccenca.com/shacl/BroaderConcept> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/BroaderConcept> <https://vocab.eccenca.com/shui/uiQuery> <https://vocab.eccenca.com/shacl/Not-clashed-concepts-query> .
+<https://vocab.eccenca.com/shacl/Clean-explicit-inverse-update> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/shui/SparqlUpdate> .
+<https://vocab.eccenca.com/shacl/Clean-explicit-inverse-update> <http://www.w3.org/2000/01/rdf-schema#comment> "Clean explicit inverse statements when an inverse property statement is deleted." .
+<https://vocab.eccenca.com/shacl/Clean-explicit-inverse-update> <http://www.w3.org/2000/01/rdf-schema#label> "Clean explicit inverse" .
+<https://vocab.eccenca.com/shacl/Clean-explicit-inverse-update> <https://vocab.eccenca.com/shui/queryText> "\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nDELETE {\n  GRAPH <{{shuiGraph}}> {\n    <{{shuiObject}}> ?inverseProperty <{{shuiMainResource}}> .\n  }\n}\nWHERE {\n  GRAPH <http://www.w3.org/2004/02/skos/core#> {\n    <{{shuiProperty}}> owl:inverseOf ?inverseProperty .\n  }\n}\n" .
+<https://vocab.eccenca.com/shacl/Clean-explicit-symmetry-update> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/shui/SparqlUpdate> .
+<https://vocab.eccenca.com/shacl/Clean-explicit-symmetry-update> <http://www.w3.org/2000/01/rdf-schema#comment> "Clean explicit symmetry statements when a symmetric property statement is deleted." .
+<https://vocab.eccenca.com/shacl/Clean-explicit-symmetry-update> <http://www.w3.org/2000/01/rdf-schema#label> "Clean explicit symmetry" .
+<https://vocab.eccenca.com/shacl/Clean-explicit-symmetry-update> <https://vocab.eccenca.com/shui/queryText> "\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nDELETE {\n  GRAPH <{{shuiGraph}}> {\n    <{{shuiObject}}> <{{shuiProperty}}> <{{shuiMainResource}}> .\n  }\n}\nWHERE {\n  GRAPH <http://www.w3.org/2004/02/skos/core#> {\n    <{{shuiProperty}}> a owl:SymmetricProperty .\n  }\n}\n" .
+<https://vocab.eccenca.com/shacl/ConceptSchemeDescriptionShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/ConceptSchemeDescriptionShape> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/shacl/ConceptSchemeDescriptionShape> <http://www.w3.org/ns/shacl#description> "An optional description for the concept scheme." .
+<https://vocab.eccenca.com/shacl/ConceptSchemeDescriptionShape> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/ConceptSchemeDescriptionShape> <http://www.w3.org/ns/shacl#name> "Description" .
+<https://vocab.eccenca.com/shacl/ConceptSchemeDescriptionShape> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://vocab.eccenca.com/shacl/ConceptSchemeDescriptionShape> <http://www.w3.org/ns/shacl#order> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/ConceptSchemeDescriptionShape> <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/description> .
+<https://vocab.eccenca.com/shacl/ConceptSchemeDescriptionShape> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/ConceptSchemeShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shacl/ConceptSchemeShape> <http://www.w3.org/ns/shacl#name> "Concept scheme" .
+<https://vocab.eccenca.com/shacl/ConceptSchemeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/ConceptSchemeDescriptionShape> .
+<https://vocab.eccenca.com/shacl/ConceptSchemeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/ConceptSchemeStatusShape> .
+<https://vocab.eccenca.com/shacl/ConceptSchemeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/Domain> .
+<https://vocab.eccenca.com/shacl/ConceptSchemeShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/PreferredLabel> .
+<https://vocab.eccenca.com/shacl/ConceptSchemeShape> <http://www.w3.org/ns/shacl#targetClass> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://vocab.eccenca.com/shacl/ConceptSchemeShape> <https://vocab.eccenca.com/shui/tabName> "Concept scheme" .
+<https://vocab.eccenca.com/shacl/ConceptSchemeStatusShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/ConceptSchemeStatusShape> <http://www.w3.org/ns/shacl#class> <https://vocab.eccenca.com/dsm/Status> .
+<https://vocab.eccenca.com/shacl/ConceptSchemeStatusShape> <http://www.w3.org/ns/shacl#description> "The current status of the concept scheme." .
+<https://vocab.eccenca.com/shacl/ConceptSchemeStatusShape> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/ConceptSchemeStatusShape> <http://www.w3.org/ns/shacl#name> "Status" .
+<https://vocab.eccenca.com/shacl/ConceptSchemeStatusShape> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://vocab.eccenca.com/shacl/ConceptSchemeStatusShape> <http://www.w3.org/ns/shacl#order> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/ConceptSchemeStatusShape> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/dsm/hasStatus> .
+<https://vocab.eccenca.com/shacl/ConceptSchemeStatusShape> <https://vocab.eccenca.com/shui/denyNewResources> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/ConceptSchemeStatusShape> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/ConceptShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shacl/ConceptShape> <http://www.w3.org/ns/shacl#name> "Concept" .
+<https://vocab.eccenca.com/shacl/ConceptShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/AlternativeLabel> .
+<https://vocab.eccenca.com/shacl/ConceptShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/BroaderConcept> .
+<https://vocab.eccenca.com/shacl/ConceptShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/Definition> .
+<https://vocab.eccenca.com/shacl/ConceptShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/HiddenLabel> .
+<https://vocab.eccenca.com/shacl/ConceptShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/Notation> .
+<https://vocab.eccenca.com/shacl/ConceptShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/PreferredLabel> .
+<https://vocab.eccenca.com/shacl/ConceptShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/RelatedConcept> .
+<https://vocab.eccenca.com/shacl/ConceptShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/ScopeNote> .
+<https://vocab.eccenca.com/shacl/ConceptShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/TopConcept> .
+<https://vocab.eccenca.com/shacl/ConceptShape> <http://www.w3.org/ns/shacl#targetClass> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://vocab.eccenca.com/shacl/ConceptShape> <https://vocab.eccenca.com/shui/tabName> "Concept" .
 <https://vocab.eccenca.com/shacl/ConfigurationShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
 <https://vocab.eccenca.com/shacl/ConfigurationShape> <http://www.w3.org/2000/01/rdf-schema#label> "Configuration" .
 <https://vocab.eccenca.com/shacl/ConfigurationShape> <http://www.w3.org/ns/shacl#name> "Configuration" .
@@ -71,6 +149,71 @@
 <https://vocab.eccenca.com/shacl/DatasetShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:f1ece8a4-4f3c-582d-b6ba-7c27178de9fd> .
 <https://vocab.eccenca.com/shacl/DatasetShape> <http://www.w3.org/ns/shacl#targetClass> <https://vocab.eccenca.com/dsm/Dataset> .
 <https://vocab.eccenca.com/shacl/DatasetShape> <https://vocab.eccenca.com/shui/tabName> "Dataset" .
+<https://vocab.eccenca.com/shacl/Definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/Definition> <http://www.w3.org/ns/shacl#description> "The main description of the concept." .
+<https://vocab.eccenca.com/shacl/Definition> <http://www.w3.org/ns/shacl#name> "Definition" .
+<https://vocab.eccenca.com/shacl/Definition> <http://www.w3.org/ns/shacl#order> "20"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/Definition> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2004/02/skos/core#definition> .
+<https://vocab.eccenca.com/shacl/Definition> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/Domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/Domain> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://vocab.eccenca.com/shacl/Domain> <http://www.w3.org/ns/shacl#description> "The semantic domain with regard to the contents." .
+<https://vocab.eccenca.com/shacl/Domain> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/Domain> <http://www.w3.org/ns/shacl#name> "Domain" .
+<https://vocab.eccenca.com/shacl/Domain> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://vocab.eccenca.com/shacl/Domain> <http://www.w3.org/ns/shacl#order> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/Domain> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/dcat#theme> .
+<https://vocab.eccenca.com/shacl/Domain> <https://vocab.eccenca.com/shui/denyNewResources> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/Domain> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/Domain> <https://vocab.eccenca.com/shui/uiQuery> <https://vocab.eccenca.com/shacl/AllDomainsQuery> .
+<https://vocab.eccenca.com/shacl/HasTopConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/HasTopConcept> <http://www.w3.org/2000/01/rdf-schema#comment> "currently not in use ..." .
+<https://vocab.eccenca.com/shacl/HasTopConcept> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://vocab.eccenca.com/shacl/HasTopConcept> <http://www.w3.org/ns/shacl#description> "The property is used to link a concept scheme to the SKOS concept(s) which are topmost in the hierarchical relations for that scheme." .
+<https://vocab.eccenca.com/shacl/HasTopConcept> <http://www.w3.org/ns/shacl#name> "Has top concept" .
+<https://vocab.eccenca.com/shacl/HasTopConcept> <http://www.w3.org/ns/shacl#order> "80"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/HasTopConcept> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2004/02/skos/core#hasTopConcept> .
+<https://vocab.eccenca.com/shacl/HasTopConcept> <https://vocab.eccenca.com/shui/denyNewResources> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/HasTopConcept> <https://vocab.eccenca.com/shui/onDeleteUpdate> <https://vocab.eccenca.com/shacl/Clean-explicit-inverse-update> .
+<https://vocab.eccenca.com/shacl/HasTopConcept> <https://vocab.eccenca.com/shui/onInsertUpdate> <https://vocab.eccenca.com/shacl/Make-inverse-explicit-update> .
+<https://vocab.eccenca.com/shacl/HasTopConcept> <https://vocab.eccenca.com/shui/uiQuery> <https://vocab.eccenca.com/shacl/All-concepts-query> .
+<https://vocab.eccenca.com/shacl/HiddenLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/HiddenLabel> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/shacl/HiddenLabel> <http://www.w3.org/ns/shacl#description> "The hidden labels are useful when a user is interacting with a knowledge organization system via a text-based search function. The user may, for example, enter mis-spelled words when trying to find a relevant concept." .
+<https://vocab.eccenca.com/shacl/HiddenLabel> <http://www.w3.org/ns/shacl#name> "Hidden label" .
+<https://vocab.eccenca.com/shacl/HiddenLabel> <http://www.w3.org/ns/shacl#order> "50"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/HiddenLabel> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2004/02/skos/core#hiddenLabel> .
+<https://vocab.eccenca.com/shacl/HiddenLabel> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/Make-inverse-explicit-update> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/shui/SparqlUpdate> .
+<https://vocab.eccenca.com/shacl/Make-inverse-explicit-update> <http://www.w3.org/2000/01/rdf-schema#comment> "Make inverse statements explicit when an inverse property statement is inserted." .
+<https://vocab.eccenca.com/shacl/Make-inverse-explicit-update> <http://www.w3.org/2000/01/rdf-schema#label> "Make inverse explicit" .
+<https://vocab.eccenca.com/shacl/Make-inverse-explicit-update> <https://vocab.eccenca.com/shui/queryText> "\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nINSERT {\n  GRAPH <{{shuiGraph}}> {\n    <{{shuiObject}}> ?inverseProperty <{{shuiMainResource}}> .\n  }\n}\nWHERE {\n  GRAPH <http://www.w3.org/2004/02/skos/core#> {\n    <{{shuiProperty}}> owl:inverseOf ?inverseProperty .\n  }\n}\n" .
+<https://vocab.eccenca.com/shacl/Make-symmetry-explicit-update> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/shui/SparqlUpdate> .
+<https://vocab.eccenca.com/shacl/Make-symmetry-explicit-update> <http://www.w3.org/2000/01/rdf-schema#comment> "Make symmetry statements explicit when a symmetric property statement is inserted." .
+<https://vocab.eccenca.com/shacl/Make-symmetry-explicit-update> <http://www.w3.org/2000/01/rdf-schema#label> "Make symmetry explicit" .
+<https://vocab.eccenca.com/shacl/Make-symmetry-explicit-update> <https://vocab.eccenca.com/shui/queryText> "\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nINSERT {\n  GRAPH <{{shuiGraph}}> {\n    <{{shuiObject}}> <{{shuiProperty}}> <{{shuiMainResource}}> .\n  }\n}\nWHERE {\n  GRAPH <http://www.w3.org/2004/02/skos/core#> {\n    <{{shuiProperty}}> a owl:SymmetricProperty .\n  }\n}\n" .
+<https://vocab.eccenca.com/shacl/NarrowerConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/NarrowerConcept> <http://www.w3.org/2000/01/rdf-schema#comment> "currently not in use ..." .
+<https://vocab.eccenca.com/shacl/NarrowerConcept> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://vocab.eccenca.com/shacl/NarrowerConcept> <http://www.w3.org/ns/shacl#description> "The properties skos:broader and skos:narrower are used to assert a direct hierarchical link between two SKOS concepts." .
+<https://vocab.eccenca.com/shacl/NarrowerConcept> <http://www.w3.org/ns/shacl#name> "Narrower concepts" .
+<https://vocab.eccenca.com/shacl/NarrowerConcept> <http://www.w3.org/ns/shacl#order> "110"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/NarrowerConcept> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2004/02/skos/core#narrower> .
+<https://vocab.eccenca.com/shacl/NarrowerConcept> <https://vocab.eccenca.com/shui/denyNewResources> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/NarrowerConcept> <https://vocab.eccenca.com/shui/onDeleteUpdate> <https://vocab.eccenca.com/shacl/Clean-explicit-inverse-update> .
+<https://vocab.eccenca.com/shacl/NarrowerConcept> <https://vocab.eccenca.com/shui/onInsertUpdate> <https://vocab.eccenca.com/shacl/Make-inverse-explicit-update> .
+<https://vocab.eccenca.com/shacl/NarrowerConcept> <https://vocab.eccenca.com/shui/uiQuery> <https://vocab.eccenca.com/shacl/Not-clashed-concepts-query> .
+<https://vocab.eccenca.com/shacl/Not-clashed-concepts-query> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/shui/SparqlQuery> .
+<https://vocab.eccenca.com/shacl/Not-clashed-concepts-query> <http://www.w3.org/2000/01/rdf-schema#comment> "UI query for concepts which are not already in 'broader/narrower/related' relation to the shown concept and can therefore be used in one of these relations. See integrity condition S27 at https://www.w3.org/TR/skos-reference/ for further information." .
+<https://vocab.eccenca.com/shacl/Not-clashed-concepts-query> <http://www.w3.org/2000/01/rdf-schema#label> "Not clashed concepts" .
+<https://vocab.eccenca.com/shacl/Not-clashed-concepts-query> <https://vocab.eccenca.com/shui/queryText> "\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nSELECT\n?resource\n(SAMPLE(?labels) AS ?label)\n(SAMPLE(?descriptions) AS ?description)\nFROM <{{shuiGraph}}>\nWHERE {\n    ?resource a skos:Concept .\n    OPTIONAL { ?resource skos:prefLabel ?labels . }\n    OPTIONAL { ?resource skos:definition ?descriptions . }\n    MINUS { <{{shuiMainResource}}> skos:broader ?resource . }\n    MINUS { <{{shuiMainResource}}> skos:narrower ?resource . }\n    MINUS { <{{shuiMainResource}}> skos:related ?resource . }\n    FILTER ( ?resource != <{{shuiMainResource}}> )\n}\nGROUP BY ?resource\n" .
+<https://vocab.eccenca.com/shacl/Notation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/Notation> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/shacl/Notation> <http://www.w3.org/ns/shacl#description> "A notation is a string of characters such as \"T58.5\" or \"303.4833\" used to uniquely identify a concept within the scope of a given concept scheme. A notation is different from a lexical label in that a notation is not normally recognizable as a word or sequence of words in any natural language." .
+<https://vocab.eccenca.com/shacl/Notation> <http://www.w3.org/ns/shacl#name> "Notation" .
+<https://vocab.eccenca.com/shacl/Notation> <http://www.w3.org/ns/shacl#order> "60"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/Notation> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2004/02/skos/core#notation> .
+<https://vocab.eccenca.com/shacl/Notation> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://vocab.eccenca.com/shacl/PeriodOfTimeShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
 <https://vocab.eccenca.com/shacl/PeriodOfTimeShape> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal coverage " .
 <https://vocab.eccenca.com/shacl/PeriodOfTimeShape> <http://www.w3.org/ns/shacl#name> "Temporal coverage " .
@@ -78,6 +221,13 @@
 <https://vocab.eccenca.com/shacl/PeriodOfTimeShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:e9c803f2-953f-5343-a78b-d8e9ba6149ea> .
 <https://vocab.eccenca.com/shacl/PeriodOfTimeShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:f9574314-b36f-5421-a310-fff5d2d02a85> .
 <https://vocab.eccenca.com/shacl/PeriodOfTimeShape> <http://www.w3.org/ns/shacl#targetClass> <http://purl.org/dc/terms/PeriodOfTime> .
+<https://vocab.eccenca.com/shacl/PreferredLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/PreferredLabel> <http://www.w3.org/ns/shacl#description> "The preferred label is useful when generating or creating human-readable representations of a knowledge organization system." .
+<https://vocab.eccenca.com/shacl/PreferredLabel> <http://www.w3.org/ns/shacl#name> "Preferred label" .
+<https://vocab.eccenca.com/shacl/PreferredLabel> <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/PreferredLabel> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2004/02/skos/core#prefLabel> .
+<https://vocab.eccenca.com/shacl/PreferredLabel> <http://www.w3.org/ns/shacl#uniqueLang> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/PreferredLabel> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://vocab.eccenca.com/shacl/QualityCertificateShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
 <https://vocab.eccenca.com/shacl/QualityCertificateShape> <http://www.w3.org/2000/01/rdf-schema#label> "Quality certificate" .
 <https://vocab.eccenca.com/shacl/QualityCertificateShape> <http://www.w3.org/ns/shacl#name> "Quality certificate" .
@@ -128,6 +278,17 @@
 <https://vocab.eccenca.com/shacl/QueryTextShape> <http://www.w3.org/ns/shacl#order> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://vocab.eccenca.com/shacl/QueryTextShape> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/shui/queryText> .
 <https://vocab.eccenca.com/shacl/QueryTextShape> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/RelatedConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/RelatedConcept> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://vocab.eccenca.com/shacl/RelatedConcept> <http://www.w3.org/ns/shacl#description> "The property is used to assert an associative link between two SKOS concepts." .
+<https://vocab.eccenca.com/shacl/RelatedConcept> <http://www.w3.org/ns/shacl#name> "Related concepts" .
+<https://vocab.eccenca.com/shacl/RelatedConcept> <http://www.w3.org/ns/shacl#order> "90"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/RelatedConcept> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2004/02/skos/core#related> .
+<https://vocab.eccenca.com/shacl/RelatedConcept> <https://vocab.eccenca.com/shui/denyNewResources> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/RelatedConcept> <https://vocab.eccenca.com/shui/onDeleteUpdate> <https://vocab.eccenca.com/shacl/Clean-explicit-symmetry-update> .
+<https://vocab.eccenca.com/shacl/RelatedConcept> <https://vocab.eccenca.com/shui/onInsertUpdate> <https://vocab.eccenca.com/shacl/Make-symmetry-explicit-update> .
+<https://vocab.eccenca.com/shacl/RelatedConcept> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/RelatedConcept> <https://vocab.eccenca.com/shui/uiQuery> <https://vocab.eccenca.com/shacl/Not-clashed-concepts-query> .
 <https://vocab.eccenca.com/shacl/RelationAssignmentShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
 <https://vocab.eccenca.com/shacl/RelationAssignmentShape> <http://www.w3.org/2000/01/rdf-schema#label> "Relation" .
 <https://vocab.eccenca.com/shacl/RelationAssignmentShape> <http://www.w3.org/ns/shacl#name> "Relation" .
@@ -164,6 +325,13 @@
 <https://vocab.eccenca.com/shacl/SchemaPathShape> <http://www.w3.org/ns/shacl#property> <urn:uuid:c83ee6c3-ef44-51af-83d2-8e5b2b2fd79d> .
 <https://vocab.eccenca.com/shacl/SchemaPathShape> <http://www.w3.org/ns/shacl#targetClass> <https://vocab.eccenca.com/dsm/SchemaPath> .
 <https://vocab.eccenca.com/shacl/SchemaPathShape> <https://vocab.eccenca.com/shui/tabName> "Schema path" .
+<https://vocab.eccenca.com/shacl/ScopeNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/ScopeNote> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/shacl/ScopeNote> <http://www.w3.org/ns/shacl#description> "A note that helps to clarify the meaning and/or the use of a concept" .
+<https://vocab.eccenca.com/shacl/ScopeNote> <http://www.w3.org/ns/shacl#name> "Scope note" .
+<https://vocab.eccenca.com/shacl/ScopeNote> <http://www.w3.org/ns/shacl#order> "30"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/ScopeNote> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2004/02/skos/core#note> .
+<https://vocab.eccenca.com/shacl/ScopeNote> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://vocab.eccenca.com/shacl/TaggingShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
 <https://vocab.eccenca.com/shacl/TaggingShape> <http://www.w3.org/2000/01/rdf-schema#label> "Tagging" .
 <https://vocab.eccenca.com/shacl/TaggingShape> <http://www.w3.org/ns/shacl#name> "Tagging" .
@@ -180,6 +348,63 @@
 <https://vocab.eccenca.com/shacl/TemplateStringShape> <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://vocab.eccenca.com/shacl/TemplateStringShape> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/shui/templateString> .
 <https://vocab.eccenca.com/shacl/TemplateStringShape> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectDescriptionShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectDescriptionShape> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectDescriptionShape> <http://www.w3.org/ns/shacl#description> "An optional description for the project." .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectDescriptionShape> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectDescriptionShape> <http://www.w3.org/ns/shacl#name> "Description" .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectDescriptionShape> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectDescriptionShape> <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectDescriptionShape> <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/description> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectDescriptionShape> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectLanguageShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectLanguageShape> <http://www.w3.org/2000/01/rdf-schema#comment> "currently not in use ..." .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectLanguageShape> <http://www.w3.org/ns/shacl#class> <http://dbpedia.org/ontology/Language> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectLanguageShape> <http://www.w3.org/ns/shacl#description> "The primary language of the thesaurus project." .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectLanguageShape> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectLanguageShape> <http://www.w3.org/ns/shacl#name> "Language" .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectLanguageShape> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectLanguageShape> <http://www.w3.org/ns/shacl#order> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectLanguageShape> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/dsm/primaryLanguage> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectLanguageShape> <https://vocab.eccenca.com/shui/denyNewResources> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectLanguageShape> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectNameShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectNameShape> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectNameShape> <http://www.w3.org/ns/shacl#description> "The name of the thesaurus project." .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectNameShape> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectNameShape> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectNameShape> <http://www.w3.org/ns/shacl#name> "Name" .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectNameShape> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectNameShape> <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectNameShape> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2004/02/skos/core#prefLabel> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectShape> <http://www.w3.org/ns/shacl#name> "Thesaurus project" .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/Domain> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/ThesaurusProjectDescriptionShape> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/ThesaurusProjectNameShape> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/ThesaurusProjectStatusShape> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectShape> <http://www.w3.org/ns/shacl#targetClass> <https://vocab.eccenca.com/dsm/ThesaurusProject> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectStatusShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectStatusShape> <http://www.w3.org/ns/shacl#class> <https://vocab.eccenca.com/dsm/Status> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectStatusShape> <http://www.w3.org/ns/shacl#description> "The current status of the thesaurus project." .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectStatusShape> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectStatusShape> <http://www.w3.org/ns/shacl#name> "Status" .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectStatusShape> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectStatusShape> <http://www.w3.org/ns/shacl#order> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectStatusShape> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/dsm/hasStatus> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectStatusShape> <https://vocab.eccenca.com/shui/denyNewResources> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/ThesaurusProjectStatusShape> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/TopConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/TopConcept> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://vocab.eccenca.com/shacl/TopConcept> <http://www.w3.org/ns/shacl#description> "Describes this concept as a top concept of these concept schemes." .
+<https://vocab.eccenca.com/shacl/TopConcept> <http://www.w3.org/ns/shacl#name> "Top concept of" .
+<https://vocab.eccenca.com/shacl/TopConcept> <http://www.w3.org/ns/shacl#order> "70"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/TopConcept> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2004/02/skos/core#topConceptOf> .
+<https://vocab.eccenca.com/shacl/TopConcept> <https://vocab.eccenca.com/shui/denyNewResources> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/TopConcept> <https://vocab.eccenca.com/shui/onDeleteUpdate> <https://vocab.eccenca.com/shacl/Clean-explicit-inverse-update> .
+<https://vocab.eccenca.com/shacl/TopConcept> <https://vocab.eccenca.com/shui/onInsertUpdate> <https://vocab.eccenca.com/shacl/Make-inverse-explicit-update> .
+<https://vocab.eccenca.com/shacl/TopConcept> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/TopConcept> <https://vocab.eccenca.com/shui/uiQuery> <https://vocab.eccenca.com/shacl/All-concept-schemes-query> .
 <https://vocab.eccenca.com/shacl/URITemplateShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
 <https://vocab.eccenca.com/shacl/URITemplateShape> <http://www.w3.org/2000/01/rdf-schema#label> "URI template" .
 <https://vocab.eccenca.com/shacl/URITemplateShape> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://tools.ietf.org/html/rfc6570> .
