@@ -219,6 +219,17 @@
 <https://ns.eccenca.com/stramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
 <https://ns.eccenca.com/stramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://ns.eccenca.com/stramp> <http://xmlns.com/foaf/0.1/name> "Sebastian Tramp" .
+<https://vocab.eccenca.com/shacl/> <http://purl.org/dc/terms/modified> "2019-07-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://vocab.eccenca.com/shacl/> <http://purl.org/dc/terms/rights> "Copyright © 2019 eccenca GmbH" .
+<https://vocab.eccenca.com/shacl/> <http://purl.org/vocab/vann/preferredNamespacePrefix> "eccshapes" .
+<https://vocab.eccenca.com/shacl/> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://vocab.eccenca.com/shacl/" .
+<https://vocab.eccenca.com/shacl/> <http://rdfs.org/ns/void#vocabulary> <http://purl.org/vocab/vann/> .
+<https://vocab.eccenca.com/shacl/> <http://rdfs.org/ns/void#vocabulary> <http://www.w3.org/2004/02/skos/core#> .
+<https://vocab.eccenca.com/shacl/> <http://rdfs.org/ns/void#vocabulary> <http://xmlns.com/foaf/0.1/> .
+<https://vocab.eccenca.com/shacl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
+<https://vocab.eccenca.com/shacl/> <http://www.w3.org/2000/01/rdf-schema#comment> "This is an internal Corporate Memory dataset. It contains a catalog of shape definitions."@en .
+<https://vocab.eccenca.com/shacl/> <http://www.w3.org/2000/01/rdf-schema#label> "CMEM Shapes Catalog"@en .
+<https://vocab.eccenca.com/shacl/> <http://www.w3.org/2002/07/owl#versionInfo> "v1.13.3" .
 <https://vocab.eccenca.com/shacl/All-concept-schemes-query> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/shui/SparqlQuery> .
 <https://vocab.eccenca.com/shacl/All-concept-schemes-query> <http://www.w3.org/2000/01/rdf-schema#comment> "UI query for all concept schemes" .
 <https://vocab.eccenca.com/shacl/All-concept-schemes-query> <http://www.w3.org/2000/01/rdf-schema#label> "All concept schemes" .
