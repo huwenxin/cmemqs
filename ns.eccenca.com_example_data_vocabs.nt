@@ -13,6 +13,14 @@
 <http://purl.org/dc/terms/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
 <http://purl.org/dc/terms/> <http://www.w3.org/2000/01/rdf-schema#label> "dcterms: DCMI Metadata Terms"@en .
 <http://purl.org/dc/terms/> <http://www.w3.org/ns/dcat#distribution> <https://lov.linkeddata.es/dataset/lov/vocabs/dcterms/versions/2012-06-14.n3> .
+<http://schema.mobivoc.org/> <http://purl.org/dc/terms/description> "Our goal is to significantly improve the data mobility between all stakeholders by providing a standardized vocabulary using Semantic Web technologies and ontologies. For the open vocabulary covering various mobility aspects we use RDF (Resource Description Framework) - a recommended specification of the World Wide Web Consortium (W3C) and the so-called lingua franca for the integration of data and web. We invite everyone who is interested to join our MobiVoc initiative and to participate in the development of the Open Mobility Vocabulary."@en .
+<http://schema.mobivoc.org/> <http://purl.org/dc/terms/issued> "2014-08-31"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://schema.mobivoc.org/> <http://purl.org/dc/terms/modified> "2017-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://schema.mobivoc.org/> <http://purl.org/vocab/vann/preferredNamespacePrefix> "mv" .
+<http://schema.mobivoc.org/> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://schema.mobivoc.org/" .
+<http://schema.mobivoc.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+<http://schema.mobivoc.org/> <http://www.w3.org/2000/01/rdf-schema#label> "mv: MobiVoc - Open Mobility Vocabulary"@en .
+<http://schema.mobivoc.org/> <http://www.w3.org/ns/dcat#distribution> <https://vocab.eccenca.com/proxy/default/graph?owlImportsResolution=false&graph=http://schema.mobivoc.org/> .
 <http://schema.org/> <http://purl.org/dc/terms/description> "Search engines including Bing, Google, Yahoo! and Yandex rely on schema.org markup to improve the display of search results, making it easier for people to find the right web pages."@en .
 <http://schema.org/> <http://purl.org/dc/terms/issued> "2012-04-26"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://schema.org/> <http://purl.org/dc/terms/modified> "2019-05-01"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -36,6 +44,13 @@
 <http://www.w3.org/2000/01/rdf-schema#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
 <http://www.w3.org/2000/01/rdf-schema#> <http://www.w3.org/2000/01/rdf-schema#label> "rdfs: The RDF Schema vocabulary"@en .
 <http://www.w3.org/2000/01/rdf-schema#> <http://www.w3.org/ns/dcat#distribution> <https://lov.linkeddata.es/dataset/lov/vocabs/rdfs/versions/2014-02-25.n3> .
+<http://www.w3.org/2001/XMLSchema#> <http://purl.org/dc/terms/description> "This is a the missing RDF description of the XML Schema datatypes used in RDF/OWL. Please refer to http://www.w3.org/TR/owl-ref/#rdf-datatype for a list of valid datatypes."@en .
+<http://www.w3.org/2001/XMLSchema#> <http://purl.org/dc/terms/modified> "2016-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.w3.org/2001/XMLSchema#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "xsd" .
+<http://www.w3.org/2001/XMLSchema#> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://www.w3.org/2001/XMLSchema#" .
+<http://www.w3.org/2001/XMLSchema#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+<http://www.w3.org/2001/XMLSchema#> <http://www.w3.org/2000/01/rdf-schema#label> "xsd: XML Schema Datatypes"@en .
+<http://www.w3.org/2001/XMLSchema#> <http://www.w3.org/ns/dcat#distribution> <https://vocab.eccenca.com/proxy/default/graph?owlImportsResolution=false&graph=http://www.w3.org/2001/XMLSchema> .
 <http://www.w3.org/2002/07/owl#> <http://purl.org/dc/terms/description> "This ontology partially describes the built-in classes and   properties that together form the basis of the RDF/XML syntax of OWL 2."@en .
 <http://www.w3.org/2002/07/owl#> <http://purl.org/dc/terms/modified> "2009-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://www.w3.org/2002/07/owl#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "owl" .
