@@ -1,6 +1,0 @@
-<http://di.eccenca.com/project/cmem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/di/Project> .
-<http://di.eccenca.com/project/cmem> <http://www.w3.org/2000/01/rdf-schema#label> "CMEM DataIntegration Project 'cmem'"@en .
-<http://di.eccenca.com/project/cmem> <https://vocab.eccenca.com/di/prefix> "direct: https://ns.eccenca.com/" .
-<http://di.eccenca.com/project/cmem> <https://vocab.eccenca.com/di/prefix> "owl: http://www.w3.org/2002/07/owl#" .
-<http://di.eccenca.com/project/cmem> <https://vocab.eccenca.com/di/prefix> "rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" .
-<http://di.eccenca.com/project/cmem> <https://vocab.eccenca.com/di/prefix> "rdfs: http://www.w3.org/2000/01/rdf-schema#" .
