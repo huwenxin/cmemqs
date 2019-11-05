@@ -36,6 +36,99 @@
 <https://ns.eccenca.com/stramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
 <https://ns.eccenca.com/stramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://ns.eccenca.com/stramp> <http://xmlns.com/foaf/0.1/name> "Sebastian Tramp" .
+<https://vocab.eccenca.com/shacl/QueryDescriptionShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/QueryDescriptionShape> <http://www.w3.org/2000/01/rdf-schema#label> "Description" .
+<https://vocab.eccenca.com/shacl/QueryDescriptionShape> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/QueryDescriptionShape> <http://www.w3.org/ns/shacl#name> "Description" .
+<https://vocab.eccenca.com/shacl/QueryDescriptionShape> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://vocab.eccenca.com/shacl/QueryDescriptionShape> <http://www.w3.org/ns/shacl#order> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/QueryDescriptionShape> <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/description> .
+<https://vocab.eccenca.com/shacl/QueryDescriptionShape> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/QueryLabelShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/QueryLabelShape> <http://www.w3.org/2000/01/rdf-schema#label> "Name" .
+<https://vocab.eccenca.com/shacl/QueryLabelShape> <http://www.w3.org/ns/shacl#description> "short name or summary of the query" .
+<https://vocab.eccenca.com/shacl/QueryLabelShape> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/QueryLabelShape> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/QueryLabelShape> <http://www.w3.org/ns/shacl#name> "Name" .
+<https://vocab.eccenca.com/shacl/QueryLabelShape> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://vocab.eccenca.com/shacl/QueryLabelShape> <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/QueryLabelShape> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2000/01/rdf-schema#label> .
+<https://vocab.eccenca.com/shacl/QueryShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shacl/QueryShape> <http://www.w3.org/2000/01/rdf-schema#label> "Query" .
+<https://vocab.eccenca.com/shacl/QueryShape> <http://www.w3.org/ns/shacl#name> "Query" .
+<https://vocab.eccenca.com/shacl/QueryShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/QueryDescriptionShape> .
+<https://vocab.eccenca.com/shacl/QueryShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/QueryLabelShape> .
+<https://vocab.eccenca.com/shacl/QueryShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/QueryTextShape> .
+<https://vocab.eccenca.com/shacl/QueryShape> <http://www.w3.org/ns/shacl#targetClass> <https://vocab.eccenca.com/shui/SparqlQuery> .
+<https://vocab.eccenca.com/shacl/QueryShape> <https://vocab.eccenca.com/shui/tabName> "Query" .
+<https://vocab.eccenca.com/shacl/QueryTextShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/QueryTextShape> <http://www.w3.org/2000/01/rdf-schema#label> "Query" .
+<https://vocab.eccenca.com/shacl/QueryTextShape> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.w3.org/TR/sparql11-query/> .
+<https://vocab.eccenca.com/shacl/QueryTextShape> <http://www.w3.org/ns/shacl#datatype> <https://vocab.eccenca.com/shui/sparqlQuery> .
+<https://vocab.eccenca.com/shacl/QueryTextShape> <http://www.w3.org/ns/shacl#description> "Sparql 1.1 Query" .
+<https://vocab.eccenca.com/shacl/QueryTextShape> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/QueryTextShape> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/QueryTextShape> <http://www.w3.org/ns/shacl#name> "Query" .
+<https://vocab.eccenca.com/shacl/QueryTextShape> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://vocab.eccenca.com/shacl/QueryTextShape> <http://www.w3.org/ns/shacl#order> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/QueryTextShape> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/shui/queryText> .
+<https://vocab.eccenca.com/shacl/QueryTextShape> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/TemplateStringShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/TemplateStringShape> <http://www.w3.org/2000/01/rdf-schema#label> "URI Template" .
+<https://vocab.eccenca.com/shacl/TemplateStringShape> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://tools.ietf.org/html/rfc6570> .
+<https://vocab.eccenca.com/shacl/TemplateStringShape> <http://www.w3.org/ns/shacl#description> "URI template supporting following placeholders: {graph}, {uuid} and {label} (see URI Template - https://tools.ietf.org/html/rfc6570)" .
+<https://vocab.eccenca.com/shacl/TemplateStringShape> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/TemplateStringShape> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/TemplateStringShape> <http://www.w3.org/ns/shacl#name> "URI Template" .
+<https://vocab.eccenca.com/shacl/TemplateStringShape> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://vocab.eccenca.com/shacl/TemplateStringShape> <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/TemplateStringShape> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/shui/templateString> .
+<https://vocab.eccenca.com/shacl/TemplateStringShape> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/URITemplateShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shacl/URITemplateShape> <http://www.w3.org/2000/01/rdf-schema#label> "URI template" .
+<https://vocab.eccenca.com/shacl/URITemplateShape> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://tools.ietf.org/html/rfc6570> .
+<https://vocab.eccenca.com/shacl/URITemplateShape> <http://www.w3.org/ns/shacl#name> "URI template" .
+<https://vocab.eccenca.com/shacl/URITemplateShape> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://vocab.eccenca.com/shacl/URITemplateShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/TemplateStringShape> .
+<https://vocab.eccenca.com/shacl/URITemplateShape> <http://www.w3.org/ns/shacl#targetClass> <https://vocab.eccenca.com/shui/URITemplate> .
+<https://vocab.eccenca.com/shacl/URITemplateShape> <https://vocab.eccenca.com/shui/tabName> "URI template" .
+<https://vocab.eccenca.com/shacl/UpdateDescriptionShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/UpdateDescriptionShape> <http://www.w3.org/2000/01/rdf-schema#label> "Description" .
+<https://vocab.eccenca.com/shacl/UpdateDescriptionShape> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/UpdateDescriptionShape> <http://www.w3.org/ns/shacl#name> "Description" .
+<https://vocab.eccenca.com/shacl/UpdateDescriptionShape> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://vocab.eccenca.com/shacl/UpdateDescriptionShape> <http://www.w3.org/ns/shacl#order> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/UpdateDescriptionShape> <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/description> .
+<https://vocab.eccenca.com/shacl/UpdateDescriptionShape> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://vocab.eccenca.com/shacl/UpdateLabelShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/UpdateLabelShape> <http://www.w3.org/2000/01/rdf-schema#label> "Name" .
+<https://vocab.eccenca.com/shacl/UpdateLabelShape> <http://www.w3.org/ns/shacl#description> "short name or summary of the query" .
+<https://vocab.eccenca.com/shacl/UpdateLabelShape> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/UpdateLabelShape> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/UpdateLabelShape> <http://www.w3.org/ns/shacl#name> "Name" .
+<https://vocab.eccenca.com/shacl/UpdateLabelShape> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://vocab.eccenca.com/shacl/UpdateLabelShape> <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/UpdateLabelShape> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2000/01/rdf-schema#label> .
+<https://vocab.eccenca.com/shacl/UpdateShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://vocab.eccenca.com/shacl/UpdateShape> <http://www.w3.org/2000/01/rdf-schema#label> "Update operation" .
+<https://vocab.eccenca.com/shacl/UpdateShape> <http://www.w3.org/ns/shacl#name> "Update operation" .
+<https://vocab.eccenca.com/shacl/UpdateShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/UpdateDescriptionShape> .
+<https://vocab.eccenca.com/shacl/UpdateShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/UpdateLabelShape> .
+<https://vocab.eccenca.com/shacl/UpdateShape> <http://www.w3.org/ns/shacl#property> <https://vocab.eccenca.com/shacl/UpdateTextShape> .
+<https://vocab.eccenca.com/shacl/UpdateShape> <http://www.w3.org/ns/shacl#targetClass> <https://vocab.eccenca.com/shui/SparqlUpdate> .
+<https://vocab.eccenca.com/shacl/UpdateShape> <https://vocab.eccenca.com/shui/tabName> "Update operation" .
+<https://vocab.eccenca.com/shacl/UpdateTextShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://vocab.eccenca.com/shacl/UpdateTextShape> <http://www.w3.org/2000/01/rdf-schema#label> "Query" .
+<https://vocab.eccenca.com/shacl/UpdateTextShape> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.w3.org/TR/sparql11-update/> .
+<https://vocab.eccenca.com/shacl/UpdateTextShape> <http://www.w3.org/ns/shacl#datatype> <https://vocab.eccenca.com/shui/sparqlUpdate> .
+<https://vocab.eccenca.com/shacl/UpdateTextShape> <http://www.w3.org/ns/shacl#description> "Sparql 1.1 Update" .
+<https://vocab.eccenca.com/shacl/UpdateTextShape> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/UpdateTextShape> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/UpdateTextShape> <http://www.w3.org/ns/shacl#name> "Query" .
+<https://vocab.eccenca.com/shacl/UpdateTextShape> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://vocab.eccenca.com/shacl/UpdateTextShape> <http://www.w3.org/ns/shacl#order> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://vocab.eccenca.com/shacl/UpdateTextShape> <http://www.w3.org/ns/shacl#path> <https://vocab.eccenca.com/shui/queryText> .
+<https://vocab.eccenca.com/shacl/UpdateTextShape> <https://vocab.eccenca.com/shui/showAlways> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://vocab.eccenca.com/shui/> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> .
 <https://vocab.eccenca.com/shui/> <http://purl.org/dc/terms/contributor> <https://ns.eccenca.com/mfrommhold> .
 <https://vocab.eccenca.com/shui/> <http://purl.org/dc/terms/contributor> <https://ns.eccenca.com/rnavarropiris> .
