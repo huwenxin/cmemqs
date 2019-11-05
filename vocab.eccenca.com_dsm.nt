@@ -724,6 +724,13 @@
 <https://vocab.eccenca.com/dsm/yearGranularity> <http://www.w3.org/2000/01/rdf-schema#comment> "the date time values for this path have at most a granularity of a year"@en .
 <https://vocab.eccenca.com/dsm/yearGranularity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/yearGranularity> <http://www.w3.org/2000/01/rdf-schema#label> "year granularity"@en .
+<https://vocab.eccenca.com/sketch/mappings/DatasetMapping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/sketch/map.ClassToShape> .
+<https://vocab.eccenca.com/sketch/mappings/DatasetMapping> <https://vocab.eccenca.com/sketch/map.class> <https://vocab.eccenca.com/dsm/Resource> .
+<https://vocab.eccenca.com/sketch/mappings/DatasetMapping> <https://vocab.eccenca.com/sketch/map.sketchable> <https://vocab.eccenca.com/sketch/Circle> .
+<https://vocab.eccenca.com/sketch/mappings/DatasetRelationMapping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/sketch/map.ObjectPropertyToLine> .
+<https://vocab.eccenca.com/sketch/mappings/DatasetRelationMapping> <https://vocab.eccenca.com/sketch/map.property> <https://vocab.eccenca.com/dsm/hasLinkingSpecTo> .
+<https://vocab.eccenca.com/sketch/mappings/DatasetRelationMapping> <https://vocab.eccenca.com/sketch/map.property> <https://vocab.eccenca.com/dsm/relatedTo> .
+<https://vocab.eccenca.com/sketch/mappings/DatasetRelationMapping> <https://vocab.eccenca.com/sketch/map.sketchable> <https://vocab.eccenca.com/sketch/Line> .
 _:N13bc761516ba422a9796c8ab74ca1a23 <http://www.w3.org/2001/XMLSchema#pattern> "([0-9]+(, )?)+" .
 _:Nf54fd3ff72da4999a944829294c3e371 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N13bc761516ba422a9796c8ab74ca1a23 .
 _:Nf54fd3ff72da4999a944829294c3e371 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
