@@ -116,3 +116,13 @@
 <http://xmlns.com/foaf/0.1/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
 <http://xmlns.com/foaf/0.1/> <http://www.w3.org/2000/01/rdf-schema#label> "foaf: Friend of a Friend vocabulary"@en .
 <http://xmlns.com/foaf/0.1/> <http://www.w3.org/ns/dcat#distribution> <https://lov.linkeddata.es/dataset/lov/vocabs/foaf/versions/2014-01-14.n3> .
+<https://ns.eccenca.com/example/data/vocabs/> <http://purl.org/dc/terms/issued> "2016-10-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://ns.eccenca.com/example/data/vocabs/> <http://purl.org/dc/terms/modified> "2019-06-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://ns.eccenca.com/example/data/vocabs/> <http://purl.org/dc/terms/rights> "Copyright © 2019 eccenca GmbH" .
+<https://ns.eccenca.com/example/data/vocabs/> <http://rdfs.org/ns/void#vocabulary> <http://purl.org/dc/terms/> .
+<https://ns.eccenca.com/example/data/vocabs/> <http://rdfs.org/ns/void#vocabulary> <http://purl.org/vocab/vann/> .
+<https://ns.eccenca.com/example/data/vocabs/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
+<https://ns.eccenca.com/example/data/vocabs/> <http://www.w3.org/2000/01/rdf-schema#comment> "This is an internal Corporate Memory dataset. It contains a catalog of installable vocabularies."@en .
+<https://ns.eccenca.com/example/data/vocabs/> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ns.eccenca.com/example/data/vocabs/> .
+<https://ns.eccenca.com/example/data/vocabs/> <http://www.w3.org/2000/01/rdf-schema#label> "CMEM Vocabulary Catalog"@en .
+<https://ns.eccenca.com/example/data/vocabs/> <http://www.w3.org/2002/07/owl#versionInfo> "v3.1.0" .
