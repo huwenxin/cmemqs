@@ -6,6 +6,10 @@
 <http://dbpedia.org/resource/German_language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Language> .
 <http://dbpedia.org/resource/German_language> <http://www.w3.org/2000/01/rdf-schema#label> "Deutsche Sprache"@de .
 <http://dbpedia.org/resource/German_language> <http://www.w3.org/2000/01/rdf-schema#label> "German language"@en .
+<https://vocab.eccenca.com/dsm/BackupRetentionPolicy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/BackupRetentionPolicy> <http://www.w3.org/2000/01/rdf-schema#comment> "Covers the specification of the backup and data retention needs for the dataset."@en .
+<https://vocab.eccenca.com/dsm/BackupRetentionPolicy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/BackupRetentionPolicy> <http://www.w3.org/2000/01/rdf-schema#label> "Backup and data retention policy"@en .
 <https://vocab.eccenca.com/dsm/CertaintyIndication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://vocab.eccenca.com/dsm/CertaintyIndication> <http://www.w3.org/2000/01/rdf-schema#comment> "This is basically a reified relation which adds a certainty indication."@en .
 <https://vocab.eccenca.com/dsm/CertaintyIndication> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
@@ -87,6 +91,10 @@
 <https://vocab.eccenca.com/dsm/ThesaurusProject> <http://www.w3.org/2000/01/rdf-schema#comment> "A container resource which consists of one or more SKOS concept schemes."@en .
 <https://vocab.eccenca.com/dsm/ThesaurusProject> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/ThesaurusProject> <http://www.w3.org/2000/01/rdf-schema#label> "Thesaurus project"@en .
+<https://vocab.eccenca.com/dsm/TimeUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://vocab.eccenca.com/dsm/TimeUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "One of hour, day, week, month, year."@en .
+<https://vocab.eccenca.com/dsm/TimeUnit> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/TimeUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Time unit"@en .
 <https://vocab.eccenca.com/dsm/Warehouse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://vocab.eccenca.com/dsm/Warehouse> <http://www.w3.org/2000/01/rdf-schema#comment> "A data warehouse that serves as datasource."@en .
 <https://vocab.eccenca.com/dsm/Warehouse> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
@@ -109,6 +117,30 @@
 <https://vocab.eccenca.com/dsm/attribution> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/Dataset> .
 <https://vocab.eccenca.com/dsm/attribution> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/attribution> <http://www.w3.org/2000/01/rdf-schema#label> "Attribution"@en .
+<https://vocab.eccenca.com/dsm/backupFrequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/backupFrequency> <http://www.w3.org/2000/01/rdf-schema#comment> "How often the backup is processed."@en .
+<https://vocab.eccenca.com/dsm/backupFrequency> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/BackupRetentionPolicy> .
+<https://vocab.eccenca.com/dsm/backupFrequency> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/backupFrequency> <http://www.w3.org/2000/01/rdf-schema#label> "Backup frequency"@en .
+<https://vocab.eccenca.com/dsm/backupFrequency> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Frequency> .
+<https://vocab.eccenca.com/dsm/backupFrequencyScope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/backupFrequencyScope> <http://www.w3.org/2000/01/rdf-schema#comment> "The time scope of the frequency value (backupFrequency)."@en .
+<https://vocab.eccenca.com/dsm/backupFrequencyScope> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/BackupRetentionPolicy> .
+<https://vocab.eccenca.com/dsm/backupFrequencyScope> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/backupFrequencyScope> <http://www.w3.org/2000/01/rdf-schema#label> "Backup frequency scope"@en .
+<https://vocab.eccenca.com/dsm/backupFrequencyScope> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/TimeUnit> .
+<https://vocab.eccenca.com/dsm/backupFrequencyStart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/backupFrequencyStart> <http://www.w3.org/2000/01/rdf-schema#comment> "Starting point of backup frequency calculation."@en .
+<https://vocab.eccenca.com/dsm/backupFrequencyStart> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/BackupRetentionPolicy> .
+<https://vocab.eccenca.com/dsm/backupFrequencyStart> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/backupFrequencyStart> <http://www.w3.org/2000/01/rdf-schema#label> "Backup start time"@en .
+<https://vocab.eccenca.com/dsm/backupFrequencyStart> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://vocab.eccenca.com/dsm/backupRedundancy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/backupRedundancy> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of backups stored until the oldest one is removed."@en .
+<https://vocab.eccenca.com/dsm/backupRedundancy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/BackupRetentionPolicy> .
+<https://vocab.eccenca.com/dsm/backupRedundancy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/backupRedundancy> <http://www.w3.org/2000/01/rdf-schema#label> "Backup redundancy"@en .
+<https://vocab.eccenca.com/dsm/backupRedundancy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
 <https://vocab.eccenca.com/dsm/certainty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://vocab.eccenca.com/dsm/certainty> <http://www.w3.org/2000/01/rdf-schema#comment> "A value to express a concrete certainty."@en .
 <https://vocab.eccenca.com/dsm/certainty> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/CertaintyIndication> .
@@ -120,6 +152,12 @@
 <https://vocab.eccenca.com/dsm/editorLink> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/editorLink> <http://www.w3.org/2000/01/rdf-schema#label> "Editor link"@en .
 <https://vocab.eccenca.com/dsm/editorLink> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://vocab.eccenca.com/dsm/hasBackupRetentionPolicy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/hasBackupRetentionPolicy> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates the dataset with a BackupRetentionPolicy."@en .
+<https://vocab.eccenca.com/dsm/hasBackupRetentionPolicy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/Dataset> .
+<https://vocab.eccenca.com/dsm/hasBackupRetentionPolicy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/hasBackupRetentionPolicy> <http://www.w3.org/2000/01/rdf-schema#label> "Has backup/retention policy"@en .
+<https://vocab.eccenca.com/dsm/hasBackupRetentionPolicy> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/BackupRetentionPolicy> .
 <https://vocab.eccenca.com/dsm/hasConfiguration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://vocab.eccenca.com/dsm/hasConfiguration> <http://www.w3.org/2000/01/rdf-schema#comment> "Expresses a specific key/value(s) configuration attached to this dataset."@en .
 <https://vocab.eccenca.com/dsm/hasConfiguration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
@@ -188,6 +226,18 @@
 <https://vocab.eccenca.com/dsm/qualityMeasure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
 <https://vocab.eccenca.com/dsm/qualityMeasure> <http://www.w3.org/2000/01/rdf-schema#label> "Quality measure"@en .
 <https://vocab.eccenca.com/dsm/qualityMeasure> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://vocab.eccenca.com/dsm/recoveryWindowTimeUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://vocab.eccenca.com/dsm/recoveryWindowTimeUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "The unit part of the recovery window."@en .
+<https://vocab.eccenca.com/dsm/recoveryWindowTimeUnit> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/BackupRetentionPolicy> .
+<https://vocab.eccenca.com/dsm/recoveryWindowTimeUnit> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/recoveryWindowTimeUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Recovery window (unit)"@en .
+<https://vocab.eccenca.com/dsm/recoveryWindowTimeUnit> <http://www.w3.org/2000/01/rdf-schema#range> <https://vocab.eccenca.com/dsm/TimeUnit> .
+<https://vocab.eccenca.com/dsm/recoveryWindowTimeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://vocab.eccenca.com/dsm/recoveryWindowTimeValue> <http://www.w3.org/2000/01/rdf-schema#comment> "The value part of the recovery window."@en .
+<https://vocab.eccenca.com/dsm/recoveryWindowTimeValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/BackupRetentionPolicy> .
+<https://vocab.eccenca.com/dsm/recoveryWindowTimeValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.eccenca.com/dsm/> .
+<https://vocab.eccenca.com/dsm/recoveryWindowTimeValue> <http://www.w3.org/2000/01/rdf-schema#label> "Recovery window (time value)"@en .
+<https://vocab.eccenca.com/dsm/recoveryWindowTimeValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
 <https://vocab.eccenca.com/dsm/relatedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://vocab.eccenca.com/dsm/relatedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Two datasets are somehow related to each other (top property of eccdsm dataset relations)."@en .
 <https://vocab.eccenca.com/dsm/relatedTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://vocab.eccenca.com/dsm/Dataset> .
