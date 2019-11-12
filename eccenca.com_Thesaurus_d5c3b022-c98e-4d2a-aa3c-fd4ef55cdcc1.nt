@@ -1,0 +1,3 @@
+<http://eccenca.com/Thesaurus/d5c3b022-c98e-4d2a-aa3c-fd4ef55cdcc1/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/dsm/ThesaurusProject> .
+<http://eccenca.com/Thesaurus/d5c3b022-c98e-4d2a-aa3c-fd4ef55cdcc1/> <http://www.w3.org/2004/02/skos/core#prefLabel> "testThesaurus" .
+<http://eccenca.com/Thesaurus/d5c3b022-c98e-4d2a-aa3c-fd4ef55cdcc1/> <http://www.w3.org/ns/dcat#theme> <https://vocab.eccenca.com/dsm/ResearchDevelopmentDomain> .
