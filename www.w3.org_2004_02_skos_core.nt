@@ -143,7 +143,7 @@
 <http://www.w3.org/2004/02/skos/core#memberList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://www.w3.org/2004/02/skos/core#memberList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://www.w3.org/2004/02/skos/core#memberList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.w3.org/2004/02/skos/core#memberList> <http://www.w3.org/2000/01/rdf-schema#comment> "For any resource, every item in the list given as the value of the\n      skos:memberList property is also a value of the skos:member property."@en .
+<http://www.w3.org/2004/02/skos/core#memberList> <http://www.w3.org/2000/01/rdf-schema#comment> "For any resource, every item in the list given as the value of the\n skos:memberList property is also a value of the skos:member property."@en .
 <http://www.w3.org/2004/02/skos/core#memberList> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#OrderedCollection> .
 <http://www.w3.org/2004/02/skos/core#memberList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2004/02/skos/core> .
 <http://www.w3.org/2004/02/skos/core#memberList> <http://www.w3.org/2000/01/rdf-schema#label> "has member list"@en .
@@ -191,7 +191,7 @@
 <http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 <http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource has no more than one value of skos:prefLabel per language tag, and no more than one value of skos:prefLabel without language tag."@en .
 <http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "The range of skos:prefLabel is the class of RDF plain literals."@en .
-<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise\n      disjoint properties."@en .
+<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise\n disjoint properties."@en .
 <http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2004/02/skos/core> .
 <http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/2000/01/rdf-schema#label> "preferred label"@en .
 <http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#label> .
